@@ -53,7 +53,6 @@ main {
 
 .breadcrumb li a {
     color: #828282;
-    text-decoration: none;
 }
 
 .breadcrumb li a:hover {
@@ -86,13 +85,13 @@ main {
     background-color: rgba(207, 173, 132, 0.30);
 }
 
-section {
+.saveright {
     width: 66%;
     margin-left: 80px;
     flex-grow: 1;
 }
 
-section h2 {
+.saveright h2 {
     font-size: 32px;
     font-weight: 600;
     letter-spacing: 4px;
