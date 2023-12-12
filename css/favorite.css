@@ -53,6 +53,7 @@ main {
 
 .breadcrumb li a {
     color: #828282;
+    text-decoration: none;
 }
 
 .breadcrumb li a:hover {

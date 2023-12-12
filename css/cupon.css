@@ -52,6 +52,7 @@ main {
 
 .breadcrumb li a {
     color: #828282;
+    text-decoration: none;
 }
 
 .breadcrumb li a:hover {
@@ -143,6 +144,7 @@ main {
     right: 58px;
     bottom: 70px;
 }
+
 .saveright li a:hover {
     background: #EAC18E;
     box-shadow: 0px 4px 4px 0px rgba(181, 129, 43, 0.16);
