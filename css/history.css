@@ -115,13 +115,11 @@ main {
 
 tbody {
     background-color: rgba(207, 173, 132, 0.30);
-    /* border-radius: 0 0 8px 8px; */
 }
 
-thead {
+thead tr {
     background-color: #FFF8F1;
     line-height: 2;
-    /* border-radius: 8px 8px 0 0; */
 }
 
 .record a {
@@ -146,13 +144,57 @@ thead {
 
 
 
-@media screen and (max-width:1200px) {
+
+
+@media screen and (max-width:1270px) {
     .record {
-        width: 850px;
+        width: 750px;
         overflow-x: scroll;
         display: block;
     }
+
+    table {
+        width: 800px;
+    }
 }
+
+
+@media screen and (max-width:1040px) {
+    .record {
+        width: 600px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:915px) {
+    .record {
+        width: 550px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .record {
+        width: 500px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
 
 @media screen and (max-width:820px) {
 
@@ -172,5 +214,267 @@ thead {
     .container h2 {
         margin-top: 60px;
         margin-bottom: 40px;
+    }
+
+    .record {
+        width: 720px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .record {
+        width: 680px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .record {
+        width: 660px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .record {
+        width: 640px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .record {
+        width: 620px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .record {
+        width: 600px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .record {
+        width: 600px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .record {
+        width: 580px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .record {
+        width: 560px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .record {
+        width: 540px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .record {
+        width: 520px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .record {
+        width: 500px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .record {
+        width: 480px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .record {
+        width: 460px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .record {
+        width: 440px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .record {
+        width: 420px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .record {
+        width: 400px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .record {
+        width: 380px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .record {
+        width: 360px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .record {
+        width: 340px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .record {
+        width: 320px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .record {
+        width: 300px;
+        overflow-x: scroll;
+        display: block;
+    }
+
+    table {
+        width: 800px;
     }
 }
