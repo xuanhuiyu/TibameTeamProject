@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+/* logo */
+
+div.logo img {
+    display: block;
+    margin: 0 auto;
+    padding: 26px 0;
+    margin-bottom: 40px;
+}
+
+div.banner {
+    width: auto;
+    height: 600px;
+    background-image: url(../img/about\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div.brand_spirit {
+    padding-bottom: 100px;
+}
+
+div.brand_spirit div.brand_spirit_title {
+    margin: 100px auto;
+}
+
+div.brand_spirit div.brand_spirit_title h1 {
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 12%;
+    color: #613C11;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* div.brand_spirit div.brand_spirit_content {} */
+
+div.brand_spirit div.brand_spirit_content :nth-child(2n + 1) {
+    flex-direction: row-reverse;
+}
+
+div.brand_spirit div.brand_spirit_content div.card {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+div.brand_spirit div.brand_spirit_content div.card div.brand_spirit_img img {
+    display: block;
+    width: 600px;
+}
+
+div.brand_spirit div.brand_spirit_content div.card div.brand_spirit_word {
+    width: 600px;
+    padding: 10px 16px;
+    margin-left: 10px;
+    border-left: 4px solid #613C11;
+}
+
+div.brand_spirit div.brand_spirit_content div.card div.brand_spirit_word h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 12%;
+    color: #613C11;
+    padding-bottom: 10px;
+}
+
+div.brand_spirit div.brand_spirit_content div.card div.brand_spirit_word p {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 4%;
+    color: #613C11;
+}
+
+/* 製作團隊 */
+
+div.team div.team_title {
+    margin: 100px auto;
+}
+
+div.team div.team_title h1 {
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 12%;
+    color: #613C11;
+    font-weight: 700;
+    text-align: center;
+}
+
+div.team {
+    padding-bottom: 100px;
+}
+
+div.team div.team_content {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+div.team div.team_content div.team_member_top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+/* div.team div.team_content div.team_member_top div.team_member {} */
+
+div.team div.team_content div.team_member_top div.team_member_name h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 12%;
+    color: #613C11;
+    text-align: center;
+    padding-top: 32px;
+}
+
+div.team div.team_content div.team_member_bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.team div.team_content div.team_member_bottom div.team_member_name h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 12%;
+    color: #613C11;
+    text-align: center;
+    padding-top: 32px;
+}
+
+@media screen and (max-width: 1200px){
+
+    div.banner {
+        height: 375px;
+        background-image: url(../img/1200aboutbanner.jpg);
+    }
+
+    div.brand_spirit {
+        padding-bottom: 50px;
+    }
+
+    div.brand_spirit div.brand_spirit_title h1 {
+        font-size: 32px;
+    }
+
+    div.brand_spirit div.brand_spirit_content :nth-child(2n + 1) {
+        flex-direction: row;
+    }
+
+    div.brand_spirit div.brand_spirit_content div.card {
+        flex-direction: column;
+        width: auto;
+        margin: 0 auto 30px;
+    }
+
+    div.brand_spirit div.brand_spirit_content div.card div.brand_spirit_img {
+        width: auto;
+    }
+
+    div.brand_spirit div.brand_spirit_content div.card div.brand_spirit_word {
+        padding: 10px 16px;
+        margin: 30px 10px;
+        border-left: 4px solid #613C11;
+    }
+
+    div.team div.team_title h1 {
+        font-size: 28px;
+    }
+
+    div.team div.team_content{
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    div.team{
+        padding-bottom: 0;
+    }
+        
+    div.team div.team_content{
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        overflow-x: auto;
+        margin: 0 20px;
+    }
+    
+    div.team_member{
+        margin-right: 20px;
+    }
+
+    div.team div.team_content div.team_member_top{
+        margin-bottom: 40px;
+    }
+
+    div.team div.team_content div.team_member_bottom{
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 630px){
+
+    div.logo img{
+        display: none;
+    }
+
+    div.banner {
+        width: auto;
+        height: 300px;
+        background-image: url(../img/600aboutbanner.jpg);
+        margin-bottom: 32px;
+    }
+
+    div.brand_spirit div.brand_spirit_title{
+        display: flex;
+        margin: 20px;
+        margin-bottom: 32px;
+        border-left: 8px solid #613C11;
+    }
+
+    div.brand_spirit div.brand_spirit_title h1 {
+        font-size: 28px;
+        padding-left: 8px;
+    }
+
+    div.brand_spirit div.brand_spirit_content div.card{
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    div.brand_spirit div.brand_spirit_content div.card div.brand_spirit_word{
+        width: auto;
+        margin: 16px 0;
+        border: 0;
+    }
+
+    div.team div.team_title {
+        margin: 0px auto 40px;
+    }
+
+}

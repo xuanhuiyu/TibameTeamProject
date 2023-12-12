@@ -1,0 +1,647 @@
+@import url(reset.css);
+
+body{
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    color: #613c11;
+    width: 100%;
+    letter-spacing: .05rem;
+    /* font-size: 14px; */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header.header {
+    font-size: 24px;
+    width: 100%;
+    background-color: #CFAD84;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+
+header.header div.header_list {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_left {
+    font-size: 0;
+    display: inline-block;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_left > li {
+    display: inline-block;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_left > li > a {
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 26px 20px;
+    line-height: 110%;
+    letter-spacing: 12%;
+    color: #613C11;
+    font-weight: 700;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_right span.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #613C11;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_right {
+    font-size: 0;
+    float: right;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_right > li {
+    display: inline-block;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_right > li > a {
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 110%;
+    letter-spacing: 12%;
+    color: #613C11;
+    font-weight: 700;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_right > li:nth-child(1){
+    padding: 16.5px 20px;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_right > li:nth-child(2){
+    padding: 16.5px 20px;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_right > li:nth-child(3){
+    padding: 26px 20px;
+    vertical-align: top;
+}
+
+header.header div.header_list div.header_nav_list ul.header_nav_list_right > li:nth-child(4){
+    padding: 26px 20px;
+    vertical-align: top;
+}
+
+/* contain */
+
+.cart{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.cartTitle1{
+    display: block;
+    /* background-color: #613c11; */
+    width: auto;
+    max-width: 1200px;
+    margin: 16px auto;
+    font-size: 1.5rem;
+    color: #613c11;
+}
+
+.cartTitle2{
+    display: block;
+    font-size: 1.25rem;
+    padding: 12px 0;
+    margin-left: 20px;
+}
+
+.cartContainer{
+    margin: 0 auto;
+    /* height: calc(100%-100px); */
+    max-width: 1200px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(13, 1fr); */
+    grid-gap: 20px;
+    padding-bottom: 100px;
+}
+
+.cartLeft{
+    grid-column: 1/3;
+    height: auto;
+}
+
+.cartRight{
+    grid-column: 3/4;
+    height: auto;
+
+    position: sticky;
+    top:0;
+}
+
+.card{
+    /* grid-column: 1/3;
+    grid-row: 1/3; */
+    background-color: rgba(207, 173, 132, 0.3);
+    margin-bottom: 20px;
+    border-radius: 16px;
+    /* width: auto; */
+}
+
+/*運送方式 */
+input[type="radio"] {
+    display: none; /* 隱藏原始的 radio input */
+}
+
+input[type="radio"] + label::before {
+    content: '\e836'; /* 使用 'radio_button_checked' icon 的 unicode */
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.4rem;
+    margin-right: 20px;
+}
+
+input[type="radio"]:checked + label::before {
+    content: '\e837'; /* 使用 'radio_button_unchecked' icon 的 unicode，表示選中狀態 */
+}
+
+.Left1 ul{
+    margin-left: 20px;
+    padding-bottom: 12px;
+}
+
+.Left1 li label{
+    flex-wrap: wrap;
+    display:flex;
+    align-content: center;
+}
+
+.Left1 li label span{
+    display: flex;
+    align-items: center;
+}
+
+.Left1 li label span:first-child{
+    padding-right: 8px;
+}
+
+.cartAddressUp input{
+    width:45%;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    /* background-color: #613C11; */
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+
+.cartAddress input{
+    /* width: auto; */
+    line-height: 40px;
+    border: 1px solid #CFAD84;
+    border-radius: 8px;
+    text-indent: 8px;
+    /* font-size: 1rem; */
+    color: #BDBDBD;
+    letter-spacing: .05rem;
+}
+
+.cartAddress{
+    margin-left: 36px;
+    max-height: 0;
+    overflow: hidden;
+    /* display: none; */
+}
+
+/* .cartAddress span{
+    max-height: 0;
+} */
+
+.cartAddressDown input{
+    width: 20%;
+    margin-right: 8px;
+    /* background-color: #613C11; */
+}
+
+.cartAddress span:nth-child(2) span + input{
+    width:48.5%;
+    /* margin-right: 8px; */
+    /* background-color: #613C11; */
+}
+
+.cartAddress span:last-child label{
+    align-items: center;
+}
+
+.cartAddress span:last-child input[type="checkbox"] {
+    display: none; /*隱藏原始的 radio input*/
+}
+
+.cartAddress span:last-child input[type="checkbox"] + label::before {
+    content: '\e835'; /* 使用 'radio_button_checked' icon 的 unicode */
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.2rem;
+    margin-right: 2px;
+}
+
+.cartAddress span:last-child input[type="checkbox"]:checked + label::before {
+    content: '\e834'; /* 使用 'radio_button_unchecked' icon 的 unicode，表示選中狀態 */
+}
+/*  */
+
+/* 付款方式 */
+.Left2 input[type="radio"] {
+    display: none; /* 隱藏原始的 radio input */
+}
+
+.Left2 input[type="radio"] + label::before {
+    content: '\e836'; /* 使用 'radio_button_checked' icon 的 unicode */
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.4rem;
+    margin-right: 20px;
+}
+
+.Left2 input[type="radio"]:checked + label::before {
+    content: '\e837'; /* 使用 'radio_button_unchecked' icon 的 unicode，表示選中狀態 */
+}
+
+.Left2 ul{
+    margin-left: 20px;
+    padding-bottom: 12px;
+}
+
+.Left2 li label{
+    flex-wrap: wrap;
+    display:flex;
+    /* align-content: center; */
+    align-items: center
+}
+
+.Left2 li label span{
+    display:flex;
+    align-items: center;
+}
+
+.Left2 li label span:first-child{
+    padding-right: 8px;
+}
+
+.cartCreditcard{
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+
+    max-height: 0;
+    overflow: hidden;
+}
+
+.cartCreditcard span{
+    padding-bottom: 4px;
+}
+
+.cartCreditcard input{
+    line-height: 40px;
+    border: 1px solid #CFAD84;
+    border-radius: 8px;
+    text-indent: 8px;
+    color: #BDBDBD;
+    letter-spacing: .05rem;
+}
+
+.cartCreditcard input:first-child{
+    width: 50%;
+}
+
+.cartCreditcard span:last-child{
+    font-size: .9rem;
+    width: 92%;
+    color: #828282;
+}
+
+
+.Left2 input[type="checkbox"] {
+    display: none; /*隱藏原始的 radio input*/
+}
+
+.Left2 input[type="checkbox"] + label::before {
+    content: '\e835'; /* 使用 'radio_button_checked' icon 的 unicode */
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.2rem;
+    margin-right: 2px;
+}
+
+.Left2 input[type="checkbox"]:checked + label::before {
+    content: '\e834'; /* 使用 'radio_button_unchecked' icon 的 unicode，表示選中狀態 */
+}
+
+/* 發票類型 */
+.Left3 ul{
+    margin-left: 20px;
+    padding-bottom: 12px;
+}
+
+.Left3 li label{
+    flex-wrap: wrap;
+    display:flex;
+    align-content: center;
+    align-items: center;
+}
+
+.Left3 li label span:first-child{
+    padding-right: 8px;
+}
+
+.Left3 input[type="checkbox"] {
+    display: none; /*隱藏原始的 radio input*/
+}
+
+.Left3 input[type="checkbox"] + label::before {
+    content: '\e835'; /* 使用 'radio_button_checked' icon 的 unicode */
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.2rem;
+    margin-right: 2px;
+}
+
+.Left3 input[type="checkbox"]:checked + label::before {
+    content: '\e834'; /* 使用 'radio_button_unchecked' icon 的 unicode，表示選中狀態 */
+}
+
+.cartInvoice{
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+
+    max-height: 0;
+    overflow: hidden;
+}
+
+.cartInvoice input{
+    width: 90%;
+    line-height: 40px;
+    border: 1px solid #CFAD84;
+    border-radius: 8px;
+    text-indent: 8px;
+    letter-spacing: .05rem;
+    margin-bottom: 4px;
+}
+
+.cartInvoice span:nth-child(2) p{
+    display: flex;
+    justify-self:flex-end;
+}
+
+/* 付款明細 */
+.Right1 ul{
+    margin-left: 20px;
+    padding-bottom: 12px;
+}
+
+.Right1 li{
+    display: flex;
+    margin-right: 20px;
+    justify-content:space-between ;
+    padding-bottom: 8px;
+}
+
+.Right1 li > span{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color:#613c11;
+}
+
+/* 商品明細 */
+.Right2 div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.Right2 div a{
+    text-decoration: none;
+    color: #613C11;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.Right2 ul{
+    margin-left: 20px;
+}
+
+.cartRight2list{
+    display: inline-flex;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.cartCard{
+    flex-direction: column;
+    padding-right: 16px;
+    margin-left: 16px;
+}
+
+.cardUp span:first-child{
+    text-indent: -8px;
+}
+
+.cardDown{
+    padding-right: 20px;
+}
+
+/* .Right1,.Right2{
+    position: sticky;
+    top:0;
+} */
+
+/* Fix Area */
+.cart2Paynow{
+    flex: 0 0 auto;
+    position: sticky;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    background-color: #fff;
+    box-shadow: 0 -5px 10px rgba(163, 163, 163,0.25);
+
+}
+
+.cart2Paynow div{
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+.cart2Paynow p:nth-child(1){
+    font-size: 1.25rem;
+    margin-right: 8px;
+    /* align-self: center; */
+    line-height: 1;
+}
+
+.cart2Paynow p + p{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-right: 16px;
+    /* align-self: center; */
+    line-height: .85;
+}
+
+.cart2Paynow a{
+    text-decoration: none;
+    display:block;
+    width: 350px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #CEA574;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.cart2Paynow a:hover{
+    background-color: #EAC18E;
+}
+
+/* 加入優惠券 */
+.cartMask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.cartPopTitle{
+    /* background-color: #613c11; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    margin-bottom: 16px;
+}
+
+.cartPopTitle h3{
+    font-size: 1.2rem;
+}
+
+.cartAddresspop{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 16px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    padding: 16px;
+}
+
+.cartAddressList ul{
+    font-size: 1.15rem;
+    margin: 0 auto;
+}
+
+input[type="radio"] {
+    display: none; /* 隱藏原始的 radio input */
+}
+
+input[type="radio"] + label::before {
+    content: '\e836'; /* 使用 'radio_button_checked' icon 的 unicode */
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.4rem;
+    margin-right: 20px;
+}
+
+input[type="radio"]:checked + label::before {
+    content: '\e837'; /* 使用 'radio_button_unchecked' icon 的 unicode，表示選中狀態 */
+}
+
+.cartAddressList li label{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    flex: 1;
+}
+
+.cartAddressList label span:first-child{
+    margin-right: 20px;
+}
+
+.cartAddressList label span:last-child{
+    font-size: 1.4rem;
+}
+
+.Addressbtn{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    line-height: 48px;
+    background-color: #CEA574;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.Addressbtn:hover{
+    background-color: #EAC18E;
+}
+
+.cartAddress1{
+    display: flex;
+    /* margin-bottom: 8px; */
+    /* flex-direction: column; */
+}
+
+.cartAddress1 input{
+    width: 50%;
+}
+
+.cartAddress1 input:first-child{
+    margin-right: 8px;
+}
+
+.cartAddress2 input:first-child,.cartAddress2 input:nth-child(2){
+    width: 15%;
+}
+
+.cartAddress2 input:last-child{
+    width: 67.5%;
+}
+
+.addAddress input{
+    line-height: 40px;
+    border: 1px solid #CFAD84;
+    border-radius: 8px;
+    text-indent: 8px;
+    color: #BDBDBD;
+    letter-spacing: .05rem;
+    margin-bottom: 12px;
+}
+
+.addAddress{
+    margin-left: 36px;
+}

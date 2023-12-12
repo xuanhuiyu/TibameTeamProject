@@ -1,0 +1,624 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+}
+
+body {
+    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    color: #613C11;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto 150px;
+    padding: 0 40px;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 側邊導覽區塊 */
+.guide nav img {
+    width: 184px;
+}
+
+
+.guide a {
+    text-decoration: none;
+    color: #613C11;
+    font-weight: normal;
+}
+
+
+.breadcrumb ol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 24px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.breadcrumb li {
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+.breadcrumb li a {
+    color: #828282;
+}
+
+.breadcrumb li a:hover {
+    color: #333;
+}
+
+.breadcrumb li:last-child a {
+    color: #CFAD84;
+}
+
+.breadcrumb li:last-child a:hover {
+    color: #9c6e35;
+}
+
+.guide nav {
+    font-size: 20px;
+    width: 184px;
+    font-weight: 600;
+}
+
+.guide nav li {
+    border-bottom: #613C11 solid 1px;
+}
+
+.guide nav a {
+    line-height: 48px;
+}
+
+.guide nav a:hover {
+    background-color: rgba(207, 173, 132, 0.30);
+}
+
+section {
+    width: 66%;
+    margin-left: 80px;
+    flex-grow: 1;
+}
+
+section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+    padding-left: 27px;
+    border-left: 16px solid #613C11;
+}
+
+
+
+/* 明細區塊 */
+.products {
+    padding: 16px 24px 0px 24px;
+    background-color: rgba(207, 173, 132, 0.30);
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+
+.products h3 {
+    font-size: 24px;
+    line-height: 1.4;
+    padding-bottom: 16px;
+    font-weight: 600;
+}
+
+.products p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.products ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.products ul li {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 24px;
+}
+
+.products ul li img {
+    width: 124px;
+    border-radius: 12px;
+    margin-right: 16px;
+}
+
+.products ul li .list {
+    /* flex-grow: 6; */
+    display: flex;
+    flex-direction: column;
+}
+
+.products ul li .list>p:first-child {
+    flex-grow: 6;
+}
+
+.products ul li .list>p:nth-child(2) {
+    flex-grow: 1;
+    line-height: 1;
+    text-decoration: line-through;
+    color: #BDBDBD;
+}
+
+.products ul li .list>p:nth-child(3) {
+    flex-grow: 1;
+    line-height: 1;
+}
+
+.products ul li>p {
+    flex-grow: 1;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.products ul li:first-child .list {
+    display: flex;
+}
+
+.products ul li:first-child .list>p:first-child {
+    flex-grow: 1;
+    line-height: 1;
+}
+
+.products ul li:first-child .list>p:nth-child(2) {
+    flex-grow: 2;
+    text-decoration: none;
+}
+
+.products ul li:first-child .list>p:nth-child(3) {
+    flex-grow: 1;
+    line-height: 1;
+    text-decoration: line-through;
+}
+
+.products ul li:first-child .list>p:last-child {
+    flex-grow: 1;
+    line-height: 1;
+}
+
+.products ul li:first-child .list>p {
+    color: #BDBDBD;
+}
+
+.products ul li:first-child>p {
+    color: #BDBDBD;
+}
+
+.products ul li:first-child .list>p:nth-child(2) {
+    color: #EB5757;
+}
+
+/* 總計區塊 */
+.total {
+    /* width: 1000px; */
+    background-color: rgba(207, 173, 132, 0.30);
+    border-radius: 16px;
+    margin-bottom: 40px;
+    padding: 16px 24px;
+}
+
+.total p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.total ul {
+    margin: 0 auto;
+    /* width: 1000px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.total ul li {
+    flex-grow: 1;
+    display: flex;
+}
+
+.total ul li:nth-child(5) {
+    border-bottom: solid #613C11 2px;
+}
+
+.total ul li>p:first-child {
+    flex-grow: 7;
+}
+
+.total ul li>p:last-child {
+    flex-grow: 1;
+    text-align: right;
+    align-self: self-end;
+}
+
+.total ul li:last-child p {
+    font-size: 24px;
+    line-height: 2;
+    font-weight: 600;
+}
+
+/* 訂單進度區塊 */
+.schedule {
+    /* width: 1000px; */
+    background-color: rgba(207, 173, 132, 0.30);
+    border-radius: 16px;
+    margin-bottom: 40px;
+    padding: 16px 24px;
+}
+
+.schedule>h3 {
+    font-size: 24px;
+    line-height: 2;
+    font-weight: 600;
+    border-bottom: #613C11 solid 2px;
+}
+
+.schedule p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.schedule ul {
+    display: flex;
+    margin: 16px 0px;
+}
+
+.schedule ul li {
+    flex-grow: 1;
+}
+
+.schedule ul li>h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.schedule ul li>p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.schedule ul li>h3 {
+    text-align: center;
+    font-size: 160px;
+    line-height: 30px;
+}
+
+.schedule {
+    position: relative;
+}
+
+.schedule .timeline {
+    background-color: #613C11;
+    height: 8px;
+    width: 78%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 37px;
+}
+
+
+/*  訂購人及付款資訊 區塊 */
+.information {
+    /* width: 1048px; */
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.information .consumer {
+    /* width: 500px; */
+    width: 66%;
+    /* flex-grow: 1; */
+    background-color: rgba(207, 173, 132, 0.30);
+    border-radius: 16px;
+    /* margin-right: 24px; */
+    margin-left: 24px;
+    padding: 16px 24px;
+}
+
+.information .payment {
+    /* width: 500px; */
+    width: 33%;
+    /* flex-grow: 1; */
+    background-color: rgba(207, 173, 132, 0.30);
+    border-radius: 16px;
+    padding: 16px 24px;
+}
+
+.information h3 {
+    font-size: 24px;
+    line-height: 2;
+    font-weight: 600;
+    border-bottom: #613C11 solid 2px;
+}
+
+.information p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.information ul {
+    padding-top: 8px;
+}
+
+.information .consumer ul li {
+    display: flex;
+}
+
+.information .consumer ul li>p {
+    flex-grow: 1;
+}
+
+.information .consumer ul li>p:last-child {
+    text-align: right;
+}
+
+.information .payment ul li {
+    display: flex;
+}
+
+.information .payment ul li>p {
+    flex-grow: 1;
+}
+
+.information .payment ul li>p:last-child {
+    text-align: right;
+}
+
+
+/* 發票資訊及其他服務 區塊 */
+.other {
+    /* width: 1048px; */
+    display: flex;
+}
+
+.other .receipt {
+    /* width: 500px; */
+    width: 33%;
+    flex-grow: 1;
+    background-color: rgba(207, 173, 132, 0.30);
+    border-radius: 16px;
+    /* margin-right: 24px; */
+    padding: 16px 24px;
+}
+
+.other .service {
+    /* width: 500px; */
+    width: 66%;
+    flex-grow: 1;
+    background-color: rgba(207, 173, 132, 0.30);
+    border-radius: 16px;
+    margin-left: 24px;
+    padding: 16px 24px;
+}
+
+.other h3 {
+    font-size: 24px;
+    line-height: 2;
+    font-weight: 600;
+    border-bottom: #613C11 solid 2px;
+}
+
+.other p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.other ul {
+    padding-top: 8px;
+}
+
+.other .receipt ul li {
+    display: flex;
+}
+
+.other .receipt ul li>p {
+    flex-grow: 1;
+}
+
+.other .receipt ul li>p:last-child {
+    text-align: right;
+}
+
+.other .service ul li {
+    display: flex;
+}
+
+.other .service ul li>p {
+    flex-grow: 1;
+}
+
+.other .service ul li>a {
+    /* flex-grow: 1; */
+    flex-basis: 100px;
+    align-self: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #613C11;
+    border-radius: 24px;
+    background-color: #BDBDBD;
+    margin: 2px 4px;
+    padding: 4px 4px;
+    text-align: center;
+    color: #FFF;
+}
+
+.other .service ul li:nth-child(2)>a {
+    background-color: #CFAD84;
+}
+
+.other .service ul li:nth-child(2)>a:hover {
+    background: #EAC18E;
+    box-shadow: 0px 4px 4px 0px rgba(181, 129, 43, 0.16);
+}
+
+.other .service ul li>p:first-child {
+    flex-basis: 84px;
+}
+
+.other .service ul li>p:nth-child(2) {
+    flex-basis: 25px;
+    text-align: center;
+}
+
+.other .service ul li>p:last-child {
+    flex-basis: 100px;
+    text-align: right;
+    color: #EB5757;
+    font-size: 14px;
+}
+
+
+
+
+@media screen and (max-width:1002px) {
+
+    .information,
+    .other {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0;
+
+    }
+
+    .information .payment,
+    .information .consumer,
+    .other .receipt,
+    .other .service {
+        width: 100%;
+        margin: 0 0 40px;
+        box-sizing: border-box;
+    }
+
+    .schedule ul li>h4 {
+        font-size: 16px;
+    }
+
+}
+
+/* 這個斷點是以786的尺寸去寫的 */
+@media screen and (max-width:820px) {
+
+    nav,
+    .breadcrumb {
+        display: none;
+    }
+
+    section {
+        margin-left: 0;
+    }
+
+    .container {
+        margin-bottom: 60px;
+    }
+
+    .container h2 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .products ul li {
+        flex-direction: column;
+    }
+
+    .products ul li img {
+        width: 100%;
+        margin-right: 0;
+        /* margin-bottom: 10px; */
+        align-self: center;
+    }
+
+    .products ul li {
+        padding: 0 20px 40px;
+    }
+
+    .products ul li p {
+        align-self: start;
+    }
+
+    .products ul li .list p {
+        line-height: 1.6;
+    }
+
+    .products ul li .list p:first-child {
+        font-weight: bold;
+        line-height: 2;
+        font-size: 24px;
+    }
+
+    element.style {}
+
+    .products ul li .list>p:nth-child(2),
+    .products ul li .list>p:nth-child(3) {
+        /* line-height: 1.4; */
+    }
+
+    .products ul li:first-child .list>p:first-child {
+        font-weight: bold;
+        padding-top: 11px;
+    }
+
+    .products ul li:first-child .list>p:nth-child(2) {
+        line-height: 2;
+    }
+
+    .schedule ul li>p {
+        line-height: 1.2;
+    }
+
+
+}
+
+@media screen and (max-width:446px) {
+    .other .service ul li {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 64px;
+        margin: 0 auto;
+    }
+
+    .other .service ul li>a {
+        margin: 0;
+    }
+
+    .other .service ul li>p:first-child {
+        flex-basis: 72px;
+    }
+}
+
+@media screen and (max-width:433px) {
+    .schedule ul li>h4 {
+        font-size: 12px;
+    }
+
+    .information .consumer ul li {
+        flex-direction: column;
+    }
+
+    .information .consumer ul li>p:last-child {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .other .service ul li {
+        width: 100%;
+    }
+
+
+}

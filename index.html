@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>即饗好味</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header"></div>
+
+
+    <!-- logo -->
+
+    <div class="logo">
+        <img src="../img/logo.png" alt="">
+    </div>
+
+    <!-- product list -->
+
+    <div class="product">
+
+        <ul class="product_list">
+            <li><a href="#">即時飯麵</a></li>
+            <li><a href="#">即時醃漬</a></li>
+            <li><a href="#">水餃餛飩</a></li>
+            <li><a href="#">包子饅頭</a></li>
+            <li><a href="#">調理醬包</a></li>
+        </ul>
+
+    </div>
+
+    <!-- carousel -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/banner3.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/banner2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/banner1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev carousel-prev-bg" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next carousel-next-bg" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+
+        <!-- 限時特價 -->
+
+        <div class="time_limit_sales">
+
+            <div class="card_container">
+
+                <div class="card">
+
+                    <div class="product_img">
+                        <img src="../img/beef noodles.jpg" alt="">
+                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                    </div>
+
+                    <h1>【即饗】 紅燒牛肉麵 (580g/包)</h1>
+
+                    <div class="card_bottom">
+
+                        <div class="product_price">
+                            <del>NT299</del>
+                            <h3>NT199</h3>
+                        </div>
+
+                        <div class="product_button">
+                            <a href="#">立即購買</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+
+                    <div class="product_img">
+                        <img src="../img/kimchi rice.jpg" alt="">
+                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                    </div>
+
+                    <h1>【即饗】 豬肉泡菜炒飯 (300g/包)</h1>
+
+                    <div class="card_bottom">
+
+                        <div class="product_price">
+                            <del>NT299</del>
+                            <h3>NT149</h3>
+                        </div>
+
+                        <div class="product_button">
+                            <a href="#">立即購買</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="product_img">
+                        <img src="../img/beef black curry.jpg" alt="">
+                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                    </div>
+
+                    <h1>【即饗】 牛肉黑咖哩醬包 (180g/包)</h1>
+
+                    <div class="card_bottom">
+
+                        <div class="product_price">
+                            <del>NT280</del>
+                            <h3>NT199</h3>
+                        </div>
+
+                        <div class="product_button">
+                            <a href="#">立即購買</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 熱銷排行 -->
+
+        <div class="top_sale">
+            <div class="top_sale_title">
+                <h1 class="chinese">熱銷排行</h1>
+                <h1 class="english">TOP SALE</h1>
+            </div>
+
+            <div class="top_sale_product">
+
+                <div class="card">
+
+                    <!-- NO.1 -->
+                    <img src="../img/gold medal.png" alt="" class="gold_medal">
+
+                    <div class="product_img">
+                        <img src="../img/meat bun.jpg" alt="">
+                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                    </div>
+
+                    <h1>【即饗】 極享鮮肉包(100g/顆) (10入/袋)</h1>
+
+                    <div class="card_bottom">
+
+                        <div class="product_price">
+                            <h3>NT149</h3>
+                        </div>
+
+                        <div class="product_button">
+                            <a href="#">立即購買</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+
+                    <!-- NO.2 -->
+                    <img src="../img/silver medal.png" alt="" class="silver_medal">
+
+                    <div class="product_img">
+                        <img src="../img/red curry.jpg" alt="">
+                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                    </div>
+
+                    <h1>【即饗】 經典紅咖哩醬包 (150g/包)</h1>
+
+                    <div class="card_bottom">
+
+                        <div class="product_price">
+                            <h3>NT109</h3>
+                        </div>
+
+                        <div class="product_button">
+                            <a href="#">立即購買</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+
+                    <!-- NO.3 -->
+                    <img src="../img/bronze medal.png" alt="" class="bronze_medal">
+
+                    <div class="product_img">
+                        <img src="../img/eel rice.jpg" alt="">
+                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                    </div>
+
+                    <h1>【即饗】 蒲燒鰻魚飯 (390g/包)</h1>
+
+                    <div class="card_bottom">
+
+                        <div class="product_price">
+                            <h3>NT199</h3>
+                        </div>
+
+                        <div class="product_button">
+                            <a href="#">立即購買</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 會員獨享 -->
+
+        <div class="member_discount">
+
+            <img src="../img/member discount.jpg" alt="" class="banner_picture">
+
+            <div class="member_discount_product">
+
+                <div class="first_row">
+
+                    <div class="card">
+
+                        <div class="product_img">
+                            <img src="../img/vegan sauce.jpg" alt="">
+                            <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                        </div>
+
+                        <h1>【即饗】 青野蔬食醬包 (150g/包)</h1>
+
+                        <div class="card_bottom">
+
+                            <div class="product_price">
+                                <h3>NT99</h3>
+                            </div>
+
+                            <div class="product_button">
+                                <a href="#">立即購買</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="product_img">
+                            <img src="../img/chicken dumpling.jpg" alt="">
+                            <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                        </div>
+
+                        <h1>【即饗】 鮮嫩雞餛飩 (100g/顆)(6入/袋)</h1>
+
+                        <div class="card_bottom">
+
+                            <div class="product_price">
+                                <h3>NT99</h3>
+                            </div>
+
+                            <div class="product_button">
+                                <a href="#">立即購買</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="product_img">
+                            <img src="../img/black pork.jpg" alt="">
+                            <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                        </div>
+
+                        <h1>【即饗】 黑豬肉水晶餃 (90g/顆)(6入/袋)</h1>
+
+                        <div class="card_bottom">
+
+                            <div class="product_price">
+                                <h3>NT89</h3>
+                            </div>
+
+                            <div class="product_button">
+                                <a href="#">立即購買</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="second_row">
+
+                    <div class="card">
+
+                        <div class="product_img">
+                            <img src="../img/little meat bun.jpg" alt="">
+                            <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                        </div>
+
+                        <h1>【即饗】 極享鮮肉小湯包 (90g/顆)(6入/袋)</h1>
+
+                        <div class="card_bottom">
+
+                            <div class="product_price">
+                                <h3>NT89</h3>
+                            </div>
+
+                            <div class="product_button">
+                                <a href="#">立即購買</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="product_img">
+                            <img src="../img/spagetti.jpg" alt="">
+                            <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                        </div>
+
+                        <h1>【即饗】 義式茄汁筆管麵 (280g/包)</h1>
+
+                        <div class="card_bottom">
+
+                            <div class="product_price">
+                                <h3>NT119</h3>
+                            </div>
+
+                            <div class="product_button">
+                                <a href="#">立即購買</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="product_img">
+                            <img src="../img/italian sauce.jpg" alt="">
+                            <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                        </div>
+
+                        <h1>【即饗】 義式風味肉醬包 (150g/包)</h1>
+
+                        <div class="card_bottom">
+
+                            <div class="product_price">
+                                <h3>NT99</h3>
+                            </div>
+
+                            <div class="product_button">
+                                <a href="#">立即購買</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FAQ -->
+
+        <div class="faq">
+
+            <div class="faq_title">
+                <h1 class="chinese">常見問題</h1>
+                <h1 class="english">FAQ</h1>
+            </div>
+
+            <div class="faq_content">
+
+                <div class="faq_picture">
+                    <img src="../img/faq picture.jpg" alt="">
+                </div>
+
+                <div class="faq_question">
+
+                    <!-- 問題一 -->
+
+                    <div class="question">
+
+                        <div class="faq_layout_index">
+
+                            <div class="question_tag">
+                                <span class="faq_list_style"></span>
+                            </div>
+
+                            <div class="question_content">
+                                <p>我一定要成為會員，才能在即饗好味中訂購商品嗎?</p>
+                            </div>
+
+                        </div>
+
+                        <div class="question_arrow">
+                            <span class="material-symbols-outlined">chevron_right</span>
+                        </div>
+
+                    </div>
+
+                    <!-- 問題二 -->
+
+                    <div class="question">
+
+                        <div class="faq_layout_index">
+
+                            <div class="question_tag">
+                                <span class="faq_list_style"></span>
+                            </div>
+
+                            <div class="question_content">
+                                <p>請問出貨會通知嗎?</p>
+                            </div>
+
+                        </div>
+
+                        <div class="question_arrow">
+                            <span class="material-symbols-outlined">chevron_right</span>
+                        </div>
+
+                    </div>
+
+                    <!-- 問題三 -->
+
+                    <div class="question">
+
+                        <div class="faq_layout_index">
+
+                            <div class="question_tag">
+                                <span class="faq_list_style"></span>
+                            </div>
+
+                            <div class="question_content">
+                                <p>我要如何查詢訂單呢?</p>
+                            </div>
+
+                        </div>
+
+                        <div class="question_arrow">
+                            <span class="material-symbols-outlined">chevron_right</span>
+                        </div>
+
+                    </div>
+
+                    <!-- 問題四 -->
+
+                    <div class="question">
+
+                        <div class="faq_layout_index">
+
+                            <div class="question_tag">
+                                <span class="faq_list_style"></span>
+                            </div>
+
+                            <div class="question_content">
+                                <p>請問付款方式有哪些?</p>
+                            </div>
+
+                        </div>
+
+                        <div class="question_arrow">
+                            <span class="material-symbols-outlined">chevron_right</span>
+                        </div>
+
+                    </div>
+
+                    <!-- 問題五 -->
+
+                    <div class="question">
+
+                        <div class="faq_layout_index">
+
+                            <div class="question_tag">
+                                <span class="faq_list_style"></span>
+                            </div>
+
+                            <div class="question_content">
+                                <p>可以指定時段、夜間或週日送貨嗎?</p>
+                            </div>
+
+                        </div>
+
+                        <div class="question_arrow">
+                            <span class="material-symbols-outlined">chevron_right</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="faq_button">
+                <a href="faq.html">查看更多</a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- footer -->
+    <div id="footer"></div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/header_footer.js"></script>
+</body>
+
+</html>

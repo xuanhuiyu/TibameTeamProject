@@ -1,0 +1,108 @@
+/* w1280 */
+@media screen and (max-width: 1201px){
+    .cartContainer{
+        width: auto;
+        margin: 0 100px;
+    } 
+
+    .cartTitle1{
+        margin-left: 100px;
+    }
+
+    .cartPaynow a{
+        margin-right: 100px;
+    }
+
+    .cartPoint span{
+        margin-right: 12px;
+    }
+
+    .cartPoint input{
+        width: 40%;
+        text-indent: 2px;
+    }
+
+    .paymore{
+        overflow: scroll;
+    }
+
+    .cartAdd{
+        margin-right: 12px;
+    }
+
+    .cartProdlist picture{
+        margin-right: 16px;
+    }
+
+    .header_list{
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .cartPoint{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 16px;
+    }
+
+    .cartPoint input{
+        width: 100%;
+    }
+
+    .cartDelet,.cartSave,.cartCouponspop{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 831px){
+    .cartContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cartProdlist picture{
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .cartContainer{
+        margin: 0 20px;
+    }
+
+    .cartTitle1{
+        margin-left: 20px;
+    }
+
+    .cartPaynow a{
+        margin-right: 20px;
+    }
+
+    .cartPaynow p + p{
+        font-size: 1.75rem;
+    }
+
+    .cartCouponsList p{
+        font-size: 1rem;
+    }
+
+    .cartCouponsList label span:last-child{
+        font-size: 1.25rem;
+    }
+    input[type="radio"] + label::before{
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width:391px){
+    body{
+        font-size: 14px;
+    }
+}
+
+
+

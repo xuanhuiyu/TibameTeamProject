@@ -1,0 +1,141 @@
+/* w1200 */
+@media screen and (max-width: 1201px){
+    .cartContainer{
+        margin: 0 100px;
+    }
+
+    .cartTitle1{
+        margin-left: 100px;
+    }
+
+    .cardDown{
+        padding-right: 0;
+    }
+
+    .cart2Paynow a{
+        margin-right: 100px;
+    } 
+}
+
+@media screen and (max-width: 1001px){
+    .cartContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .cartLeft{
+        grid-column: 1/2;
+    }
+    
+    .cartRight{
+        grid-column: 2/3;
+    }
+
+    .cardDown{
+        padding-right: 20px;
+    }
+
+    .cartAddressDown input{
+        width: 45%;
+        margin-bottom: 8px;
+    }
+
+    .cartAddress span:nth-child(2) span + input{
+        width: 94%;
+    }
+
+    .cartCreditcard input:first-child{
+        width: 92%;
+        margin-bottom: 8px;
+    }
+
+    .cartCreditcard input:nth-child(2),.cartCreditcard input:nth-child(3){
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 831px){
+    .cartContainer{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0;
+    }
+
+    .cartRight2list{
+        width: 100%;
+    }
+
+    .cartCard{
+        width: 80%;
+        margin-right: 20px;
+        padding-right: 0;
+    }
+
+    .cardDown{
+        padding-right: 0;
+    }
+
+    .cart2Paynow a{
+        width: 40%;
+    }
+    .cartCreditcard input:nth-child(2){
+        margin-right: 4px;
+    }
+
+    .cartAddress span:nth-child(2) span + input{
+        width: 92%;
+    }
+
+    .cartAddresspop{
+        width: 70%;
+    }
+
+    .cartAddress2 input:first-child,.cartAddress2 input:nth-child(2){
+        width: 15%;
+    }
+    
+    .cartAddress2 input:last-child{
+        width: 67%;
+    }
+}
+
+@media screen and (max-width: 611px){
+    .cartAddress2 input:first-child,.cartAddress2 input:nth-child(2){
+        width: 48%;
+    }
+    .cartAddress2 input:first-child{
+        margin-right: 2px;
+    }
+    .cartAddress2 input:last-child{
+        width: 99%;
+    }
+
+}
+
+
+@media screen and (max-width: 550px){
+    .cartContainer{
+        margin: 0 20px;
+    }
+
+    .cartTitle1{
+        margin-left: 20px;
+    }
+
+    .cart2Paynow a{
+        margin-right: 20px;
+    }
+
+    .cartAddress span:nth-child(2) span + input{
+        width: 94%;
+    }
+
+    .cart2Paynow p + p{
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width:391px){
+    body{
+        font-size: 14px;
+    }
+}

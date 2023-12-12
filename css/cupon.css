@@ -1,0 +1,150 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+}
+
+body {
+    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    color: #613C11;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto 150px;
+    padding: 0 40px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 側邊導覽區塊 */
+.guide nav img {
+    width: 184px;
+}
+
+
+.guide a {
+    text-decoration: none;
+    color: #613C11;
+    font-weight: normal;
+}
+
+
+.breadcrumb ol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 24px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.breadcrumb li {
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+.breadcrumb li a {
+    color: #828282;
+}
+
+.breadcrumb li a:hover {
+    color: #333;
+}
+
+.breadcrumb li:last-child a {
+    color: #CFAD84;
+}
+
+.breadcrumb li:last-child a:hover {
+    color: #9c6e35;
+}
+
+.guide nav {
+    font-size: 20px;
+    width: 184px;
+    font-weight: 600;
+}
+
+.guide nav li {
+    border-bottom: #613C11 solid 1px;
+}
+
+.guide nav a {
+    line-height: 48px;
+}
+
+.guide nav a:hover {
+    background-color: rgba(207, 173, 132, 0.30);
+}
+
+section {
+    width: 66%;
+    margin-left: 80px;
+    flex-grow: 1;
+}
+
+section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+    padding-left: 27px;
+    border-left: 16px solid #613C11;
+}
+
+section ul {
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+}
+
+section li {
+    width: 480px;
+    height: 179px;
+    background-image: url(../img/cupon1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 24px 12px;
+}
+
+section li:nth-child(2) {
+    background-image: url(../img/cupon2.png);
+}
+
+section li:nth-child(3) {
+    background-image: url(../img/cupon3.png);
+}
+
+section li:last-child {
+    background-image: url(../img/cupon4.png);
+}
+
+section ul li {
+    position: relative;
+}
+
+section li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.4;
+    background-color: #CFAD84;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    right: 58px;
+    bottom: 70px;
+}
+
+section li a:hover {
+    background: #EAC18E;
+    box-shadow: 0px 4px 4px 0px rgba(181, 129, 43, 0.16);
+}
