@@ -1001,8 +1001,6 @@ border-radius: 50%;
   top: 16px;
   overflow: visible;
 }
-/*  */
-
 
 .index-box2 {
   background: rgba(207, 173, 132, 0.08);
@@ -1011,13 +1009,13 @@ border-radius: 50%;
   position: relative;
   width: 100%;
   height: 728px;
-  padding: 72px 0px 0px 0px;
-
+  padding: 24px 0px 0px 0px;
 }
+
 .hotsale-ranking {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  gap: 48px;
   align-items: center;
   justify-content: center;
   /* position: absolute; */
