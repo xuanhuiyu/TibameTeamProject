@@ -86,13 +86,13 @@ main {
     background-color: rgba(207, 173, 132, 0.30);
 }
 
-section {
+.saveright {
     width: 66%;
     margin-left: 80px;
     flex-grow: 1;
 }
 
-section h2 {
+.saveright h2 {
     font-size: 32px;
     font-weight: 600;
     letter-spacing: 4px;
@@ -512,12 +512,12 @@ section h2 {
 /* 這個斷點是以786的尺寸去寫的 */
 @media screen and (max-width:820px) {
 
-    nav,
+    .guide nav,
     .breadcrumb {
         display: none;
     }
 
-    section {
+    .saveright {
         margin-left: 0;
     }
 

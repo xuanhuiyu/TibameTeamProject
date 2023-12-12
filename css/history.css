@@ -84,13 +84,13 @@ main {
     background-color: rgba(207, 173, 132, 0.30);
 }
 
-section {
+.saveright {
     width: 66%;
     margin-left: 80px;
     flex-grow: 1;
 }
 
-section h2 {
+.saveright h2 {
     font-size: 32px;
     font-weight: 600;
     letter-spacing: 4px;
@@ -150,5 +150,26 @@ thead {
         width: 850px;
         overflow-x: scroll;
         display: block;
+    }
+}
+
+@media screen and (max-width:820px) {
+
+    .guide nav,
+    .breadcrumb {
+        display: none;
+    }
+
+    .saveright {
+        margin-left: 0;
+    }
+
+    .container {
+        margin-bottom: 60px;
+    }
+
+    .container h2 {
+        margin-top: 60px;
+        margin-bottom: 40px;
     }
 }
