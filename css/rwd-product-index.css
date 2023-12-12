@@ -294,7 +294,7 @@
 
 }
 @media screen and (max-width: 756px) {
-    .onsaletime-frame{top: 910px;}
+    .onsaletime-frame{top: 904px;}
     .rectangle-4{
         /* margin-top: 136px; */
     }
@@ -498,7 +498,7 @@
     .hotsale-ranking-products{width: 327px;}
     .onsale-products .card-product div.card-list div.mask-group a.favorite-link.active::before{
         top: 20px;
-        left: 290px;
+        left: 289px;
         width: 11px;
         height: 20px;
     }
@@ -519,7 +519,9 @@
         left: 275px;
         width: 14px;
         height: 22px;
+        
     }
+
 
 }
 

@@ -97,12 +97,14 @@ body{
   transform-origin: 0 0;
   transform: rotate(90deg) scale(1, 1);
 }
+
 .productlist-titlewline-bigtitle{
   color: var(--text-color, #613c11);
   text-align: center;
   font: var(--title-1-bold, 400 32px/110% "Roboto-bold", sans-serif);
   padding-top: 4px;
 }
+
 .pagination-button-another .material-symbols-outlined{line-height: 0.5;}
 .material-symbols-outlined{
   font-size: 40px;
@@ -128,7 +130,6 @@ body{
   position: absolute;
   text-decoration: none;
   color: #fff;
-
 }
 
 
@@ -192,6 +193,7 @@ body{
   position: relative;
   flex-wrap: wrap;
   height: 1700px;
+  overflow: hidden;
 
 }
 .card-product {
@@ -596,7 +598,7 @@ body{
 
 /* side nav */
 .productlist-sidenav {
-
+  width: 150px;
   left: 124px;
   top: 360px;
 }
