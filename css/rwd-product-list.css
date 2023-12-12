@@ -1,0 +1,177 @@
+@media (max-width: 1800px) {
+    .wrapper{
+        width: auto;
+    }
+    .breadcrumbs{
+        left: 72px;
+    }
+    .productlist-sidenav {
+        left: 72px;
+    }
+    .productlist-wproducts {
+        left: 230px;
+    }
+
+    .frame-262 {
+        width: 1120px;
+        gap: 48px;
+    }
+    .product-status{width: 1120px;}
+    .frame-356{
+        width: 1120px;
+    }
+    .select {width: 1148px;}
+    .ad {
+        left: 1380px;
+        /* width: 288px; */
+    }
+    .ad-pic{gap: 60px;}
+    .card-title{
+        line-height: 1.6;
+    }
+    
+}
+    @media (max-width: 1340px) {
+        .frame-262{
+            width: 800px;
+            flex-wrap: wrap;
+        }
+        .product-status{width: 800px;}
+        .frame-356{
+            width:800px;
+        }
+        .select {width: 806px;}
+        .ad {
+            left: 1020px;
+            width: 288px;
+        }
+
+    }
+    @media (max-width: 1200px) {
+
+        .breadcrumbs{
+            left: 40px;
+        }
+        .productlist-sidenav {
+            left: 40px;
+        }
+        .productlist-wproducts {
+            left: 168px;
+        }
+        .frame-262{
+            gap: 22px;
+            width: 736px;
+            height: 1620px;
+        }
+        .product-status{width: 736px;}
+        .card-list {
+            gap: 12px;}
+        .frame-356{
+            width: 736px;
+        }
+        .select{width: 758px;}
+        .ad {
+            left: 900px;
+            width: 280px;
+        }
+    }
+
+    @media (max-width: 834px) {
+        .productlist-title {
+            padding: 0 24px;
+        }
+        .breadcrumbs{
+            left: 40px;
+        }
+        
+        .productlist-sidenav {
+            left: 40px;
+        }
+        .productlist-wproducts {
+            left: 280px;
+        }
+
+        .productlist{
+            gap: 0;
+        }
+ 
+        .select {width: 760px;}
+
+        .ad{
+            display: none;
+        }
+
+        .productlist-sidenav{display: none;}
+        .productlist-wproducts{left: 40px;}
+   
+        .productlist-title{padding:0px 0px; margin-left: 56px;}
+        .productlist-titlewline{width: 180px;}
+        .productlist-title{height: 44px;}
+        .btn-select{height: 48px;}
+        .select h1{padding-left: 36px;}
+        .chips{height: 40px;}
+        .breadcrumbs {
+            padding-left: 32px;
+            top: 12px;
+        }
+        .product-status{padding: 0;}
+        .chatbot-default{height: 56px;width: 56px;}
+            /* chat */
+    .chatbot-default{height: 56px;width: 56px;}
+    #chat-window{
+        right: 8px;
+        bottom: 100px;
+        height: 560px;
+        width: 370px;
+    }
+    #chat-icon {
+    bottom: 20px;
+    }
+    #chat-close{padding-left: 280px;}
+    #chat-header {padding: 0px 28px;width: 370px;}
+    #chat-title{font-size: 32px;}
+    #chat-subtitle{font-size: 20px;padding-top: 0px;}
+    #chat-leave{margin-top: -40px;width: 320px;margin-left: 26px;padding: 16px; height: 163px;}
+    #chat-social{margin-top: 20px;width: 320px;margin-left: 26px;height: 64px;padding: 0px;}
+    .social-link{padding: 8px 24px;}
+
+    #chat-footer{margin-top: 20px;width: 368px;margin-left: -26px;}
+    #send-button{padding:24px;font-size: 16px;}
+    #message-input{font-size: 18px;}
+    #send-button{padding: 20px;}
+    .btn-select{height: 40px;}
+    
+        
+    }
+    @media (max-width: 756px) {
+    .product-status{width: 400;}
+    .product-nothung{width: 0;}
+
+    }
+    @media (max-width: 458px) {
+        .chips{
+            left: 0px;
+        height: 64px;}
+        .frame-356{width: 390px;}    
+        .select{margin-top: 20px;}
+        .frame-262{width: 390px;height: 2800px;}
+        .breadcrumbs {
+            padding-left: 0px;
+            height: 64px;
+            top: 0  ;
+            left: 32px;
+        }
+        .card-title{font-size: 20px;}
+        .card-list{gap: 0;}
+        .priceandbuybtn{padding: 0px 4px;}
+        .breadcrumbs-index-a{font-size: 18px;}
+        .breadcrumbs-index-focus{font-size: 18px;}
+
+        .select{width: 420px;}
+        .productlist-wproducts{left: 0;}
+        .chips{top: 0;}
+        .productlist-wproducts{top: 80px;}
+        .product-list{height: 3200px;}
+
+
+    }

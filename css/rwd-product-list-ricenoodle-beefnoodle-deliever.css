@@ -1,0 +1,241 @@
+
+@media screen and (max-width: 1920px) {
+    .wrapper{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .product-ricenoodle-beefnoodle-picwrefer{
+        left: 130px;
+        align-items: center;
+    }
+    .line-55{width: 1200px;        left: 10%;
+        right: 10%;}
+    .beefnoodle-product-intro{left: 148px;}
+    .product-list{width: 100%;}
+    .productlist-ricenoodle-beefnoodle{position: unset;}
+}
+
+@media screen and (max-width: 834px) {
+    .productlist-ricenoodle-beefnoodle{position: relative;}
+    .product-list{height: 3280px;}
+    .chips {
+      width: 100%; 
+      left: 0; 
+      top: 100px; 
+      height: 72px;
+    }
+    .breadcrumbs {
+      left: 64px;
+      top: 12px; 
+    }
+    .popup{
+        width: 480px;
+        height: 480px;
+    }
+    .popup-product-pic{
+        width: 400px;
+        left: 42px;
+    }
+    .product-ricenoodle-beefnoodle-picwrefer{
+        flex-direction: column;
+        gap: 40px;
+        top: 200px;
+        left: 20%;
+        right: 20%;
+    }
+    .productlist-ricenoodle-beefnoodle{
+        position: relative;
+    }
+    .line-55{
+        top: 1420px;
+        width: 630px;
+    }
+    .product-functionbuttons{
+        top: 1440px;
+        gap: 104px;
+        left: 10%;
+        right: 10%;
+    }
+    .payndeliever{gap: 56px;}
+    .div10{font-size: 32px;}
+    .payndeliever-frame{left: 10%;right: 10%;}
+    .payndeliever-d-line{width: 432px;}
+    .pay-icon-frame{width: 300px;height: 164px;}
+    .deliever-icon-frame{width: 300px;height: 185px;}
+    .deliever-icon-1{left: 126.34px;top: 28.29px;}
+    .line-pay-atm-visa-master-jcb-span{display: none;}
+    ._3-7-7-11-3-7-span{display: none;}
+    .introproducts-wsubtitle{
+        left: 0px;
+    }
+    .introproducts{
+        gap: 40px;
+        padding: 0px 80px 0px 80px;
+        width: 760px;
+    }
+    .beefnoodle-product-intro{
+        position: relative;
+        top: 1560px;
+
+    }
+    .beefnoodle-pic-referbig{
+        width: 560px;
+        height: 300px;
+    }
+ 
+    .people-dialogbox{
+        display: none;
+    }
+    .othersviewing{top: 88.8%;}
+    .chevron-left{display: none;}
+    .chatbot-default{height: 56px;width: 56px;}
+    #chat-window{
+        right: 8px;
+        bottom: 100px;
+        height: 560px;
+        width: 370px;
+    }
+    #chat-icon {
+    bottom: 20px;
+    }
+    #chat-close{padding-left: 280px;}
+    #chat-header {padding: 0px 28px;width: 370px;}
+    #chat-title{font-size: 32px;}
+    #chat-subtitle{font-size: 20px;padding-top: 0px;}
+    #chat-leave{margin-top: -40px;width: 320px;margin-left: 26px;padding: 16px; height: 163px;}
+    #chat-social{margin-top: 20px;width: 320px;margin-left: 26px;height: 64px;padding: 0px;}
+    .social-link{padding: 8px 24px;}
+
+    #chat-footer{margin-top: 20px;width: 368px;margin-left: -26px;}
+    #send-button{padding:24px;font-size: 16px;}
+    #message-input{font-size: 18px;}
+    #send-button{padding: 20px;}
+    .btn-select{height: 40px;}
+    .payndeliever-frame{
+        top: 1544px;
+    }
+  }
+  
+
+  @media screen and (max-width: 458px) {
+    .chips{height: 64px;top: 0;}
+    .breadcrumbs {
+        padding-left: 32px;
+        left: 0;
+        top: 0px;
+        height: 64px;
+    }
+    .breadcrumbs-index-a{font-size: 18px;}
+    .breadcrumbs-index-focus-a{font-size: 18px;}
+    .product-ricenoodle-beefnoodle-picwrefer{
+        top: 80px;
+        align-items: start;
+        left: 40px;
+    }
+    .product-refer-bigtitle{font-size: 20px;width: 100%;}
+    .product-refer{gap: 20px;width: 325px;}
+    .product-refer-line{width: 325px;}
+    .line-55{top: 1032px;width: 360px;    left: calc(50% - 177px);}
+    .product-functionbuttons {
+        top: 1048px;
+        gap: 16px;
+        left: calc(50% - 182px);}
+
+    .product-functionbuttons-a{font-size: 18px;}
+    .btn-product-intro{
+        font-size: 18px;height: 46px;    
+        border-width: 0px 0px 3px 0px;}
+    .product-refer-focus{font-size: 18px;width: 100%;}
+    .product-refer-memberdiscountad{font-size: 18px;width: 100%;}
+
+    .product-refer-evaluate{transform: scale(0.8); width: 393px;gap: 77px;}
+    .product-refer-evaluate{left: -36px;gap: 72px;}
+    .product-refer-evaluate-a{position: relative;padding-left: 12px;}
+
+
+    .btn-product-favorite-big{width: 48px;height: 48px;}
+    .btn_product_favorite_big-a{display: none;}
+    .product-list{height: 2900px;}
+    .othersviewing{height: 552px;top: 82.8%;}
+    .beefnoodle-pic-big-left-top-1{display: none;}
+    .beefnoodle-pic-big-left-middle-1{display: none;}
+    .beefnoodle-pic-big-left-bottom-1{display: none;}
+    .beefnoodle-pic-big-right-1{left: 0px;top: 0px;height: 320px;width: 320px;position: relative;}
+    .productlist-ricenoodle-beefnoodle{width: 320px;height: 320px;position: relative;}
+    .btn-zoom-out-fr{width: 40px;height: 40px;}
+    .btn-zoom-out{left: 264px;top: 264px;}
+    .btn-zoom-out-fr{width: 0.0000001px;height: 0.0000001px;}
+    .product-refer-pricewfollow{gap: 64px;}
+    .product-refer-stepperwaddcart{display: contents;}
+    .pc-btn-product-addcart2{width: 320px;height: 48px;}
+    .acc{width: 240px;height: 40px;}
+    .minus, .plus{width: 130px;height: 40px;}
+    .minus{left: -14px;}
+    .plus{left: 124px;}
+    .stepper{gap: 17px;}
+    .share-default{display: none;}
+
+    .evaluate-stars{gap: 16px;}
+    .beefnoodle-product-intro{top: 640px;}
+    .beefnoodle-product-introword{gap: 24px;}
+    .beefnoodle-product-introword-title1{font-size: 24px;}
+    .beefnoodle-product-intro-refer-a{font-size: 18px;width: 320px;}
+    .beefnoodle-pic-referbig{width: 320px;height: 200px;}
+    .beefnoodle-product-intro{gap: 44px;}
+
+    .heatingmethod{gap: 16px; padding: 24px 0px;border-width: 8px;margin-top: 20px;}
+    .microwave2{ width: 200px;height: 132px;}
+    .microwave-icon{
+        height: 148px;
+        width: 272px;
+    }
+    .microwave-referline {width: 248px;height: 8px;}
+    .electricpot-referline {width: 248px;height: 8px;}
+    .heatingmethod-title2{font-size: 24px;}
+    .heatingmethod-a{font-size: 18px;}
+    .rice-cooker {width: 200px;}
+    .electricpot-icon{width: 320px;}
+
+    .beefnoodle-product-introword-title2{font-size: 24px;}
+    .heatingmethod-youtube{
+        margin-top: 20px;
+        gap: 32px;
+        height: 272px;
+        
+    }
+    .payndeliever-frame{top: 1140px;}
+    .div10{font-size: 24px;}
+    .line-pay-atm-visa-master-jcb-span2{font-size: 18px;}
+    ._3-7-7-11-3-7-span2{font-size: 18px;}
+    .payndeliever-p-line{width: 248px;height: 8px;}
+    .payndeliever-d-line{width: 248px;height: 8px;}
+    .pay-icon-frame {
+        width: 260px;
+        height: 130px;}
+    .pic-pay{width: 320px;}    
+    .pay-icon-4{border-width: 12px;}
+    .pic-deliver{width: 320px;}
+    .deliever-icon-frame {
+        width: 270px;
+        height: 168px;}
+    .deliever-icon-1 {
+        left: 101.34px;
+        top: 15.29px;}
+    .deliever-icon-6{left: -30%;}
+    .deliever-icon-4{left: 26.48%;}
+    ._3-7-7-11-3-7{width: 245px;}
+    .payndeliever{gap: 16px;}
+    .payndeliever-frame{padding: 24px;border-width: 8px;}
+    
+    .introproducts-wsubtitle{gap: 24px;}
+    .subtitle{font-size: 24px;    width: 280px;}
+    .introproducts{padding: 0px 40px;}
+
+    .card-list{gap: 0;}
+    .introproducts{width: 360px;}
+    .introproducts-wsubtitle{top: 0px;}
+    .nutrition-label{width: 320px;height: 320px;}
+
+  }

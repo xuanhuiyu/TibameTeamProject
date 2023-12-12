@@ -1,0 +1,533 @@
+
+@media screen and (max-width: 1240px) {
+    .body{max-width: 900px;}
+    .rectangle-4{
+        width: 1040px;
+        overflow-x: auto;
+    }
+
+    .hotsale-ranking-products{gap: 24px;}
+    .salestag-timeframe{right: 568px;}
+    .onsale-products{
+        gap: 24px;
+        display: flex;
+    }
+    .icon-logo-big{
+        width: 172px;
+        height: 172px;
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+    .icon-big {
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+    .icon-ricenoodle{
+        width: 72px;
+        height: 72px;
+        left: 51px;
+        top: 82px;
+    }
+    .icon-pickled{
+        width: 72px;
+        height: 72px;
+        left: 51px;
+        top: 82px;
+    }
+    .icon-dumpling{
+        width: 72px;
+        height: 72px;
+        left: 51px;
+        top: 82px;
+    }
+    .icon-bao{
+        width: 80px;
+        height: 80px;
+        left: 48px;
+        top: 78px;
+    }
+    .icon-sauce{
+        width: 88px;
+        height: 88px;
+        left: 43px;
+        top: 73px;
+    }
+    .ricenoodle{
+        padding: 16px;}
+    .pickled{
+        padding: 16px;}
+    .dumpling{
+        padding: 16px;}
+    .bao{
+        padding: 16px;}
+    .sauce{
+        padding: 16px;}
+    .icon-big{
+        margin-bottom: 20px;
+    }    
+
+    .tagline-pic-1{width: 1120px;}
+
+}
+@media screen and (max-width: 1024px) {
+
+    .hotsale-ranking-products{
+        width: 780px;
+        position: relative;
+        overflow: scroll;
+    }
+
+    .hotsale-ranking-products{
+        width: 720px;
+    }
+    .hotsale-ranking-frame{
+
+    }
+    .hotsale-ranking-products{gap: 24px;}
+    .arrow {
+        display: block; 
+    }
+    .onsale-products{
+        width: 720px;
+        
+    }
+    .productlist-index{
+        padding-top: 80px;
+    }
+    .rectangle-4{
+        width: 780px;
+    }
+
+    .salestag-timeframe{right: 305px;}
+    .icon-big {
+        margin-top: 16px;
+        margin-bottom: 20px;
+        
+    }
+    .icon-logo-big{
+        width: 132px;
+        height: 132px;
+        margin-top: 32px;
+        margin-bottom: 8px;
+    }
+
+    .icon-ricenoodle{
+        width: 64px;
+        height: 64px;
+        left: 35px;
+        top: 66px;
+    }
+    .icon-pickled{
+        width: 64px;
+        height: 64px;
+        left: 35px;
+        top: 66px;
+    }
+    .icon-dumpling{
+        width: 64px;
+        height: 64px;
+        left: 35px;
+        top: 66px;
+    }
+    .icon-bao{
+        width: 72px;
+        height: 72px;
+        left: 31px;
+        top: 61px;
+    }
+    .icon-sauce{
+        width: 80px;
+        height: 80px;
+        left: 27px;
+        top: 58px;
+    }
+    .tagline-pic-1 {
+        width: 780px;
+
+      }
+      .group-24 {
+        width: 780px;
+      }
+    .tagline{height: 440px;}
+    .tagline-title2{ gap: 20px;}
+    .tagline-a { left: 80px;}
+    .pc-btn-viewmore-brown{width: 112px;}
+    .pc-btn-viewmore-green{width: 112px; margin-top: 32px; margin-bottom: 20px;}
+    .tree-1{
+        width: 312px;
+        height: 400px;
+        padding-left: 24px;
+        padding-top: 28px;
+    }
+    .content{
+        padding-top: 80px;
+        width: 352px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    .hotsale-ranking-products{width: 696px;}
+    .hotsale-ranking-frame{width: 720px;}
+    .salestag-timeframe{right: 248px;}
+    .chips{height: 72px;}
+    .breadcrumbs {
+        padding-left: 64px;
+        top: 24px;
+    }
+    .rectangle-4{
+        width: 720px;
+    }
+    
+    .logo-top{
+        padding-top: 4px;
+    }
+    .logo-pic {
+        transform: scale(0.8);
+      }
+    .icon-logo-big{
+        width: 100px;
+        height: 100px;
+    }
+    .icon-logo-big{
+        margin-top: 28px;
+        margin-bottom: 20px;
+    }
+    .icon-ricenoodle{
+        width: 56px;
+        height: 56px;
+    }
+
+    .icon-big {
+        margin-top: 12px;
+        margin-bottom: 0px;
+        
+    }
+    .icon-logo-big{
+        width: 132px;
+        height: 132px;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    .icon-ricenoodle{
+        width: 60px;
+        height: 60px;
+        left: 36px;
+        top: 68px;
+    }
+    .icon-pickled{
+        width: 60px;
+        height: 60px;
+        left: 36px;
+        top: 68px;
+    }
+    .icon-dumpling{
+        width: 60px;
+        height: 60px;
+        left: 36px;
+        top: 68px;
+    }
+    .icon-bao{
+        width: 68px;
+        height: 68px;
+        left: 33px;
+        top: 64px;
+    }
+    .icon-sauce{
+        width: 76px;
+        height: 76px;
+        left: 29px;
+        top: 62px;
+    }
+    .ricenoodle{
+        padding: 10px;}
+    .pickled{
+        padding: 10px;}
+    .dumpling{
+        padding: 10px;}
+    .bao{
+        padding: 10px;}
+    .sauce{
+        padding: 10px;}
+    .onsale-products{
+        scroll-snap-type: x mandatory; /* 使用 scroll-snap 使卡片橫向捲動時停在每個卡片的開頭 */
+        -webkit-overflow-scrolling: touch; /* 提升在 iOS 上的滾動效能 */
+        width: 769px;
+    }
+
+    .card-product {
+        flex: 0 0 auto;
+        scroll-snap-align: start; 
+        margin: 10px;
+        }
+    .pc-btn-viewmore-brown{height: 40px; border-width: 0px 0px 3px 0px;}
+    .pc-btn-viewmore-green{height: 40px; border-width: 0px 0px 3px 0px;}    
+    .hotsale-ranking-products-1{gap: 16px;}
+    .hotsale-ranking-products-2{gap: 16px;}
+    .hotsale-ranking-products-3{gap: 16px;}
+    .chatbot-default{height: 56px;width: 56px;}
+        /* chat */
+        .chatbot-default{height: 56px;width: 56px;}
+        #chat-window{
+            right: 8px;
+            bottom: 140px;
+            height: 560px;
+            width: 370px;
+        }
+        #chat-icon {
+        bottom: 56px;
+        }
+        #chat-close{padding-left: 280px;}
+        #chat-header {padding: 0px 28px;}
+        #chat-title{font-size: 32px;}
+        #chat-subtitle{font-size: 20px;padding-top: 0px;}
+        #chat-leave{margin-top: -28px;width: 280px;margin-left: 26px;padding: 16px;}
+        #chat-social{margin-top: 20px;width: 320px;margin-left: 26px;height: 64px;}
+        .social-link{padding: 12px 24px;}
+    
+        #chat-footer{margin-top: 52px;width: 350px;margin-left: -26px;}
+        #send-button{padding:24px;font-size: 16px;}
+        #message-input{font-size: 18px;}
+        #send-button{padding: 20px;}
+
+}
+@media screen and (max-width: 756px) {
+    .onsaletime-frame{top: 910px;}
+    .rectangle-4{
+        /* margin-top: 136px; */
+    }
+    .tagline-pic-1 {
+        width: 600px;
+        height: 320px;
+
+      }
+    .group-24 {
+        width: 600px;
+      }
+    .tagline-a { 
+        gap: 32px;
+        left: 60px;
+    }
+    .tagline-title-big {font-size: 40px;}
+    .tagline-title-small{font-size: 28px;}
+    .tagline-title-small2{font-size: 28px;}
+    .tagline-title-1{gap: 0;}
+    .tagline-title-2{gap: 0;}
+    .tagline-title-3{gap: 0;}
+    .tagline-title-4{gap: 0;}
+    .tagline-title2{gap: 0;}
+    .tree-1{
+        width: 240px;
+        height: 280px;
+        padding-left: 8px;
+        padding-top: 64px;
+    }
+    .subtitle-esg{font-size: 28px;}
+    .esg2{font-size: 18px;}
+    .customer-quote{font-size: 13px;}
+    .content{gap: 12px; width: 280px;}
+}
+@media (max-width: 458px) {
+    .card-title{font-size: 20px;height: 56px;}
+    .price-small-onsale-normal{font-size: 18px;}
+    .price-small-onsale{font-size: 28px;}
+    .price-small-normalprice{font-size: 28px;}
+    .btn-product-addcart{font-size: 18px;margin: 4px;}
+    .onsaletime-frame{top: 692px;}
+    .salestag-timeframe{right: 0px;}
+    .salestag{width: 112px;}
+    .subtitle{font-size: 24px;}
+    .subtitle2{font-size: 24px;}
+    .subtitle-esg{font-size: 24px;}
+    .div7{font-size: 24px;}
+    .chips{height: 40px;}
+    .breadcrumbs {
+        padding-left: 32px;
+        top: 12px;
+    }
+    .breadcrumbs-index-a {font-size: 18px;}    
+    .breadcrumbs-index-focus {font-size: 18px;}
+    .productlist-index{padding-top: 48px;height: 480px;}
+
+    .logo-top{
+        padding-top: 0px;
+        height: 170px;
+    }
+    .logo-pic {
+        transform: scale(0.6); /* 缩小到60% */
+        width: 360px;
+      }
+    .icon-big {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .icon-logo-big{
+        width: 88px;
+        height: 88px;
+    }
+    .icon-logo-big{
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    .list-big-a{
+        font-size: 20px;
+    }
+    .icon-ricenoodle{
+        width: 48px;
+        height: 48px;
+        left: 20px;
+        top: 42px;
+    }
+    .icon-pickled{
+        width: 48px;
+        height: 48px;
+        left: 20px;
+        top: 42px;
+    }
+    .icon-dumpling{
+        width: 48px;
+        height: 48px;
+        left: 20px;
+        top: 42px;
+    }
+    .icon-bao{
+        width: 56px;
+        height: 56px;
+        left: 17px;
+        top: 37px;
+    }
+    .icon-sauce{
+        width: 64px;
+        height: 64px;
+        left: 13px;
+        top: 35px;
+    }
+    .ricenoodle{
+        padding: 12px;}
+    .pickled{
+        padding: 12px;}
+    .dumpling{
+        padding: 12px;}
+    .bao{
+        padding: 12px;}
+    .sauce{
+        padding: 12px;}
+    .index-box2{height: 670px;}
+    .index-box3{
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .div7{
+        font-size: 25px;
+    }
+    .rectangle-4{
+        margin: 0 auto;
+        /* margin-top: 72px; */
+        width: 360px;
+        overflow: scroll;
+        height: 600px;
+    }
+    .onsale-products{
+        width: 932px;
+    }
+    .salestag{
+        gap: 8px;
+        border-radius: 8px;
+        width: 116px;
+
+        padding: 4px;
+        box-shadow: 4px 6px 4px 0px rgba(255, 194, 103, 0.25), inset 4px 4px 4px 0px rgba(255, 230, 199, 0.25);
+    }
+    .salestag-timeframe{
+        padding: 4.5px 4px;}
+    .card-list {gap: 4px;}
+    .no-1{font-size: 20px;}
+    .no-2{font-size: 20px;}
+    .no-3{font-size: 20px;}
+    .hotsale-ranking-products .card-product div.card-list div.mask-group span{font-size: 32px;}
+    .onsale-products .card-product div.card-list div.mask-group span{font-size: 32px;}
+    .tagline{padding-top: 32px;padding-right: 0px; height: 320px;}
+    .tagline-pic-1 {
+        width: 380px;
+        height: 264px;
+        top: 32px;
+      }
+    .group-24 {
+        width: 380px;
+      }
+    .tagline-a { 
+        gap: 24px;
+        left: 48px;
+        top: 56px;
+    }
+    .tagline-title-big {font-size: 28px; height: 40px;}
+    .tagline-title-small{font-size: 20px;}
+    .tagline-title-small2{font-size: 20px;}
+    .tagline-title-1{gap: 0; width: 144px;height: 40px;}
+    .tagline-title-2{gap: 0; width: 144px;height: 40px;}
+    .tagline-title-3{gap: 0; width: 144px;height: 40px;}
+    .tagline-title-4{gap: 0; width: 144px;height: 40px;}
+    .tagline-title2{gap: 0;}
+    .tagline-title-left{width: 144px;}
+
+    .tree-1{
+        display: none;
+    }
+    .subtitle-esg{font-size: 24px;}
+    .esg2{font-size: 14px;}
+    .customer-quote{display: none;}
+    .content{gap: 30px; width: 280px;}
+    .esg {height: 400px;}
+    .pc-btn-viewmore-green{margin-bottom: 12px;}
+
+
+    .price-small{padding-left: 10px;}
+
+    .pc-btn-viewmore-brown{height: 40px; border-width: 0px 0px 3px 0px;}
+    .pc-btn-viewmore-green{height: 40px; border-width: 0px 0px 3px 0px;}
+    .hotsale-ranking{gap: 32px;}
+    .hotsale-ranking-products-1{gap: 12px;}
+    .hotsale-ranking-products-2{gap: 12px;}
+    .hotsale-ranking-products-3{gap: 12px;}
+ 
+    .hotsale-ranking-frame{
+        width: 360px;
+    }
+    .hotsale-ranking-products{width: 327px;}
+    .onsale-products .card-product div.card-list div.mask-group a.favorite-link.active::before{
+        top: 20px;
+        left: 290px;
+        width: 11px;
+        height: 20px;
+    }
+    .onsale-products .card-product div.card-list div.mask-group a.favorite-link.active::after{
+        top: 21px;
+        left: 275px;
+        width: 14px;
+        height: 22px;
+    }
+    .hotsale-ranking-products .card-product div.card-list div.mask-group a.favorite-link.active::before{
+        top: 20px;
+        left: 290px;
+        width: 11px;
+        height: 20px;
+    }
+    .hotsale-ranking-products .card-product div.card-list div.mask-group a.favorite-link.active::after{
+        top: 21px;
+        left: 275px;
+        width: 14px;
+        height: 22px;
+    }
+
+}
+
+
+
+
+
+
+
+
+

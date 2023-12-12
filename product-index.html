@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="./css/style-product-index.css">
+	<link rel="stylesheet" href="css/rwd-product-index.css">
+	<title>product-index</title>
+</head>
+<body>
+	<div class="wrapper-real">
+		<div class="wrapper"><!--Wrapper start-->
+
+			<div class="product-list">
+				<div class="logo-top">
+					<img class="logo-pic" src="img/logo_top.png" alt="">
+				</div>
+							<!-- breadcrumb -->
+							<div class="chips">
+								<div class="breadcrumbs">
+									<div class="breadcrumbs-index">
+										<a href="#" class="breadcrumbs-index-a">首頁</a>
+									</div>
+									<svg
+									class="right-16-px"
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+									>
+									<path
+										d="M6 3L11 8L6 13"
+										stroke="#828282"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									</svg>
+							
+									<div class="breadcrumbs-index-focus">商品列表</div>
+				
+								</div>
+							</div>
+				<div class="index-container">
+					<div class="index-box">
+						<div class="productlist-index">
+						<div class="subtitle">產品類別</div>
+						<div class="productlist-big">
+							<div>
+								<a href="product-list-ricenoodle.html">
+									<div class="ricenoodle">
+										<div class="icon-big" >
+										<div class="icon-logo-big"></div>
+										<img class="icon-ricenoodle" src="img/ricenoodle.png" />
+										</div>
+									</div>
+									</a> 
+									<div class="list-big-a">即食飯麵</div>
+							</div>
+							<div>
+								<a href="product-list-pickled.html">
+									<div class="pickled">
+										<div class="icon-big">
+										<div class="icon-logo-big"></div>
+										<img class="icon-pickled" src="img/pickled.png" />
+										</div>
+									</div>
+									</a> 
+									<div class="list-big-a">即食醃漬</div>
+							</div>
+							<div>
+								<a href="product-list-dumpling.html">
+									<div class="dumpling">
+										<div class="icon-big">
+										<div class="icon-logo-big"></div>
+										<img class="icon-dumpling" src="img/dumpling.png" />
+										</div>
+									</div>
+									</a> 
+									<div class="list-big-a">水餃餛飩</div>
+							</div>
+							<div>
+								<a href="product-list-bao.html">
+									<div class="bao">
+										<div class="icon-big">
+										<div class="icon-logo-big"></div>
+										<img class="icon-bao" src="img/bao.png" />
+										</div>
+									</div>
+									</a> 
+									<div class="list-big-a">包子饅頭</div>
+							</div>
+							<div>
+								<a href="product-list-sauce.html">
+									<div class="sauce">
+										<div class="icon-big">
+										<div class="icon-logo-big"></div>
+										<img class="icon-sauce" src="img/sauce.png" />
+										</div>
+									</div>
+									</a> 
+									<div class="list-big-a">調理醬包</div>
+							</div>
+		
+						</div>
+						</div>
+					</div>		
+				</div>
+
+			</div>
+			</div>
+					<!-- onsale -->
+					<div class="index-container">
+						<div class="index-box3">
+							<div class="onsaletime-frame">
+								<div class="salestag">
+									<svg class="alarm"
+										 width="43"
+										 height="44"
+										 viewBox="0 0 43 44"
+										 fill="none"
+										 xmlns="http://www.w3.org/2000/svg">
+										<g filter="url(#filter0_d_701_1146)">
+										<mask
+											id="mask0_701_1146"
+											style="mask-type: alpha"
+											maskUnits="userSpaceOnUse"
+											x="1"
+											y="0"
+											width="41"
+											height="40">
+											<rect x="1.5" width="40" height="40" rx="8" fill="#D9D9D9" />
+										</mask>
+										<g mask="url(#mask0_701_1146)">
+											<path
+											d="M21.472 36.6112C19.4072 36.6112 17.4651 36.22 15.6456 35.4375C13.8262 34.6551 12.2429 33.5903 10.8956 32.2431C9.54841 30.8959 8.47896 29.3125 7.6873 27.4931C6.89563 25.6736 6.4998 23.7247 6.4998 21.6463C6.4998 19.5679 6.89563 17.6212 7.6873 15.8061C8.47896 13.9909 9.54841 12.4051 10.8956 11.0487C12.2429 9.69217 13.8262 8.62272 15.6456 7.84033C17.4651 7.05792 19.4072 6.66671 21.472 6.66671C23.5368 6.66671 25.479 7.05792 27.2984 7.84033C29.1179 8.62272 30.7058 9.69217 32.0623 11.0487C33.4188 12.4051 34.4882 13.9909 35.2706 15.8061C36.053 17.6212 36.4443 19.5679 36.4443 21.6463C36.4443 23.7247 36.053 25.6736 35.2706 27.4931C34.4882 29.3125 33.4188 30.8959 32.0623 32.2431C30.7058 33.5903 29.1179 34.6551 27.2984 35.4375C25.479 36.22 23.5368 36.6112 21.472 36.6112ZM25.4164 27.5278C25.9534 28.0648 26.824 28.0648 27.3609 27.5278C27.8978 26.9909 27.8978 26.1203 27.3609 25.5834L24.5226 22.7451C23.512 21.7345 22.9443 20.3638 22.9443 18.9346V14.7223C22.9443 13.9552 22.3224 13.3334 21.5554 13.3334C20.7883 13.3334 20.1665 13.9552 20.1665 14.7223V19.7005C20.1665 21.3507 20.822 22.9334 21.9889 24.1003L25.4164 27.5278ZM9.58333 4.83751C10.1221 4.31175 10.9834 4.31701 11.5157 4.84929C12.0573 5.39083 12.0519 6.27049 11.5038 6.80538L6.55512 11.6348C6.0164 12.1605 5.15505 12.1553 4.62277 11.623C4.08122 11.0815 4.08658 10.2018 4.63468 9.6669L9.58333 4.83751ZM31.4283 4.8493C31.9606 4.31701 32.822 4.31176 33.3607 4.83751L38.3093 9.66693C38.8574 10.2018 38.8628 11.0814 38.3213 11.623C37.789 12.1553 36.9277 12.1605 36.3889 11.6348L31.4403 6.80536C30.8922 6.27047 30.8868 5.39084 31.4283 4.8493ZM21.4732 33.8334C24.8706 33.8334 27.7521 32.6501 30.1179 30.2836C32.4836 27.9171 33.6665 25.0351 33.6665 21.6378C33.6665 18.2404 32.4832 15.3588 30.1167 12.9931C27.7501 10.6273 24.8682 9.44446 21.4708 9.44446C18.0735 9.44446 15.1919 10.6277 12.8262 12.9943C10.4604 15.3608 9.27755 18.2428 9.27755 21.6401C9.27755 25.0375 10.4608 27.919 12.8274 30.2848C15.1939 32.6505 18.0759 33.8334 21.4732 33.8334Z"
+											fill="white"/>
+										</g>
+										</g>
+										<defs>
+										<filter
+											id="filter0_d_701_1146"
+											x="0.220215"
+											y="3.44653"
+											width="42.5039"
+											height="40.1646"
+											filterUnits="userSpaceOnUse"
+											color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix
+											in="SourceAlpha"
+											type="matrix"
+											values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+											result="hardAlpha"/>
+											<feOffset dy="3" />
+											<feGaussianBlur stdDeviation="2" />
+											<feComposite in2="hardAlpha" operator="out" />
+											<feColorMatrix
+											type="matrix"
+											values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+											<feBlend
+											mode="normal"
+											in2="BackgroundImageFix"
+											result="effect1_dropShadow_701_1146"/>
+											<feBlend
+											mode="normal"
+											in="SourceGraphic"
+											in2="effect1_dropShadow_701_1146"
+											result="shape"/>
+										</filter>
+										</defs>
+									</svg>				
+									<div class="div7">限時特價</div>
+									</div>
+								<div class="salestag-timeframe">
+									<div class="salestag-timeframe2">
+										<div class="salestag-time-num">
+										<div class="hour1" id="hour1">0</div>
+										</div>
+										<div class="salestag-time-num">
+										<div class="hour2" id="hour2">0</div>
+										</div>
+										<div class="salestag-time-colon">
+										<div class="colon">:</div>
+										</div>
+										<div class="salestag-time-num">
+										<div class="minute1" id="minute1">0</div>
+										</div>
+										<div class="salestag-time-num">
+										<div class="minute2" id="minute2">0</div>
+										</div>
+										<div class="salestag-time-colon">
+										<div class="colon">:</div>
+										</div>
+										<div class="salestag-time-num">
+										<div class="second1" id="second1">0</div>
+										</div>
+										<div class="salestag-time-num">
+										<div class="second2" id="second2">0</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							<div class="rectangle-4">
+
+									<div class="onsale-products">
+									<div class="card-product">
+										<div class="card-list">
+										<div class="mask-group">
+											<a href="#" class="favorite-link">
+												<i class="fas fa-heart"></i>
+												<span class="material-symbols-outlined">favorite</span>
+											</a>
+											<picture>
+												<source srcset="img/mbcard/beefnoodle-card .png" media="(max-width: 621px)">
+												<img src="img/card/beefnoodle-card .png" alt="紅燒牛肉麵">
+											  </picture>
+										</div>
+										<div class="productname-small">
+											<div class="card-title">【即饗】經典紅燒牛肉麵(580g/包)</div>
+										</div>
+										<div class="priceandbuybtn">
+											<div class="price-small">
+												<div class="price-small-onsale-normal">NT$300</div>
+												<div class="price-small-onsale">NT$199</div>
+											</div>
+											<a href="product-list-ricenoodle-beefnoodle-intro.html" class="btn-product-addcart"><h1 class="btn-product-addcart-a">立即購買</h1></a>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-list">
+										<div class="mask-group">
+											<a href="#" class="favorite-link">
+												<i class="fas fa-heart"></i>
+												<span class="material-symbols-outlined">favorite</span>
+											</a>
+											<picture>
+												<source srcset="" media="(max-width: 621px)">
+												<img src="img/card/beeffriedricenoodle-card .png" alt="越式牛肉河粉">
+											  </picture>
+										</div>
+										<div class="productname-small">
+											<div class="card-title">【即饗】越式牛肉河粉(300g/包)</div>
+										</div>
+										<div class="priceandbuybtn">
+											<div class="price-small">
+												<div class="price-small-onsale-normal">NT$150</div>
+												<div class="price-small-onsale">NT$99</div>
+											</div>
+											<a href="#" class="btn-product-addcart"><h1 class="btn-product-addcart-a">立即購買</h1></a>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-list">
+										<div class="mask-group">
+											<a href="#" class="favorite-link">
+												<i class="fas fa-heart"></i>
+												<span class="material-symbols-outlined">favorite</span>
+											</a>
+											<picture>
+												<source srcset="" media="(max-width: 621px)">
+												<img src="img/card/beefblackcurry-card .png" alt="">
+											  </picture>
+										</div>
+										<div class="productname-small">
+											<div class="card-title">【即饗】牛肉黑咖哩醬包(180g/包)</div>
+										</div>
+										<div class="priceandbuybtn">
+											<div class="price-small">
+												<div class="price-small-onsale-normal">NT$280</div>
+												<div class="price-small-onsale">NT$199</div>
+											</div>
+											<a href="#" class="btn-product-addcart"><h1 class="btn-product-addcart-a">立即購買</h1></a>
+											</div>
+										</div>
+									</div>
+									</div>
+							</div>
+
+						</div>
+					</div>
+				<!-- hotsale -->
+				<div class="index-container">
+					<div class="index-box2">
+						<div class="hotsale-ranking">
+						<div class="subtitle2">熱銷排行</div>
+						<div class="hotsale-ranking-frame"></div>
+						<div class="hotsale-ranking-products">
+							<div class="hotsale-ranking-frame"></div>
+							<div class="hotsale-ranking-products-1">
+							<div class="no-1">NO.1</div>
+							<div class="card-product">
+								<div class="card-list">
+								<div class="mask-group">
+									<a href="#" class="favorite-link">
+										<i class="fas fa-heart"></i>
+										<span class="material-symbols-outlined">favorite</span>
+									</a>
+									<picture>
+										<source srcset="" media="(max-width: 621px)">
+										<img src="img/card/bao-card.png" alt="">
+									  </picture>
+								</div>
+								<div class="productname-small">
+									<div class="card-title">
+									【即饗】極享鮮肉包(100g/顆)(10入/袋)
+									</div>
+								</div>
+								<div class="priceandbuybtn">
+									<div class="price-small">
+										<div class="price-small-onsale-normal-hide">NT$200</div>
+										<div class="price-small-normalprice">NT$149</div>
+									</div>
+									<a href="#" class="btn-product-addcart"><h1 class="btn-product-addcart-a">立即購買</h1></a>
+								</div>
+								</div>
+							</div>
+							</div>
+							<div class="hotsale-ranking-products-2">
+							<div class="no-2">NO.2</div>
+							<div class="card-product">
+								<div class="card-list">
+								<div class="mask-group">
+									<a href="#" class="favorite-link">
+										<i class="fas fa-heart"></i>
+										<span class="material-symbols-outlined">favorite</span>
+									</a>
+									<picture>
+										<source srcset="" media="(max-width: 621px)">
+										<img src="img/card/redcurry-card.png" alt="">
+									  </picture>
+								</div>
+								<div class="productname-small">
+									<div class="card-title">【即饗】義式紅咖哩醬包(150g/包)</div>
+								</div>
+								<div class="priceandbuybtn">
+									<div class="price-small">
+										<div class="price-small-onsale-normal-hide">NT$180</div>
+										<div class="price-small-normalprice">NT$109</div>
+									</div>
+									<a href="#" class="btn-product-addcart"><h1 class="btn-product-addcart-a">立即購買</h1></a>
+								</div>
+								</div>
+							</div>
+							</div>
+							<div class="hotsale-ranking-products-3">
+							<div class="no-3">NO.3</div>
+							<div class="card-product">
+								<div class="card-list">
+								<div class="mask-group">
+									<a href="#" class="favorite-link">
+										<i class="fas fa-heart"></i>
+										<span class="material-symbols-outlined">favorite</span>
+									</a>
+									<picture>
+										<source srcset="" media="(max-width: 621px)">
+										<img src="img/card/eelrice-card.png" alt="">
+									  </picture>
+								</div>
+								<div class="productname-small">
+									<div class="card-title">【即饗】經典蒲燒鰻魚飯(390g/包)</div>
+								</div>
+								<div class="priceandbuybtn">
+									<div class="price-small">
+										<div class="price-small-onsale-normal-hide">NT$300</div>
+										<div class="price-small-normalprice">NT$199</div>
+									</div>
+									<a href="#" class="btn-product-addcart"><h1 class="btn-product-addcart-a">立即購買</h1></a>
+								</div>
+								</div>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+								<!-- tagline -->
+								<div class="index-container">
+									<div class="tagline">
+										<div class="tagline2">
+										<div class="subtitle">品牌理念</div>
+										<div class="group-24">
+											<img class="tagline-pic-1" src="img/tagline-pic.png" />
+											<div class="tagline-a">
+											<div class="tagline-title">
+												<div class="tagline-title2">
+												<div class="tagline-title-left">
+													<div class="tagline-title-1">
+													<div class="tagline-title-big">即<br /><br /></div>
+													<div class="tagline-title-small">刻品嚐</div>
+													</div>
+													<div class="tagline-title-3">
+													<div class="tagline-title-big">好</div>
+													<div class="tagline-title-small">食如初</div>
+													</div>
+												</div>
+												<div class="tagline-title-right">
+													<div class="tagline-title-2">
+													<div class="tagline-title-big">饗</div>
+													<div class="tagline-title-small2">用美食</div>
+													</div>
+													<div class="tagline-title-4">
+													<div class="tagline-title-big">味</div>
+													<div class="tagline-title-small2">道人生</div>
+													</div>
+												</div>
+												</div>
+											</div>
+											<a href ="#" class="pc-btn-viewmore-brown"><h1 class="pc-btn-viewmore-brown-a"></h1>查看更多</a>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+				<!-- esg -->
+				<div class="index-container">
+					<div class="index-box-4"></div>
+					<div class="esg">
+						<div class="esg-content">
+							<div class="content">
+								<div class="subtitle-esg">綠色購物計畫</div>
+								<div class="esg2">
+								因應ESG永續環保，本店採用綠色物流進行配送。選擇最適合的包材，減少物流運送時空間的浪費，提升效率的同時亦減少碳足跡。
+								<br />
+								</div>
+								<div class="customer-quote">
+								氣候變遷議題日漸重要，即響好味團隊致力降低商業活動對環境的負面衝擊，加強資源及廢棄物管理、綠色產品開發、綠色物流與包裝...
+								</div>
+								<a href ="product-list-esg.html" class="pc-btn-viewmore-green"><h1 class="pc-btn-viewmore-green-a"></h1>查看更多</a>
+							</div>
+							</div>
+						<img class="tree-1" src="img/tree.png" />
+
+						</div>
+					</div>
+				</div>
+	</div>
+				<!-- chatbot -->
+				<div id="chat-icon" class="fas"><svg
+					class="chatbot-default"
+					width="104"
+					height="104"
+					viewBox="0 0 104 104"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+					>
+					<g filter="url(#filter0_d_1215_9521)">
+						<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M99.9774 50.1106C99.9691 50.1194 99.9543 50.1131 99.9548 50.101C99.9848 49.4044 100 48.704 100 48C100 21.4903 78.5097 0 52 0C25.4903 0 4 21.4903 4 48C4 74.5097 25.4903 96 52 96C53.4049 96 54.7957 95.9396 56.17 95.8214C56.2186 95.8172 56.2466 95.8754 56.2129 95.9107C56.1808 95.9443 56.2046 96 56.2511 96H96C98.2091 96 100 94.2091 100 92V50.1197C100 50.1078 99.9856 50.1021 99.9774 50.1106Z"
+						fill="url(#paint0_linear_1215_9521)"
+						/>
+						<circle cx="29.0435" cy="47.9992" r="6.26087" fill="white" />
+						<circle cx="52" cy="47.9992" r="6.26087" fill="white" />
+						<circle cx="74.9565" cy="47.9992" r="6.26087" fill="white" />
+					</g>
+					<defs>
+						<filter
+						id="filter0_d_1215_9521"
+						x="0"
+						y="0"
+						width="104"
+						height="104"
+						filterUnits="userSpaceOnUse"
+						color-interpolation-filters="sRGB"
+						>
+						<feFlood flood-opacity="0" result="BackgroundImageFix" />
+						<feColorMatrix
+							in="SourceAlpha"
+							type="matrix"
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+							result="hardAlpha"
+						/>
+						<feOffset dy="4" />
+						<feGaussianBlur stdDeviation="2" />
+						<feComposite in2="hardAlpha" operator="out" />
+						<feColorMatrix
+							type="matrix"
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+						/>
+						<feBlend
+							mode="normal"
+							in2="BackgroundImageFix"
+							result="effect1_dropShadow_1215_9521"
+						/>
+						<feBlend
+							mode="normal"
+							in="SourceGraphic"
+							in2="effect1_dropShadow_1215_9521"
+							result="shape"
+						/>
+						</filter>
+						<linearGradient
+						id="paint0_linear_1215_9521"
+						x1="100"
+						y1="96"
+						x2="52"
+						y2="-6.4373e-06"
+						gradientUnits="userSpaceOnUse"
+						>
+						<stop stop-color="#D0B163" />
+						<stop offset="1" stop-color="#F5D76E" />
+						</linearGradient>
+					</defs>
+					</svg>
+				</div>
+
+				<div id="chat-window">
+					<div id="chat-header">
+					<a href="#" id="chat-close"><span>&times;</span></a>
+					<div id="chat-title">Hello</div>
+					<div id="chat-subtitle">歡迎來到即饗好味！您的意見我們非常重視。</div>
+					</div>
+					<div id="chat-leave">
+					<div id="chat-title-2">現為下班時間，如有任何問題歡迎留言，我們將於上班時間盡快為您服務。</div>
+					<div id="chat-subtitle-2">真人客服服務時間：</div>
+					<div id="chat-h1">週一至週六</div>
+					<div id="chat-h1">早上8:00-下午5:00</div>
+					</div>
+					<div id="chat-social">
+					<div class="social-link" h1>
+						<a href="#" class="chat-social-fb"><img src="img/social/Social-facebook.png" alt="Facebook"></a>
+						<a href="#" class="chat-social-line"><img src="img/social/Social-line.png" alt="Line"></a>
+					</div>
+					<div id="chat-body">
+					</div>
+					<div id="chat-footer">
+					<input type="text" id="message-input" placeholder="請於此輸入...">
+					<button id="send-button">送出</button>
+					</div>
+					</div>
+				</div>
+	</div>
+
+				
+</div>
+	<!--Wrapper end-->
+
+
+<!-- Footer -->
+<!-- <div id="footerContainer"></div> -->
+<!-- Header -->
+<!-- <div id="headerContainer"></div> -->
+		
+<script src="./js/script-product-index.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</body>
+</html>
