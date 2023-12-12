@@ -1,0 +1,162 @@
+@media screen and (max-width:1280px){
+    .hole_page{
+        width: 100%;
+        
+      }
+      
+    .bread{
+        left: 104px;
+        font-size: 18px;
+        
+    }
+    
+    
+    .selector{
+        width: 154px;
+        left: 104px;
+        font-size: 20px;
+    
+    }
+    
+    
+    
+    .middleContainer{
+        width: 100%;
+     
+    }
+    
+    .section1 h1 {
+        left: 400px;
+        text-align: center;
+       
+    }
+    
+   
+    .section2{
+        width: 694px;
+        left: 420px;
+    }
+    
+   
+    .outside{
+        width: 664px;
+        
+    }
+    
+}
+
+@media screen and (max-width:820px){
+
+    .hole_page{
+        width: 100%;
+      }
+
+    .selector{
+        display: none;
+    }
+    
+    .bread{
+        display: none;
+       
+    }
+
+
+    .section1 h1 {
+        font-size: 24px; 
+        left: 60px;
+     
+    }
+
+    
+    .section2{
+        width: 694px;
+        left: 60px;
+    }
+
+
+}
+
+@media screen and (max-width:430px){
+    .hole_page{
+        width: 100%;
+      
+      }
+    
+     
+     .middleContainer{
+        width: 100%;
+    
+    }
+
+    .section1 h1 {
+        border-left: none;
+        width: 430px;
+        font-size: 24px; 
+        left: 0;
+        top: 160px;
+        padding:0;
+    }
+
+   
+    .section2{
+        width: 90%;
+        height: 450px;
+        left: 0;
+        top: 250px;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 21.5px;
+    }
+
+    
+    .outside{
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        left: 0;
+        top: 0;
+        display: grid;
+        grid-template-columns: none;
+       
+    }
+    
+    .middle_area{
+        position: relative;
+        width: 100%;
+        height: 100%;
+}
+       
+
+    .middle_area h3:nth-of-type(1){
+    font-size: 18px;
+    position: absolute;
+    width: 80%;
+    /* left: 125px; */
+    /* top: 46px; */
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    right: 0;
+    padding-top: 20px;
+  }
+    
+  .middle_area h3:nth-of-type(2){
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    padding-top:80px;
+  }
+
+   
+    .middle_area .bt3{
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+      }
+}
