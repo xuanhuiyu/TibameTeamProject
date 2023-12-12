@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./information_updated.css">
+    <link rel="stylesheet" href="./my_information_rwd.css">
+    <title>Information_updated</title>
+</head>
+<body>
+   
+    <div id="headerContainer"></div>
+    <div class="hole_page">
+ 
+        <section class="bread">
+            <span>首頁</span>
+            <i class="bi bi-chevron-right"></i>
+            <span>會員中心</span>
+            <i class="bi bi-chevron-right"></i>
+            <span>更新個人資訊</span>
+        </section>
+
+        <nav class="main_nav">           
+            <div class="selector">
+                <img src="./nav_logo/logo.svg" alt="">
+                <ul>
+                    <li><a href="./my_member.html">我的帳戶</a></li>
+                    <li><a href="./information_updated.html">更新個人資訊</a></li>
+                    <li><a href="./revise password.html">更新密碼</a></li>
+                    <li><a href="./my_address.html">收件地址管理</a></li>
+                    <li><a href="./my_points.html">我的會員點數</a></li>
+                    <li><a href="#">我的優惠券</a></li>
+                    <li><a href="#">會員權益說明</a></li>
+                    <li><a href="#">訂單紀錄</a></li>
+                    <li><a href="#">收藏清單</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="middleContainer">
+
+            <div class="section1">
+                <h1>更新個人資訊</h1>
+            </div>
+
+                <div class="section2">
+                    <div class="outside">                      
+                        <div class="middle_area">
+                            <h2>更新個人資訊</h2>
+                            <form>
+                                <div class="user-box1">
+                                    <input type="text" name="" required="">
+                                    <label>姓名</label>
+                                </div>
+                                <div class="user-box1">
+                                    <input type="text" name="" required="">
+                                    <label>電子信箱</label>
+                                </div>
+                                <div class="user-box1">
+                                    <input type="text" name="" required="">
+                                    <label>電話</label>
+                                </div>
+                                <div class="user-box1">
+                                    <input type="date" name="" required="">
+                                    <label>生日</label>
+                                </div>
+                            </form>
+
+                            <div class="radio_">
+                                <p>性別</p>
+                                <label class="btn active">
+                                     <input type="radio" name='gender1' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>男生</span>
+                                </label>
+                                <label class="btn">
+                                    <input type="radio" name='gender1'><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> 女生</span>
+                                </label>
+                            </div>
+
+                            <div class="checkbox_">
+                                <div class="subscibe_us">
+                                    <div class="text_">
+                                        <p>訂閱電子報</p>
+                                        <p>訂閱商品/活動訊息,我們將不定期透過email通知最新商品活動及優惠訊息。</p>
+                                    </div>
+                                    <input type="checkbox" id="subscribe1">
+                                    <label for="subscribe1"></label>   
+                                </div>  
+                            </div>
+                            <button type="button" class="add_info">更新資訊</button>
+                        </div>                   
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="completed_">
+        <div class="completed_area">
+            <div class="completed_content">
+                <i class="bi bi-check-circle-fill"></i>
+                <p>更新個人資料完成</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="footerContainer"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./information_updated.js"></script>
+</body>
+</html>
