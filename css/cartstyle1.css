@@ -69,7 +69,7 @@ body{
     box-sizing: border-box;
 }
 
-li{
+.cart li{
     list-style:none;
 }
 

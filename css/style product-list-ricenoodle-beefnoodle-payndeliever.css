@@ -24,6 +24,7 @@ body{
 
 .wrapper{
 	width: 100%;
+  max-width: 1920px;
 	background-color: #fff;
 	margin: 0 auto;
 	padding-bottom: 50px;
@@ -376,7 +377,7 @@ body{
 }
 .product-list {
   background: #ffffff;
-  width: 1920px;
+  width: 100%;
   height: 3628px;
   position: relative;
  
@@ -888,8 +889,26 @@ body{
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  left: 360px;
+  left: 43%;
+  right: 40%;
   top: 1367px;
+}
+.product-list .card-product div.card-list div.mask-group span {
+  /* position: absolute; */
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: #fff;
+  top: 15px;
+  right: 15px;
 }
 .beefnoodle-product-introword {
   display: flex;
@@ -1015,7 +1034,8 @@ body{
   align-items: flex-start;
   /* justify-content: flex-start; */
   position: absolute;
-  left: 360px;
+  left: 20%;
+  right: 20%;
   top: 361px;
 }
 .productlist-ricenoodle-beefnoodle {
@@ -1554,6 +1574,7 @@ body{
   height: 0px;
   position: absolute;
   top: 1047px;
+  left: calc(50% - 800px);
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
@@ -1564,7 +1585,7 @@ body{
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  left: calc(50% - 548px);
+  left: calc(50% - 500px);
   top: 1119px;
 }
 
@@ -1714,3 +1735,4 @@ body{
   font-size: 20px;
   color: #393939;
 }
+#message-input::placeholder{font-size: 20px;}

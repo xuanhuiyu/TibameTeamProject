@@ -668,7 +668,7 @@ border-radius: 50%;
   width: 56.15%;
   bottom: 59.47%;
   top: 56%;
-  z-index: 1;
+  /* z-index: 1; */
 
 }
 .card-product {
@@ -1427,3 +1427,4 @@ border-radius: 50%;
   font-size: 20px;
   color: #393939;
 }
+#message-input::placeholder{font-size: 20px;}

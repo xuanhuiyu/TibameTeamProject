@@ -11,7 +11,7 @@
         align-items: center;
     }
     .line-55{width: 1200px;  left: calc(50% - 624px);}
-    .beefnoodle-product-intro{left: 148px;}
+
     .product-list{width: 100%;}
     .productlist-ricenoodle-beefnoodle{position: unset;}
 
@@ -65,7 +65,7 @@
     .introproducts{
         gap: 40px;
         padding: 0px 80px 0px 80px;
-        width: 760px;
+        width: 620px;
     }
     .beefnoodle-product-intro{
         position: relative;

@@ -8,6 +8,6 @@ $(document).ready(function() {
 
 
 $('.bt1').click(function(){
-    window.location.href = ''; 
+    window.location.href = './product-index.html'; 
 })
 
