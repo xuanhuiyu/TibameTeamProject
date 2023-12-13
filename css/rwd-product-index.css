@@ -181,7 +181,7 @@
     }
     
     .logo-top{
-        padding-top: 4px;
+        padding-top: 32px;
     }
     .logo-pic {
         transform: scale(0.8);
@@ -294,7 +294,7 @@
 
 }
 @media screen and (max-width: 756px) {
-    .onsaletime-frame{top: 910px;}
+    .onsaletime-frame{top: 931px;}
     .rectangle-4{
         /* margin-top: 136px; */
     }
@@ -352,8 +352,9 @@
     .productlist-index{padding-top: 48px;height: 480px;}
 
     .logo-top{
-        padding-top: 0px;
+        padding-top: 14px;
         height: 170px;
+        margin-bottom: 4px;
     }
     .logo-pic {
         transform: scale(0.6); /* 缩小到60% */
@@ -440,6 +441,8 @@
         padding: 4px;
         box-shadow: 4px 6px 4px 0px rgba(255, 194, 103, 0.25), inset 4px 4px 4px 0px rgba(255, 230, 199, 0.25);
     }
+    
+    .salestag-time-num {height: 32px;margin-top: 6px;}
     .salestag-timeframe{
         padding: 4.5px 4px;}
     .card-list {gap: 4px;}
@@ -498,7 +501,7 @@
     .hotsale-ranking-products{width: 327px;}
     .onsale-products .card-product div.card-list div.mask-group a.favorite-link.active::before{
         top: 20px;
-        left: 290px;
+        left: 289px;
         width: 11px;
         height: 20px;
     }
@@ -519,7 +522,9 @@
         left: 275px;
         width: 14px;
         height: 22px;
+        
     }
+
 
 }
 

@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $("#headerContainer").load("./header.html");
+    // header
+    $('.header-frame').load('header.html');
     $("#footerContainer").load("./footer.html");
     
     const chatIcon = document.getElementById('chat-icon');
@@ -44,15 +45,12 @@ $(document).ready(function() {
     
   });
     function updateCountdown() {
-      // 當前ㄉ時間
       const now = new Date().getTime();
-    
-      // 截止的時間
-      const deadline = new Date('2023-12-13T23:00:00').getTime();
-  
-      // 計算剩餘時間
+
+      const deadline = new Date('2023-12-15T23:00:00').getTime();
+
       const timeLeft = deadline - now;  
-      // 剩餘時間轉成時分秒
+
       const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);

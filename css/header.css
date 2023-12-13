@@ -108,8 +108,9 @@ header.header div.header_list div.header_nav_list ul.header_nav_list_right > li:
     vertical-align: top;
 } */
 body{
-  font-family:Roboto, sans-serif;
+  /* font-family:Roboto, sans-serif; */
   font-size: 18px;
+  color: #613C11;
 }
 
 header.header {
@@ -427,7 +428,7 @@ header.header .material-symbols-outlined {
     padding: 10px 50px;
     box-sizing: border-box;
     margin: 0 auto;
-  
+    color: #613C11;
 }
 
 .bi.bi-x{
@@ -522,11 +523,12 @@ form{
 }
   
 
-h1{
+.login_main h1{
     margin-top: 16px;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+    color: #613C11;
 }
 
 span.title_line{
@@ -694,7 +696,7 @@ input[id="remember_"] + label {
   font-size: 14px;
 }
 
-h2{
+.login_main h2{
   margin-top: 16px;
   text-align: center;
   font-size: 15px;
@@ -1262,7 +1264,7 @@ img.login_logo{
   margin: 0 auto;
 }
 
-h1{
+.register_page h1{
   margin-top: 16px;
   text-align: center;
   font-size: 20px;
@@ -1562,7 +1564,7 @@ margin-top: 10px;
 }
 
 /* 快速登入 */
-h2{
+.quick_login{
 margin: 16px auto;
 text-align: center;
 font-size: 15px;
