@@ -61,6 +61,7 @@ body{
   text-indent: 8px;
   overflow: hidden; 
   font-size: 20px;
+  font-weight: normal;
 }
 
 
@@ -147,6 +148,7 @@ body{
   font-size: 20px;
   font-weight: bold;
   margin-top: 70px;
+  text-align: center;
 }
 
 .middle_area form{
