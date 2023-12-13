@@ -352,8 +352,9 @@
     .productlist-index{padding-top: 48px;height: 480px;}
 
     .logo-top{
-        padding-top: 0px;
+        padding-top: 14px;
         height: 170px;
+        margin-bottom: 4px;
     }
     .logo-pic {
         transform: scale(0.6); /* 缩小到60% */
