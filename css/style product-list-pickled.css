@@ -613,7 +613,7 @@ body{
   color: #393939;
 }
 
-
+#message-input::placeholder{font-size: 20px;}
 
 
 
