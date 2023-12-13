@@ -11,7 +11,7 @@ $(function(){
     });
 
     $('.menu_mask').click(function(){
-        $(this).removeAttr('style');
+        $(this).removeClass('open');
         $('.menu_popup').removeClass('open');
         $('.sel_list').removeClass('open');
     });
