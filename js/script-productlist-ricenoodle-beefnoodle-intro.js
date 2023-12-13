@@ -73,7 +73,7 @@ $(document).ready(function() {
   
   $(function() {
     $(document).ready(function() {
-      $("#headerContainer").load("./header.html");
+      $('.header-frame').load('header.html');
       $("#footerContainer").load("./footer.html");
     })
   
