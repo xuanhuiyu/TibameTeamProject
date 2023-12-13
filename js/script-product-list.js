@@ -1,7 +1,7 @@
 $(function() {
     $(document).ready(function() {
       $('.header-frame').load('header.html');
-      $("#footerContainer").load("./footer.html");
+      $("#footer-frame").load("./footer.html");
     });
   
   

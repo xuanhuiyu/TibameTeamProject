@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // header
     $('.header-frame').load('header.html');
-    $("#footerContainer").load("./footer.html");
+    $("#footer-frame").load("./footer.html");
     
     const chatIcon = document.getElementById('chat-icon');
     const chatWindow = document.getElementById('chat-window');
