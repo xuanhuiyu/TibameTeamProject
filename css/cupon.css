@@ -52,6 +52,7 @@ main {
 
 .breadcrumb li a {
     color: #828282;
+    text-decoration: none;
 }
 
 .breadcrumb li a:hover {
@@ -84,13 +85,13 @@ main {
     background-color: rgba(207, 173, 132, 0.30);
 }
 
-section {
+.saveright {
     width: 66%;
     margin-left: 80px;
     flex-grow: 1;
 }
 
-section h2 {
+.saveright h2 {
     font-size: 32px;
     font-weight: 600;
     letter-spacing: 4px;
@@ -99,13 +100,13 @@ section h2 {
     border-left: 16px solid #613C11;
 }
 
-section ul {
+.saveright ul {
     display: flex;
     width: 1100px;
     flex-wrap: wrap;
 }
 
-section li {
+.saveright li {
     width: 480px;
     height: 179px;
     background-image: url(../img/cupon1.png);
@@ -114,23 +115,23 @@ section li {
     margin: 24px 12px;
 }
 
-section li:nth-child(2) {
+.saveright li:nth-child(2) {
     background-image: url(../img/cupon2.png);
 }
 
-section li:nth-child(3) {
+.saveright li:nth-child(3) {
     background-image: url(../img/cupon3.png);
 }
 
-section li:last-child {
+.saveright li:last-child {
     background-image: url(../img/cupon4.png);
 }
 
-section ul li {
+.saveright ul li {
     position: relative;
 }
 
-section li a {
+.saveright li a {
     text-decoration: none;
     color: #FFF;
     font-size: 16px;
@@ -144,7 +145,30 @@ section li a {
     bottom: 70px;
 }
 
-section li a:hover {
+.saveright li a:hover {
     background: #EAC18E;
     box-shadow: 0px 4px 4px 0px rgba(181, 129, 43, 0.16);
+}
+
+
+@media screen and (max-width:820px) {
+
+    .guide nav,
+    .breadcrumb {
+        display: none;
+    }
+
+    .saveright {
+        margin-left: 0;
+    }
+
+    .container {
+        margin-bottom: 60px;
+    }
+
+    .container h2 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
 }

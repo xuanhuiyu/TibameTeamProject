@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cartstyle2.css">
+    <link rel="stylesheet" href="css/cartRWD2.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Payment</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header-frame"></div>
+    
+    <!-- Contain -->
+    <div class="cart">
+        <!--Title -->
+        <span class="cartTitle1">結帳</span>
+        <div class="cartContainer">
+            <div class="cartLeft">
+
+                <!-- 運送 -->
+                <section class="card Left1">
+                    <span class="cartTitle2">運送方式</span>
+                    <ul>
+                        <li>
+                            <input type="radio" id="radio1" name="options">
+                            <label for="radio1">
+                                <span>超商取貨</span>
+                                <span>NT$150</span>
+                            </label>
+                        </li>
+                        <li class="Delivery">
+                            <input type="radio" id="radio2" name="options">
+                            <label for="radio2">
+                                <span>宅配</span>
+                                <span>NT$200</span>
+                            </label>
+                        </li>
+                        <li class="cartAddress">
+                            <span class="cartAddressUp">
+                                <input type="text" placeholder="姓名">
+                                <input type="text" placeholder="手機">
+                            </span>
+                            <span>
+                                <span class="cartAddressDown">
+                                    <input type="text" placeholder="縣市">
+                                    <input type="text" placeholder="地區/鄉鎮">
+                                </span>
+                                <input type="text" placeholder="地址">
+                            </span> 
+                            <span><input type="checkbox" id="checkbox5" name="check1"><label for="checkbox5">設為常用地址</label></span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 付款 -->
+                <section class="card Left2">
+                    <span class="cartTitle2">付款方式</span>
+                    <ul>
+                        <li class="cartCredit1">
+                            <input type="radio" id="radio3" name="optionsPay">
+                            <label for="radio3">
+                                <span>信用卡一次付清</span>
+                                <span><img src="img/Cartimg/paymentlogo.svg" alt=""></span>
+                            </label>
+                        </li>
+                        <li id='cartCreditcard1' class="cartCreditcard">
+                            <span>
+                                <input type="text" placeholder="卡號">
+                                <input type="text" placeholder="月份/年份">
+                                <input type="text" placeholder="末三碼">
+                            </span>
+                            <span><input type="checkbox" id="checkbox1" name="check"><label for="checkbox1">下次繼續用這張卡</label></span>
+                            <span>本公司將依您提供資料向銀行及持卡人照會並保留出貨權益，如冒用他人信用卡及個資，經查獲必移送法辦。</span>
+                        </li>
+                        <li class="cartCredit2">
+                            <input type="radio" id="radio4" name="optionsPay">
+                            <label for="radio4">
+                                <span>信用卡分期</span>
+                                <span><img src="img/Cartimg/paymentlogo.svg" alt=""></span>
+                            </label>
+                        </li>
+                        <li  id='cartCreditcard2' class="cartCreditcard">
+                            <span>
+                                <input type="text" placeholder="卡號">
+                                <input type="text" placeholder="月份/年份">
+                                <input type="text" placeholder="末三碼">
+                            </span>
+                            <span><input type="checkbox" id="checkbox2" name="check"><label for="checkbox2">下次繼續用這張卡</label></span>
+                            <span>本公司將依您提供資料向銀行及持卡人照會並保留出貨權益，如冒用他人信用卡及個資，經查獲必移送法辦。</span>
+                        </li>
+                        <li class="cartCredit3">
+                            <input type="radio" id="radio5" name="optionsPay">
+                            <label for="radio5">
+                                <span><img src="img/Cartimg/LINE-Pay(h)_W85_n.png" alt=""></span>
+                            </label>
+                        </li>
+                        <li class="cartCredit4">
+                            <input type="radio" id="radio6" name="optionsPay">
+                            <label for="radio6">
+                                <span>ATM付款</span>
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 發票 -->
+                <section class="card Left3">
+                    <span class="cartTitle2">發票類型</span>
+                    <ul>
+                        <li class='cartInvoice1'>
+                            <input type="radio" id="radio7" name="optionsInvoice">
+                            <label for="radio7">
+                                <span>手機載具</span>
+                            </label>
+                        </li>
+                        <li id='cartInvoice1' class="cartInvoice">
+                            <span>
+                                <input type="text" placeholder="請輸入’/’後7碼">
+                            </span>
+                            <span><input type="checkbox" id="checkbox3" name="check"><label for="checkbox3">設為常用載具</label></span>
+                        </li>
+                        <li class='cartInvoice2'>
+                            <input type="radio" id="radio8" name="optionsInvoice">
+                            <label for="radio8">
+                                <span>自然人憑證</span>
+                            </label>
+                        </li>
+                        <li id='cartInvoice2' class="cartInvoice">
+                            <span>
+                                <input type="text" placeholder="請輸入2個英文字母及14個數字">
+                            </span>
+                            <span><input type="checkbox" id="checkbox4" name="check"><label for="checkbox4">設為常用載具</label></span>
+                        </li>
+                        <li id='cartInvoice3'>
+                            <input type="radio" id="radio9" name="optionsInvoice">
+                            <label for="radio9">
+                                <span>公司統編</span>
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+
+            </div>
+            <div class="cartRight">
+                <!-- 付款明細 -->
+                <section class="card Right1">
+                    <span class="cartTitle2">付款明細</span>
+                    <ul>
+                        <li>
+                            <p>商品金額</p>
+                            <p>NT$ 875</p>
+                        </li>
+                        <li>
+                            <p>優惠折抵</p>
+                            <p>NT$ -88</p>
+                        </li>
+                        <li>
+                            <p>點數折抵</p>
+                            <p>-</p>
+                        </li>
+                        <li>
+                            <p>運送費用</p>
+                            <p class="addDelivery">-</p>
+                        </li>
+                        <li>
+                            <span></span>
+                        </li>
+                        <li>
+                            <p>小計</p>
+                            <p class="addDelAmout">NT$ 787</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 商品資訊 -->
+                <section class="card Right2">
+                    <div class="cartDetail">
+                        <span class="cartTitle2">商品明細</span>
+                        <a><span class="material-symbols-outlined">
+                            expand_less
+                        </span></a>
+                    </div>
+                    <ul id="cartRightlist">
+                        <li class="cartRight2list">
+                            <img src="img/Cartimg/mobilepic/pic1.png" alt="紅燒牛肉麵">
+                            <div class="cartCard">
+                                <div class="cardUp">
+                                    <span>【即饗】紅燒牛肉麵(580g/包)</span>
+                                </div>
+                                <div>
+                                    <span>NT$ 199</span>
+                                    <span>X2</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cartRight2list">
+                            <img src="img/Cartimg/mobilepic/pic2.png" alt="鮮蝦蒸餃">
+                            <div class="cartCard">
+                                <div class="cardUp">
+                                    <span>【即饗】極享鮮蝦蒸餃(120g/包)(10入/袋)</span>
+                                </div>
+                                <div class="cardDown">
+                                    <span>NT$ 159</span>
+                                    <span>X3</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <!-- Address pop -->
+        <div class="cartMask">
+            <div class="cartAddresspop">
+                <div class="cartPopTitle">
+                    <h3>運送方式</h3>
+                    <a class="cartPopclose"><span class="material-symbols-outlined">close</span></a>
+                </div>
+                <div class="cartAddressList">
+                    <ul>
+                        <li>
+                            <input type="radio" id="radio10" name="options">
+                            <label for="radio10">
+                                <span>超商取貨</span>
+                                <span>NT$150</span>
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" id="radio11" name="options1">
+                            <label for="radio11">
+                                <span>宅配</span>
+                                <span>NT$200</span>
+                            </label>
+                        </li>
+                        <li class="addAddress">
+                            <span class="cartAddress1">
+                                <input type="text" placeholder="姓名">
+                                <input type="text" placeholder="手機">
+                            </span>
+                            <span class="cartAddress2">
+                                <input type="text" placeholder="縣市">
+                                <input type="text" placeholder="地區/鄉鎮">
+                                <input type="text" placeholder="地址">
+                            </span> 
+                        </li>
+                    </ul>
+                </div>
+                <a class="Addressbtn">確認</a>
+            </div>
+        </div>
+
+        <!-- Fix area -->
+        <div class="cart2Paynow">
+            <div>
+                <p>小計</p>
+                <P class="addDelAmout">NT$ 787</P>
+                <a href="cart3.html">立即結帳</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- footer -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/cartscript2.js"></script>
+</body>
+</html>

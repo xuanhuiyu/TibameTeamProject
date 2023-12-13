@@ -1,0 +1,398 @@
+@import url('reset.css');
+
+
+body{
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #613C11;
+  line-height: 1.6;
+  letter-spacing: 4%;
+  font-weight: bold;
+  z-index: -4;
+  background-color: #FFF8F1;
+}
+
+#headerContainer{
+  z-index: 1;
+}
+
+.hole_page{
+  position: relative;
+  height: 1526px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #613C11;
+  line-height: 1.6;
+  letter-spacing: 4%;
+  font-weight: bold;
+  z-index: -3;
+}
+
+.bread{
+  width: 387px;
+  height: 96px;
+  position: absolute;
+  left: 174px;
+  top: 224px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.selector{
+  width: 184px;
+  height: 564px;
+  position: absolute;
+  left: 174px;
+  top: 360px;
+}
+
+
+.selector li a{
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  text-decoration: none;
+  text-align: left;
+  border-bottom: 1px solid #613C11;
+  color: #613C11;
+  position: relative;
+  text-indent: 8px;
+  overflow: hidden; 
+  font-size: 20px;
+}
+
+
+.selector li a::after {
+  padding-right: 100px;
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 20px; 
+  height: 12px;
+  width: fit-content ;
+  background-color: rgba(207, 173, 132, 0.30);
+  transform: scaleX(0); 
+}
+
+.selector li a:hover::after {
+  transform: scaleX(1); 
+}
+
+
+.middleContainer{
+  width: 1920px;
+  height: 1002px;
+  position: relative;
+  z-index: -2; 
+}
+
+
+.section1 h1 {
+  border-left: 12px solid #613C11;
+  font-size: 24px; 
+  line-height: 1.6;
+  width: fit-content;
+  padding: 0 20px;
+  position: absolute;
+  top: 282px;
+  left: 578px;
+  
+  
+}
+
+
+.section2{
+    width: 724px;
+    height: 896px;
+    position: absolute;
+    left: 598px;
+    top: 395px;
+    border-radius: 20px;
+    border: #CFAD84 1px solid;
+    box-shadow: 4px 4px 4px 0px #d1bfaa;
+    background-color: #FFF;
+}
+  
+
+.outside{
+    width: 689px;
+    height: 856px;
+    border: 2px dashed #CFAD84;
+    border-radius: 20px;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 230px 459px ;
+    background-color: #FFF;
+}
+
+.middle_area{
+    position: relative;
+    width: 689px;
+    height: 100%;
+
+}
+
+.middle_area h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.middle_area form{
+  width: 300px;
+  margin: 60px auto 0px auto;
+}
+
+.user-box1 {
+  position: relative;
+  width: 100%;
+  margin-top: 16px;
+}
+
+
+input[type="date"]::-webkit-datetime-edit {
+  visibility: hidden;
+}
+
+.user-box1 input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #CFAD84;
+  border: none;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border-bottom: 1px solid #613C11;
+  outline: none;
+  background: transparent;
+}
+
+.user-box1 label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #613C11;
+  pointer-events: none;
+  transition: .5s;
+  
+}
+
+.user-box1 input:focus ~ label,
+.user-box1 input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #CFAD84;
+  font-size: 15px;
+}
+
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+/* radio-selector */
+/* https://codepen.io/BrianSassaman/pen/AMMGGm */
+
+.radio_{
+  width: 300px;
+  margin: 24px auto 0 auto;
+}
+.radio_ ul{
+  display: flex;
+}
+
+.radio_ p{
+  margin: 16px 0;
+}
+
+.btn.active{
+  margin-right: 16px;
+}
+
+i.fa.fa-dot-circle-o.fa-2x::before{
+  font-size: 28px !important;
+}
+i.fa.fa-circle-o.fa-2x::before{
+  font-size: 28px !important;
+}
+
+input[type="radio"] ~ i.fa.fa-circle-o{
+  color: #F1E7DB;    display: inline;
+}
+input[type="radio"] ~ i.fa.fa-dot-circle-o{
+  display: none;
+}
+input[type="radio"]:checked ~ i.fa.fa-circle-o{
+  display: none;
+}
+input[type="radio"]:checked ~ i.fa.fa-dot-circle-o{
+  color:#CFAD84;    display: inline;
+}
+span:hover input[type="radio"] ~ i.fa {
+color: #CFAD84;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+
+
+.checkbox_{
+  width: 300px;
+  margin: 36px auto 0 auto;
+
+}
+
+
+.text_{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.text_ p{
+  /* position: absolute;
+  left: 226px;
+  top: 569px; */
+  font-size: 16px;
+
+}
+
+.text_ p:nth-child(2){
+  /* position: absolute; */
+  width: 280px;
+  /* left: 227px;
+  top: 599px; */
+  font-size: 14px;
+}
+
+
+
+input[id="subscribe1"] + label {
+  position: absolute;
+  bottom: 250px;
+  margin: 8px 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #CFAD84;
+  border-radius: 4px;
+  /* cursor: pointer; */
+}
+
+input[id="subscribe1"]:checked + label:after {
+  position: relative;
+  top: -4px;
+  left: 2px;
+  content: '\2714';
+  font-size: 16px;
+}
+
+input[id="subscribe1"] {
+  display: none;
+}
+
+.add_info{
+  width: 140px;
+  height: 48px;
+  background-color: #CFAD84;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  position: absolute;
+  left: 270px;
+  top: 696px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
+}
+
+.completed_{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.completed_area{
+    width: 500px ;
+    height: 94px;
+    background-color: #fff;
+    border: #CFAD84 3px solid ;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.completed_content{
+  width: 470px ;
+    height: 63px;
+    background-color: #fff;
+    border: #CFAD84 3px dashed ;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-areas: 'icon text text text';
+    grid-gap: 30px;
+    
+}
+
+.bi.bi-check-circle-fill{
+    color: green;
+    font-size: xx-large;
+    grid-area: icon;
+    margin: auto 0 auto 120px;
+}
+
+.completed_content p{
+  grid-area: text;
+  font-size: 16px;
+  margin: 0 auto;
+  height: 53.67px;
+  line-height: 53.67px;
+  margin-left: 0;
+  grid-column: 2/5;
+  color: #613C11;
+}
+/* #footContainer{
+  z-index: 1;
+} */

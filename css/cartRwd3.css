@@ -43,6 +43,12 @@
     } */
 }
 
+@media screen and (max-width:820px) {
+    .cartTitle1{
+        margin-top: 78px;
+    }
+}
+
 @media screen and (max-width:531px){
     .cartContainer{
         margin: 0 20px;
