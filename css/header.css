@@ -204,7 +204,7 @@ header.header .material-symbols-outlined {
 @media screen and (max-width: 820px) {
 
   header.header {
-      background-color: #fff;
+      /* background-color: #fff; */
       height: 52px;
       margin: 0;
   }
