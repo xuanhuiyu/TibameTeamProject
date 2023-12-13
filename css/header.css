@@ -108,6 +108,7 @@ header.header div.header_list div.header_nav_list ul.header_nav_list_right > li:
     vertical-align: top;
 } */
 body{
+  font-family:Roboto, sans-serif;
   font-size: 18px;
 }
 
@@ -116,7 +117,9 @@ header.header {
   height: 78px;
   background-color: #CFAD84;
   z-index: 10;
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .header_list {

@@ -64,6 +64,10 @@
         flex-direction: column;
     }
 
+    .cartTitle1{
+        margin-top: 78px;
+    }
+
     .cartProdlist picture{
         margin-right: 8px;
     }
