@@ -594,6 +594,7 @@ border-radius: 50%;
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+  height: 40px;
 }
 
 .hour1, .hour2, .minute1, .minute2, .second1, .second2 {
