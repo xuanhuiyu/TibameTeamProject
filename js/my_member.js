@@ -9,3 +9,11 @@ $('.bt1').click(function(){
     window.location.href = './login.html'; 
 })
 
+$('.bt3').click(function(){
+    window.location.href = './intro.html'; 
+})
+
+$('.bt2').click(function(){
+    window.location.href = './detail.html'; 
+})
+
