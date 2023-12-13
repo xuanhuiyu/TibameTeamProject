@@ -1,45 +1,52 @@
 $(function(){
     // 第一層選單
     $('.menu_list').click(function(){
-        $('.menu_mask').css('display', 'block');
+        $('.menu_mask').addClass('open');
+        $('.menu_popup').addClass('open');
     });
 
     $('.close').click(function(){
-        $('.menu_mask').removeAttr('style');
+        $('.menu_mask').removeClass('open');
+        $('.menu_popup').removeClass('open');
     });
 
     $('.menu_mask').click(function(){
-        $(this).removeAttr('style');
+        $(this).removeClass('open');
+        $('.menu_popup').removeClass('open');
+        $('.sel_list').removeClass('open');
     });
 
-    $('.menu_popup').click(function(e){
-        e.stopPropagation();
-    });
+    // $('.menu_popup').click(function(e){
+    //     e.stopPropagation();
+    // });
 
 
     // 第二層選單
     $('.member_mb_list').click(function(){
-        $('.menu_mask').css('display', 'none')
-        $('.sel_list_mask').css('display', 'block');
-        
+        $('.sel_list').addClass('open');
+        // $('.menu_popup').css('display', 'block');
+        // $('.menu_popup').removeClass('open');
     });
 
     // 返回按鈕
-    $('.bk_bt').click(function(){
-        $('menu_popup').css('display', 'block')
-        $('.sel_list').css('display', 'none');
-        console.log('.bk_bt');
+    $('.closemember').click(function(){
+        // $('menu_popup').css('display', 'block');
+        $('.sel_list').removeClass('open');
+        // $('.menu_popup').addClass('open');
+
+        // $('.sel_list').css('display', 'none');
+        // console.log('.bk_bt');
         // window.history.back()
     });
 
 
-    $('.sel_list_mask').click(function(){
-        $(this).removeAttr('style');
-    });
+    // $('.sel_list_mask').click(function(){
+    //     $(this).removeAttr('style');
+    // });
     
-    $('.sel_list').click(function(e){
-        e.stopPropagation();
-    });
+    // $('.sel_list').click(function(e){
+    //     e.stopPropagation();
+    // });
 });
 
 // 登入

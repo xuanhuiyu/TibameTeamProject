@@ -105,7 +105,7 @@ body{
 }
 
 .product-list .card-product div.card-list div.mask-group span {
-  position: absolute;
+  /* position: absolute; */
   font-family: 'Material Symbols Outlined';
   font-weight: normal;
   font-style: normal;
@@ -121,6 +121,7 @@ body{
   top: 15px;
   right: 15px;
 }
+
 .productlist {
   display: flex;
   flex-direction: column;
@@ -130,6 +131,7 @@ body{
   flex-shrink: 0;
   position: relative;
 }
+
 .frame-262 {
   padding: 24px 0px 24px 0px;
   display: flex;
@@ -925,8 +927,7 @@ body{
 }
 
 
-
-.productlist .card-product div.card-list div.mask-group span {
+.product-list .card-product div.card-list div.mask-group a.favorite-link {
   position: absolute;
   font-family: 'Material Symbols Outlined';
   font-weight: normal;
@@ -942,6 +943,51 @@ body{
   color: #fff;
   top: 15px;
   right: 15px;
+  transition: color 0.3s;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+.product-list .card-product div.card-list div.mask-group a.favorite-link.active::before{
+  content: "";
+	position: absolute;
+  left: 20px;
+  top: 7px;
+  width: 14px;
+  height: 24px;
+  background: white;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-46deg);
+	-webkit-transform-origin: left bottom;
+	-moz-transform-origin: left bottom;
+	-o-transform-origin: left bottom;
+	transform-origin: left bottom;
+  color: #ffffff; 
+
+}
+.product-list .card-product div.card-list div.mask-group a.favorite-link.active::after {
+	content: "";
+	position: absolute;
+	top: 0;
+  top: 5px; 
+  left: 3px; 
+  width: 16px; 
+  height: 28px; 
+  background: white; 
+  border-radius: 50px 50px 0 0; 
+  -webkit-transform: rotate(45deg); 
+  -moz-transform: rotate(45deg); 
+  -o-transform: rotate(45deg); 
+	-webkit-transform-origin: right bottom;
+	-moz-transform-origin: right bottom;
+	-o-transform-origin: right bottom;
+	transform-origin: right bottom;
 }
 /* -----stepper---- */
 

@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="css/header.css">
     <title>Header</title>
 </head>
 <body>
@@ -243,7 +243,7 @@
                 </div>
 
     
-                <h2>快速登入</h2>
+                <h2 class="quick_login">快速登入</h2>
                 <div class="third_login_r">
                     <ul>
                         <li>
@@ -281,7 +281,7 @@
                 <img src="../img/smalllogo.png" alt="logo">
                 <div class="menu">
                     <a href="#"><span class="material-symbols-outlined">search</span></a>
-                    <a href="#"><span class="material-symbols-outlined">shopping_bag</span></a>
+                    <a href="cart.html"><span class="material-symbols-outlined">shopping_bag</span></a>
                     <a class="menu_list"><span class="material-symbols-outlined">menu</span></a>
                     <!-- <div class="menu_mask">
                         <ul class="menu_popup">
@@ -302,7 +302,7 @@
                         <span class="material-symbols-outlined close">close</span>
                         <div>
                             <li><a href="index.html">首頁</a></li>
-                            <li><a href="#">商品列表</a></li>
+                            <li><a href="product-index.html">商品列表</a></li>
                             <li><a href="about.html">關於我們</a></li>
                             <li><a href="#" class="member_mb_list">會員中心</a></li>
                             <li><a href="faq.html">常見問題</a></li>
@@ -310,9 +310,11 @@
                             <li><a href="#" class="register_bt">註冊</a></li>
                         </div>
                     </ul>
-                    <div class="sel_list_mask">
-                        <ul class="sel_list">
-                            <li><a href="" class="bk_bt"><i class="bi bi-arrow-return-left"></i></a></li>
+                    <!-- <div class="sel_list_mask"> -->
+                    <ul class="sel_list">
+                        <span class="material-symbols-outlined closemember">arrow_back</span>
+                        <!-- <li><a href="" class="closemember"><i class="bi bi-arrow-return-left"></i></a></li> -->
+                        <div>
                             <li><a href=""class="my_member_page">我的帳戶</a><li>
                             <li><a href=""class="update_info_page">更新個人資訊</a></li>
                             <li><a href=""class="update_password_page">更新密碼</a></li>
@@ -322,40 +324,41 @@
                             <li><a href="">會員權益說明</a></li>
                             <li><a href="">訂單紀錄</a></li>
                             <li><a href="">收藏清單</a></li>
-                        </ul>
-                    </div>
+                        </div>
+                    </ul>
+                    <!-- </div> -->
                     
                 </div>
             </div>
 
-            <div class="sel_list_mask">
-                <ul class="sel_list">
-                    <li><a href="" class="bk_bt"><i class="bi bi-arrow-return-left"></i></a></li>
-                    <li><a href=""class="my_member_page">我的帳戶</a><li>
-                    <li><a href=""class="update_info_page">更新個人資訊</a></li>
-                    <li><a href=""class="update_password_page">更新密碼</a></li>
-                    <li><a href=""class="my_address_page">收件地址管理</a></li>
-                    <li><a href="" class="my_point_page">我的會員點數</a></li>
-                    <li><a href="">我的優惠券</a></li>
-                    <li><a href="">會員權益說明</a></li>
-                    <li><a href="">訂單紀錄</a></li>
-                    <li><a href="">收藏清單</a></li>
-                </ul>
-            </div>
+            <!-- <div class="sel_list_mask">
+            <ul class="sel_list">
+                <li><a href="" class="bk_bt"><i class="bi bi-arrow-return-left"></i></a></li>
+                <li><a href=""class="my_member_page">我的帳戶</a><li>
+                <li><a href=""class="update_info_page">更新個人資訊</a></li>
+                <li><a href=""class="update_password_page">更新密碼</a></li>
+                <li><a href=""class="my_address_page">收件地址管理</a></li>
+                <li><a href="" class="my_point_page">我的會員點數</a></li>
+                <li><a href="">我的優惠券</a></li>
+                <li><a href="">會員權益說明</a></li>
+                <li><a href="">訂單紀錄</a></li>
+                <li><a href="">收藏清單</a></li>
+            </ul>
+            </div> -->
             
 
             <div class="header_nav_list">
 
                 <ul class="header_nav_list_left">
                     <li><a href="index.html">首頁</a></li>
-                    <li><a href="#">商品列表</a></li>
+                    <li><a href="product-index.html">商品列表</a></li>
                     <li><a href="about.html">關於我們</a></li>
                     <li><a href="faq.html">常見問題</a></li>
                 </ul>
 
                 <ul class="header_nav_list_right">
                     <li><a href="#"><span class="material-symbols-outlined">search</span></a></li>
-                    <li><a href="#"><span class="material-symbols-outlined">shopping_bag</span></a></li>
+                    <li><a href="cart.html"><span class="material-symbols-outlined">shopping_bag</span></a></li>
                     <li><a href="#" class="login_bt">登入</a></li>
                     <li><a href="#" class="register_bt">註冊</a></li>
                 </ul>
@@ -390,8 +393,8 @@
     </header> -->
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="./header.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/header.js"></script>
 
 </body>
 </html>

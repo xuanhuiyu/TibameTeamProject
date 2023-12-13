@@ -1,6 +1,9 @@
 
 $(function(){
 
+    // header
+    $('.header-frame').load('header.html');
+
     // 運送方式
     $('.Delivery').click(function(){
         // $(this).parent().siblings().children('ul').animate({maxHeight:0},500);

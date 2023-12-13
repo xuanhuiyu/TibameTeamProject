@@ -38,6 +38,7 @@ window.onload = function(){
     // Delet pop
 
     $(function(){
+        $('.header-frame').load('header.html');
 
         $('#cartDelet').click(function(){
           $('.cartMask').css({'display':'block',});
