@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $("#headerContainer").load("./header.html");
+    // header
+    $('.header-frame').load('header.html');
     $("#footerContainer").load("./footer.html");
     
     const chatIcon = document.getElementById('chat-icon');

@@ -181,7 +181,7 @@
     }
     
     .logo-top{
-        padding-top: 4px;
+        padding-top: 32px;
     }
     .logo-pic {
         transform: scale(0.8);
@@ -294,7 +294,7 @@
 
 }
 @media screen and (max-width: 756px) {
-    .onsaletime-frame{top: 904px;}
+    .onsaletime-frame{top: 931px;}
     .rectangle-4{
         /* margin-top: 136px; */
     }

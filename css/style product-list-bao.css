@@ -5,18 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  --shadow: rgba(0, 0, 0, 0.05) 0px 6px 10px 0px,
-    rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
-  --color: #166e67;
-  --gap: 0.5rem;
-  --radius: 5px;
-}
-
-body {
-  background-color: #b3e6f4;
-  font-size: 0.9rem;
-  color: black;
+  font-family: "roboto", sans-serif;
 }
 
 
@@ -28,7 +17,8 @@ body{
 }
 
 .wrapper{
-	width: 100%;
+  width: 100%;
+  max-width: 1920px;
 	background-color: #fff;
 	margin: 0 auto;
 	/* padding-bottom: 50px; */
@@ -52,6 +42,7 @@ body{
 }
 .product-list {
   background: #ffffff;
+
   height: 2547px;
   position: relative;
   overflow: hidden;
@@ -97,79 +88,11 @@ body{
   transform-origin: 0 0;
   transform: rotate(90deg) scale(1, 1);
 }
-
 .productlist-titlewline-bigtitle{
   color: var(--text-color, #613c11);
   text-align: center;
   font: var(--title-1-bold, 400 32px/110% "Roboto-bold", sans-serif);
   padding-top: 4px;
-}
-
-.pagination-button-another .material-symbols-outlined{line-height: 0.5;}
-.material-symbols-outlined{
-  font-size: 40px;
-}
-
-.product-list .card-product div.card-list div.mask-group a.favorite-link {
-  position: absolute;
-  font-family: 'Material Symbols Outlined';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 40px;
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  color: #fff;
-  top: 15px;
-  right: 15px;
-  transition: color 0.3s;
-  position: absolute;
-  text-decoration: none;
-  color: #fff;
-}
-
-
-.product-list .card-product div.card-list div.mask-group a.favorite-link.active::before{
-  content: "";
-	position: absolute;
-  left: 20px;
-  top: 7px;
-  width: 14px;
-  height: 24px;
-  background: white;
-  border-radius: 50px 50px 0 0;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-46deg);
-	-webkit-transform-origin: left bottom;
-	-moz-transform-origin: left bottom;
-	-o-transform-origin: left bottom;
-	transform-origin: left bottom;
-  color: #ffffff; 
-
-}
-.product-list .card-product div.card-list div.mask-group a.favorite-link.active::after {
-	content: "";
-	position: absolute;
-	top: 0;
-  top: 5px; 
-  left: 3px; 
-  width: 16px; 
-  height: 28px; 
-  background: white; 
-  border-radius: 50px 50px 0 0; 
-  -webkit-transform: rotate(45deg); 
-  -moz-transform: rotate(45deg); 
-  -o-transform: rotate(45deg); 
-	-webkit-transform-origin: right bottom;
-	-moz-transform-origin: right bottom;
-	-o-transform-origin: right bottom;
-	transform-origin: right bottom;
 }
 
 .productlist {
@@ -194,7 +117,6 @@ body{
   flex-wrap: wrap;
   height: 1700px;
   overflow: hidden;
-
 }
 .card-product {
   display: flex;
@@ -213,6 +135,7 @@ body{
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+
 }
 .mask-group {
   flex-shrink: 0;
@@ -310,8 +233,6 @@ body{
   font: var(--body-regular, 400 20px/28px "Roboto-Regular", sans-serif);
   text-decoration: none;
 }
-
-
 
 .btn-product-addcart:hover {
   background: #eac18e;
@@ -465,6 +386,7 @@ body{
   top: 16px;
   overflow: visible;
 }
+
 /* pagination */
 .frame-356 {
   padding: 24px 0px 24px 0px;
@@ -533,12 +455,11 @@ body{
   position: absolute;
 }
 
-/* breadcrumb */
 .chips {
   border-radius: 8px;
   width: 100%;
   height: 96px;
-  position: absolute;
+  position: relative;
   left: 0px;
   top: 224px;
   overflow: hidden;
@@ -598,7 +519,7 @@ body{
 
 /* side nav */
 .productlist-sidenav {
-  width: 150px;
+
   left: 124px;
   top: 360px;
 }
@@ -721,6 +642,69 @@ body{
   position: absolute;
   left: 8px;
   top: 8px;
+}
+
+.product-list .card-product div.card-list div.mask-group a.favorite-link {
+  position: absolute;
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: #fff;
+  top: 15px;
+  right: 15px;
+  transition: color 0.3s;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+.product-list .card-product div.card-list div.mask-group a.favorite-link.active::before{
+  content: "";
+	position: absolute;
+  left: 20px;
+  top: 7px;
+  width: 14px;
+  height: 24px;
+  background: white;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-46deg);
+	-webkit-transform-origin: left bottom;
+	-moz-transform-origin: left bottom;
+	-o-transform-origin: left bottom;
+	transform-origin: left bottom;
+  color: #ffffff; 
+
+}
+.product-list .card-product div.card-list div.mask-group a.favorite-link.active::after {
+	content: "";
+	position: absolute;
+	top: 0;
+  top: 5px; 
+  left: 3px; 
+  width: 16px; 
+  height: 28px; 
+  background: white; 
+  border-radius: 50px 50px 0 0; 
+  -webkit-transform: rotate(45deg); 
+  -moz-transform: rotate(45deg); 
+  -o-transform: rotate(45deg); 
+	-webkit-transform-origin: right bottom;
+	-moz-transform-origin: right bottom;
+	-o-transform-origin: right bottom;
+	transform-origin: right bottom;
 }
 
 .ad {
@@ -846,7 +830,7 @@ body{
   gap: 24px;
   align-items: flex-start;
   justify-content: center;
-  position: relative;
+  position: absolute;
 }
 .logo-sidenav {
   flex-shrink: 0;
@@ -977,6 +961,25 @@ body{
   top: 8px;
 }
 
+
+
+.productlist .card-product div.card-list div.mask-group span {
+  /* position: absolute; */
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: #fff;
+  top: 15px;
+  right: 15px;
+}
 /* -----stepper---- */
 
 
@@ -1114,25 +1117,6 @@ body{
   transform: rotate(180deg);
   transition: 0.2s ease;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1282,3 +1266,18 @@ body{
   font-size: 20px;
   color: #393939;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
