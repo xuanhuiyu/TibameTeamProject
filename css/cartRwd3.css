@@ -22,6 +22,10 @@
     .cartLeft1list picture{
         margin-right: 16px;
     }
+
+    .cardUp span{
+        line-height: 1.6;
+    }
 }
 
 @media screen and (max-width: 901px){
@@ -31,6 +35,9 @@
         grid-gap: 0;
     }
 
+    /* .cartLeftlist span{
+        line-height: 1.6;
+    } */
     /* .Right1{
         order: 1;
     } */

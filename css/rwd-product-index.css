@@ -441,6 +441,8 @@
         padding: 4px;
         box-shadow: 4px 6px 4px 0px rgba(255, 194, 103, 0.25), inset 4px 4px 4px 0px rgba(255, 230, 199, 0.25);
     }
+    
+    .salestag-time-num {height: 32px;margin-top: 6px;}
     .salestag-timeframe{
         padding: 4.5px 4px;}
     .card-list {gap: 4px;}
