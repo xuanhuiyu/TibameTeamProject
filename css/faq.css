@@ -106,6 +106,10 @@ div.faq_category div.faq_list div.title h3 {
     font-weight: 700;
 }
 
+div.account_question{
+    margin-bottom: 100px;
+}
+
 div.account_question div.account_question_list{
     width: 62.5%;
     margin: 0 auto;
