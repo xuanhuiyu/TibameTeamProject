@@ -74,28 +74,27 @@ $(document).ready(function() {
   $(function() {
     $(document).ready(function() {
       $('.header-frame').load('header.html');
-      $("#footerContainer").load("./footer.html");
+      $("#footer-frame").load("./footer.html");
     });
   
   
-  var favoriteLinks = document.querySelectorAll('.favorite-link');
+    var favoriteLinks = document.querySelectorAll('.favorite-link');
   
-  favoriteLinks.forEach(function (favoriteLink) {
-  
+    favoriteLinks.forEach(function (favoriteLink) {
       var heartIcon = favoriteLink.querySelector('i');
   
       favoriteLink.addEventListener('click', function (event) {
-          event.preventDefault(); 
+        event.preventDefault();
   
-          favoriteLink.classList.toggle('active');
+        favoriteLink.classList.toggle('active');
   
-          if (favoriteLink.classList.contains('active')) {
-              heartIcon.className = 'fas fa-heart';
-          } else {
-              heartIcon.className = 'far fa-heart';
-          }
+        if (favoriteLink.classList.contains('active')) {
+          heartIcon.className = 'fas fa-heart';
+        } else {
+          heartIcon.className = 'far fa-heart';
+        }
       });
-  });
+    });
   
   
   });

@@ -52,7 +52,7 @@ body{
 }
 .product-list {
   background: #ffffff;
-  height: 2547px;
+  height: 2480px;
   position: relative;
   overflow: hidden;
 }
@@ -492,6 +492,9 @@ body{
   left: 0px;
   top: 224px;
   overflow: hidden;
+}
+.chips-arrow-right{
+  color: #828282;
 }
 .breadcrumbs {
   display: flex;
@@ -1076,6 +1079,11 @@ body{
 
 }
 
+.btn-select span{
+  font-size: 40px;
+  color: var(--text-color, #613c11);
+  padding-left: 48px;
+}
 .bx {
   font-size: 40px;
   color: var(--text-color, #613c11);
@@ -1085,7 +1093,6 @@ body{
 .select h1{
   color: var(--text-color, #613c11);
   font: var(--title-3-regular, 400 24px/110% "Roboto-Regular", sans-serif);
-  padding-top: 4px;
   padding-left: 24px;
 }
 .dropdown {

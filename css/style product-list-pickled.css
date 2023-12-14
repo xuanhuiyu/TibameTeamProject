@@ -53,7 +53,7 @@ body{
 }
 .product-list {
   background: #ffffff;
-  height: 2547px;
+  height: 2000px;
   position: relative;
   overflow: hidden;
 }
@@ -146,6 +146,9 @@ body{
   left: 0px;
   top: 224px;
   overflow: hidden;
+}
+.chips-arrow-right{
+  color: #828282;
 }
 .breadcrumbs {
   display: flex;

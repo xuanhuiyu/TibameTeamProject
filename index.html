@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     <!-- logo -->
 
     <div class="logo">
-        <img src="../img/logo.png" alt="">
+        <img src="img/logo.png" alt="">
     </div>
 
     <!-- product list -->
@@ -55,13 +55,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../img/banner3.png" class="d-block w-100" alt="...">
+                            <img src="img/banner3.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="../img/banner2.png" class="d-block w-100" alt="...">
+                            <img src="img/banner2.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="../img/banner1.png" class="d-block w-100" alt="...">
+                            <img src="img/banner1.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev carousel-prev-bg" type="button"
@@ -85,14 +85,25 @@
 
         <div class="time_limit_sales">
 
+            <div class="countdown">
+                <p id="hour1"></p>
+                <p id="hour2"></p>
+                <p>:</p>
+                <p id="minute1"></p>
+                <p id="minute2"></p>
+                <p>:</p>
+                <p id="second1"></p>
+                <p id="second2"></p>
+            </div>
+
             <div class="card_container">
 
                 <div class="card">
 
                     <div class="product_img">
-                        <img src="../img/beef noodles.jpg" alt="">
-                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                        <img src="img/beef noodles.jpg" alt="">
                     </div>
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a>
 
                     <h1>【即饗】 紅燒牛肉麵 (580g/包)</h1>
 
@@ -115,9 +126,10 @@
 
 
                     <div class="product_img">
-                        <img src="../img/kimchi rice.jpg" alt="">
-                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                        <img src="img/kimchi rice.jpg" alt="">
                     </div>
+
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a>
 
                     <h1>【即饗】 豬肉泡菜炒飯 (300g/包)</h1>
 
@@ -139,9 +151,10 @@
                 <div class="card">
 
                     <div class="product_img">
-                        <img src="../img/beef black curry.jpg" alt="">
-                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                        <img src="img/beef black curry.jpg" alt="">
                     </div>
+
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a>
 
                     <h1>【即饗】 牛肉黑咖哩醬包 (180g/包)</h1>
 
@@ -177,12 +190,13 @@
                 <div class="card">
 
                     <!-- NO.1 -->
-                    <img src="../img/gold medal.png" alt="" class="gold_medal">
+                    <img src="img/gold medal.png" alt="" class="gold_medal">
 
                     <div class="product_img">
-                        <img src="../img/meat bun.jpg" alt="">
-                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
+                        <img src="img/meat bun.jpg" alt="">
                     </div>
+
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a>
 
                     <h1>【即饗】 極享鮮肉包(100g/顆) (10入/袋)</h1>
 
@@ -204,10 +218,10 @@
                 <div class="card">
 
                     <!-- NO.2 -->
-                    <img src="../img/silver medal.png" alt="" class="silver_medal">
+                    <img src="img/silver medal.png" alt="" class="silver_medal">
 
                     <div class="product_img">
-                        <img src="../img/red curry.jpg" alt="">
+                        <img src="img/red curry.jpg" alt="">
                         <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                     </div>
 
@@ -231,10 +245,10 @@
                 <div class="card">
 
                     <!-- NO.3 -->
-                    <img src="../img/bronze medal.png" alt="" class="bronze_medal">
+                    <img src="img/bronze medal.png" alt="" class="bronze_medal">
 
                     <div class="product_img">
-                        <img src="../img/eel rice.jpg" alt="">
+                        <img src="img/eel rice.jpg" alt="">
                         <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                     </div>
 
@@ -260,7 +274,12 @@
 
         <div class="member_discount">
 
-            <img src="../img/member discount.jpg" alt="" class="banner_picture">
+            <picture>
+                <source srcset="img/400memberdiscount.jpg" media="(max-width:630px)">
+                <source srcset="img/630memberdiscount.jpg" media="(max-width:800px)">
+                <source srcset="img/800memberdiscount.jpg" media="(max-width:1200px)">
+                <img src="img/member discount.jpg" class="banner_picture" alt="" style="width: auto;">
+            </picture>
 
             <div class="member_discount_product">
 
@@ -269,7 +288,7 @@
                     <div class="card">
 
                         <div class="product_img">
-                            <img src="../img/vegan sauce.jpg" alt="">
+                            <img src="img/vegan sauce.jpg" alt="">
                             <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                         </div>
 
@@ -292,7 +311,7 @@
                     <div class="card">
 
                         <div class="product_img">
-                            <img src="../img/chicken dumpling.jpg" alt="">
+                            <img src="img/chicken dumpling.jpg" alt="">
                             <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                         </div>
 
@@ -315,7 +334,7 @@
                     <div class="card">
 
                         <div class="product_img">
-                            <img src="../img/black pork.jpg" alt="">
+                            <img src="img/black pork.jpg" alt="">
                             <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                         </div>
 
@@ -341,7 +360,7 @@
                     <div class="card">
 
                         <div class="product_img">
-                            <img src="../img/little meat bun.jpg" alt="">
+                            <img src="img/little meat bun.jpg" alt="">
                             <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                         </div>
 
@@ -364,7 +383,7 @@
                     <div class="card">
 
                         <div class="product_img">
-                            <img src="../img/spagetti.jpg" alt="">
+                            <img src="img/spagetti.jpg" alt="">
                             <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                         </div>
 
@@ -387,7 +406,7 @@
                     <div class="card">
 
                         <div class="product_img">
-                            <img src="../img/italian sauce.jpg" alt="">
+                            <img src="img/italian sauce.jpg" alt="">
                             <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                         </div>
 
@@ -423,7 +442,7 @@
             <div class="faq_content">
 
                 <div class="faq_picture">
-                    <img src="../img/faq picture.jpg" alt="">
+                    <img src="img/faq picture.jpg" alt="">
                 </div>
 
                 <div class="faq_question">
@@ -553,9 +572,10 @@
     <!-- footer -->
     <div id="footer"></div>
 
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="../js/header_footer.js"></script>
+    <script src="js/header_footer.js"></script>
+    <script src="js/index_countdown.js"></script>
 </body>
 
 </html>

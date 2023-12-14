@@ -4,15 +4,17 @@
         width: auto;
     }
 }
-
+@media screen and (max-width: 1700px) {
+    .introproducts-wsubtitle{left: 232px;}
+}
 @media screen and (max-width: 1560px) {
     .product-ricenoodle-beefnoodle-picwrefer{
         left: 130px;
         align-items: center;
     }
+    .introproducts-wsubtitle{left: 168px;}
     .line-55{width: 1200px;        left: 10%;
         right: 10%;}
-    .beefnoodle-product-intro{left: 148px;}
     .product-list{width: 100%;}
     .productlist-ricenoodle-beefnoodle{position: unset;}
 }
@@ -52,12 +54,8 @@
         top: 1420px;
         width: 630px;
     }
-    .product-functionbuttons{
-        top: 1440px;
-        gap: 104px;
-        left: 10%;
-        right: 10%;
-    }
+    .product-functionbuttons {
+        top: 1440px;}
     .payndeliever{gap: 56px;}
     .div10{font-size: 32px;}
     .payndeliever-frame{left: 10%;right: 10%;}
@@ -73,7 +71,7 @@
     .introproducts{
         gap: 40px;
         padding: 0px 80px 0px 80px;
-        width: 760px;
+        width: 620px;
     }
     .beefnoodle-product-intro{
         position: relative;
@@ -107,7 +105,10 @@
     #chat-leave{margin-top: -40px;width: 320px;margin-left: 26px;padding: 16px; height: 163px;}
     #chat-social{margin-top: 20px;width: 320px;margin-left: 26px;height: 64px;padding: 0px;}
     .social-link{padding: 8px 24px;}
-
+    .social-icons{
+        right: -190px;
+        top: -20px;
+    }
     #chat-footer{margin-top: 20px;width: 368px;margin-left: -26px;}
     #send-button{padding:24px;font-size: 16px;}
     #message-input{font-size: 18px;}
@@ -116,10 +117,14 @@
     .payndeliever-frame{
         top: 1544px;
     }
+    .othersviewing {
+        top: 87.15%;
+    }
   }
   
 
   @media screen and (max-width: 458px) {
+
     .chips{height: 64px;top: 0;}
     .breadcrumbs {
         padding-left: 32px;
@@ -134,14 +139,26 @@
         align-items: start;
         left: 40px;
     }
+    .btn-product-favorite-big:active::before{
+        left: 20px;
+        top: 12px;
+        width: 13px;
+        height: 21px;
+      }
+      .btn-product-favorite-big:active:after {
+        top: 12px;
+        left: 6px;
+    }
+    .btn-product-favorite-big:hover  {
+        background: none;
+      }
     .product-refer-bigtitle{font-size: 20px;width: 100%;}
     .product-refer{gap: 20px;width: 325px;}
     .product-refer-line{width: 325px;}
     .line-55{top: 1032px;width: 360px;    left: calc(50% - 177px);}
     .product-functionbuttons {
-        top: 1048px;
-        gap: 16px;
-        left: calc(50% - 182px);}
+        top: 1048px;}
+
 
     .product-functionbuttons-a{font-size: 18px;}
     .btn-product-intro{
@@ -176,7 +193,9 @@
     .plus{left: 124px;}
     .stepper{gap: 17px;}
     .share-default{display: none;}
-
+    .othersviewing {
+        top: 87.48%;
+    }
     .evaluate-stars{gap: 16px;}
     .beefnoodle-product-intro{top: 640px;}
     .beefnoodle-product-introword{gap: 24px;}

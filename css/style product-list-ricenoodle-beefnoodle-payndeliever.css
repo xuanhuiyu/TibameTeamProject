@@ -24,6 +24,7 @@ body{
 
 .wrapper{
 	width: 100%;
+  max-width: 1920px;
 	background-color: #fff;
 	margin: 0 auto;
 	padding-bottom: 50px;
@@ -836,8 +837,7 @@ body{
 }
 
 .btn-product-intro {
-
-
+  margin: 0 auto;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -879,6 +879,7 @@ body{
   flex-shrink: 0;
   height: 40px;
   position: relative;
+  margin: 0 auto;
 
 }
 .beefnoodle-product-intro {
@@ -888,9 +889,27 @@ body{
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  left: 40%;
+  left: 43%;
   right: 40%;
   top: 1367px;
+  margin: 0 auto;
+}
+.product-list .card-product div.card-list div.mask-group span {
+  /* position: absolute; */
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: #fff;
+  top: 15px;
+  right: 15px;
 }
 .beefnoodle-product-introword {
   display: flex;
@@ -949,7 +968,9 @@ body{
   top: 224px;
   overflow: hidden;
 }
-
+.chips-arrow-right{
+  color: #828282;
+}
 .breadcrumbs {
   display: flex;
   flex-direction: row;
@@ -1016,7 +1037,8 @@ body{
   align-items: flex-start;
   /* justify-content: flex-start; */
   position: absolute;
-  left: 360px;
+  left: 20%;
+  right: 20%;
   top: 361px;
 }
 .productlist-ricenoodle-beefnoodle {
@@ -1254,7 +1276,7 @@ body{
 .product-refer-pricewfollow {
   display: flex;
   flex-direction: row;
-  gap: 92px;
+  gap: 104px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -1306,12 +1328,48 @@ body{
 .btn-product-favorite-big:hover  {
   background: var(--card-bg, rgba(207, 173, 132, 0.3));
 }
-.group {
-  flex-shrink: 0;
-  width: 27.78px;
-  height: 25.49px;
+.favorite-link_big span{
+  font-size: 32px;
   position: relative;
   overflow: visible;
+}
+
+.btn-product-favorite-big:active::before{
+  content: "";
+	position: absolute;
+  left: 37px;
+  top: 14px;
+  width: 13px;
+  height: 22px;
+  background: var(--text-color, #613c11);
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-46deg);
+	-webkit-transform-origin: left bottom;
+	-moz-transform-origin: left bottom;
+	-o-transform-origin: left bottom;
+	transform-origin: left bottom;
+}
+
+.btn-product-favorite-big:active:after {
+	content: "";
+	position: absolute;
+	top: 0;
+  top: 16px;
+  left: 22px;
+  width: 14px;
+  height: 21px;
+  background: var(--text-color, #613c11); 
+  border-radius: 50px 50px 0 0; 
+  -webkit-transform: rotate(45deg); 
+  -moz-transform: rotate(45deg); 
+  -o-transform: rotate(45deg); 
+	-webkit-transform-origin: right bottom;
+	-moz-transform-origin: right bottom;
+	-o-transform-origin: right bottom;
+	transform-origin: right bottom;
 }
 
 
@@ -1469,6 +1527,9 @@ body{
   text-align: center;
   font: var(--body-regular, 400 20px/28px "Roboto-Regular", sans-serif);
 }
+.pc-btn-product-addcart2 span{
+  font-size: 32px;  
+}
 .pc-btn-product-addcart2:hover {
   background: #eac18e;
   box-shadow: 0px 4px 4px 0px rgba(181, 129, 43, 0.16);
@@ -1497,6 +1558,10 @@ body{
   position: relative;
   cursor: pointer;
 }
+.share-default span {
+  font-size: 40px;
+  flex-shrink: 0;
+}
 
 .social-icons {
   display: none;
@@ -1518,13 +1583,6 @@ body{
   display: flex;
 }
 
-.share-default {
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  overflow: visible;
-}
 
 .social-icons a i {
   font-size: 24px;
@@ -1555,18 +1613,19 @@ body{
   height: 0px;
   position: absolute;
   top: 1047px;
+  left: calc(50% - 800px);
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .product-functionbuttons {
   display: flex;
   flex-direction: row;
-  gap: 320px;
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  left: calc(50% - 548px);
   top: 1119px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* chatbot */

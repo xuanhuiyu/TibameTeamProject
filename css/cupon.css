@@ -103,17 +103,17 @@ main {
 
 .saveright ul {
     display: flex;
-    width: 1100px;
+    width: 100%;
     flex-wrap: wrap;
 }
 
 .saveright li {
-    width: 480px;
-    height: 179px;
+    width: 445px;
+    height: 184px;
     background-image: url(../img/cupon1.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 24px 12px;
+    background-size: contain;
+    margin: 24px 8px;
 }
 
 .saveright li:nth-child(2) {
@@ -130,6 +130,16 @@ main {
 
 .saveright ul li {
     position: relative;
+    /* transition: box-shadow .5s ; */
+    transform: translate(0px, 0px);
+    transition-duration: .5s;
+
+}
+
+.saveright ul li:hover {
+    /* box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25); */
+    transform: translate(-2px, -4px);
+    transition-duration: .5s;
 }
 
 .saveright li a {
@@ -142,14 +152,15 @@ main {
     padding: 10px;
     font-weight: bold;
     position: absolute;
-    right: 58px;
-    bottom: 70px;
+    right: 40px;
+    bottom: 75px;
 }
 
 .saveright li a:hover {
     background: #EAC18E;
     box-shadow: 0px 4px 4px 0px rgba(181, 129, 43, 0.16);
 }
+
 
 
 @media screen and (max-width:820px) {
@@ -172,4 +183,35 @@ main {
         margin-bottom: 40px;
     }
 
+}
+
+@media screen and (max-width:540px) {
+
+    .saveright li {
+        background-image: url(../img/cupon1small.png);
+
+    }
+
+    .saveright li:nth-child(2) {
+        background-image: url(../img/cupon2small.png);
+    }
+
+    .saveright li:nth-child(3) {
+        background-image: url(../img/cupon3small.png);
+    }
+
+    .saveright li:last-child {
+        background-image: url(../img/cupon4small.png);
+    }
+
+    .saveright li {
+        width: 281px;
+        height: 137px;
+        margin: 16px 8px;
+    }
+
+    .saveright li a {
+        right: 28px;
+        bottom: 51px;
+    }
 }
