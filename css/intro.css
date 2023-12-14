@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #FFF;
+    background-color: #FFF8F1;
     font-family: 'Roboto', sans-serif;
     color: #613C11;
 }
@@ -150,14 +150,13 @@ main {
 }
 
 
-.bottom ul {
+/* .bottom ul {
     display: flex;
     flex-direction: column;
 }
 
 .bottom li {
     width: 100%;
-    /* height: 294px; */
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 40px;
@@ -195,16 +194,35 @@ main {
     font-size: 16px;
     padding-left: 330px;
     line-height: 1.4;
+} */
+
+
+.bottom img {
+    width: 668px;
+    height: 266px;
+}
+
+.bottom ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom ul li {
+    margin-bottom: 24px;
+    align-self: center;
+}
+
+.bottom ul li img:nth-child(2) {
+    display: none;
+}
+
+.bottom ul li img:nth-child(3) {
+    display: none;
 }
 
 
 
-
 @media screen and (max-width:1270px) {
-    /* .bottom ul {
-        overflow: scroll;
-    } */
-
     .top ul {
         flex-wrap: wrap;
     }
@@ -216,6 +234,17 @@ main {
     .top ul {
         width: 70%;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1011px) {
+    .top ul {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .saveright {
+        width: 70%;
     }
 }
 
@@ -243,7 +272,89 @@ main {
 
     .top ul {
         margin: 0 auto;
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:730px) {
+    .bottom ul li img:first-child {
+        display: none;
+    }
+
+    .bottom ul li img:nth-child(2) {
+        display: block;
+    }
+
+    .bottom img {
+        width: 400px;
+        height: 248px;
+    }
+}
+
+@media screen and (max-width:655px) {
+    .top ul {
         width: 80%;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .top ul {
+        width: 85%;
+    }
+
+    .top h1 {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .top ul {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .top ul {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .top h1 {
+        font-size: 40px;
+        letter-spacing: 4px;
+        width: 60%;
+    }
+
+    .top p {
+        font-size: 24px;
+        letter-spacing: normal;
+    }
+
+    .top ul {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    /* .bottom ul {
+        overflow: scroll;
+    } */
+
+    .bottom ul li img:nth-child(2) {
+        display: none;
+    }
+
+    .bottom ul li img:nth-child(3) {
+        display: block;
+    }
+
+    .bottom img {
+        width: 323px;
+        height: 217px;
     }
 
 }
