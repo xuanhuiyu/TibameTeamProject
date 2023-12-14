@@ -186,8 +186,8 @@
 
     .btn-product-favorite-big{width: 48px;height: 48px;}
     .btn_product_favorite_big-a{display: none;}
-    .product-list{height: 2900px;}
-    .othersviewing{height: 552px;top: 82.8%;}
+    .product-list{height: 2840px;}
+    .othersviewing{top: 83.4%;height: 520px;}
     .beefnoodle-pic-big-left-top-1{display: none;}
     .beefnoodle-pic-big-left-middle-1{display: none;}
     .beefnoodle-pic-big-left-bottom-1{display: none;}
@@ -259,17 +259,23 @@
     .payndeliever-frame{padding: 24px;border-width: 8px;}
     
     .introproducts-wsubtitle{gap: 24px;}
-    .subtitle{font-size: 24px;    width: 280px;}
-    .introproducts{padding: 0px 10px 20px 10px;}
+    .subtitle{font-size: 24px; height: 0px;   width: 190px;}
+    .introproducts{padding: 0px 10px 20px 10px;width: 360px;transform: scale(0.8);}
 
     .card-list{gap: 0;}
-    .introproducts{width: 360px;}
-    .introproducts-wsubtitle{top: 0px;}
+    .introproducts-wsubtitle{top: 0px;gap: 8px;}
     .nutrition-label{width: 320px;height: 320px;}
     .notification-custom {
         width: 320px;
         height: 60px;
 
       }
-
+    .subtitle {
+        font-size: 22px;
+        width: 230px;
+        }
+    .btn-product-favorite-big:hover{background-color: none;}
   }
+  @media (max-width: 390px) {
+    .introproducts-wsubtitle{left: 20px;}
+    }
