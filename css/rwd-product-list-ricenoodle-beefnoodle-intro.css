@@ -152,6 +152,16 @@
 
   @media screen and (max-width: 458px) {
 
+    .popup{
+        width: 340px;
+        height: 296px;
+        top: 32%;
+    }
+    .popup-product-pic{
+        width: 320px;
+        left: 10px;
+        top: 10px;
+    }
     .chips{height: 64px;top: 44px;}
     .breadcrumbs {
         padding-left: 40px;
