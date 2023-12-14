@@ -256,5 +256,10 @@
     .introproducts{width: 360px;}
     .introproducts-wsubtitle{top: 0px;}
     .nutrition-label{width: 320px;height: 320px;}
+    .notification-custom {
+        width: 320px;
+        height: 60px;
+
+      }
 
   }

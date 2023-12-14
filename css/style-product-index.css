@@ -558,6 +558,28 @@ border-radius: 50%;
   display: flex;
   position: absolute;
 }
+    /* 網頁捲軸【寬度】 */
+    ::-webkit-scrollbar {
+
+      height: 6px;
+      width: 0;
+  }
+
+  /* 網頁捲軸【背景】顏色 */
+  ::-webkit-scrollbar-track {
+      background: rgba(207, 173, 132, 0.30);
+  }
+
+  /* 網頁捲軸【把手】顏色 */
+  ::-webkit-scrollbar-thumb {
+      background: #CFAD84;
+  }
+
+  /* 網頁捲軸【滑過時】把手的顏色 */
+  ::-webkit-scrollbar-thumb:hover {
+      background: #613C11;
+  }
+  
 .salestag-timeframe {
   background: rgba(255, 194, 103, 0.3);
   border-radius: 8px;
