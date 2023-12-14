@@ -8,10 +8,8 @@
 div.logo img {
     display: block;
     width: 424px;
-    height: 224px;
-    margin: 78px auto;
-/*     padding: 78px 0; */
-/*     margin-bottom: 40px; */
+    margin: 0 auto;
+    padding: 78px 0;
 }
 
 div.banner {
