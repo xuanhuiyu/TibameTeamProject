@@ -82,6 +82,46 @@
           socialIcons.toggle();
         });
         
+        $(document).ready(function () {
+          var container = document.getElementById('notification-container-fav');
+          var clickCount = 0;
+      
+          $('.favorite-link').click(function () {
+              clickCount++;
+              if (clickCount % 2 === 1) {
+                  createNotification(container, '【即饗】已加入收藏清單');
+              }
+          });
+      });
+      
+      function createNotification(container, message) {
+          var notificationContainer = document.createElement('div');
+          notificationContainer.className = 'notification-container';
+      
+          var notification = document.createElement('div');
+          notification.className = 'notification-custom';
+      
+          var icon = document.createElement('div');
+          icon.className = 'check-icon';
+          icon.innerHTML = '<span class="material-symbols-outlined">done</span>';
+  
+          var text = document.createElement('div');
+          text.innerHTML = message;
+      
+          notification.appendChild(icon);
+          notification.appendChild(text);
+  
+          notificationContainer.appendChild(notification);
+  
+          container.appendChild(notificationContainer);
+  
+          setTimeout(function () {
+              notificationContainer.style.opacity = '0';
+              setTimeout(function () {
+                  container.removeChild(notificationContainer);
+              }, 200); 
+          }, 2000); 
+      }
       });
       
     

@@ -13,7 +13,7 @@
         align-items: center;
     }
     .introproducts-wsubtitle{left: 168px;}
-    .line-55{width: 1200px;  left: calc(50% - 624px);}
+    /* .line-55{width: 1200px;  left: calc(50% - 624px);} */
 
     .product-list{width: 100%;}
     .productlist-ricenoodle-beefnoodle{position: unset;}
@@ -51,9 +51,9 @@
   
     .line-55{
         top: 1420px;
-        width: 630px;
+        /* width: 630px;
         left: 10%;
-        right: 10%;
+        right: 10%; */
     }
     .product-functionbuttons {
         top: 1440px;}
@@ -167,7 +167,9 @@
     .product-refer-bigtitle{font-size: 20px;width: 100%;}
     .product-refer{gap: 20px;width: 325px;}
     .product-refer-line{width: 325px;}
-    .line-55{top: 1032px;width: 360px;    left: calc(50% - 177px);}
+    .line-55{top: 1032px;
+        /* width: 360px;    left: calc(50% - 177px); */
+    }
     .product-functionbuttons {
         top: 1048px;}
 
