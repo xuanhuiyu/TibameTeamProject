@@ -15,6 +15,10 @@ $(function(){
         $('.menu_popup').removeClass('open');
         $('.sel_list').removeClass('open');
     });
+    $('.sel_list a').click(function(){
+        $('.menu_mask').removeClass('open');
+        $('.menu_popup').removeClass('open');
+    })
 
     // $('.menu_popup').click(function(e){
     //     e.stopPropagation();
@@ -77,9 +81,11 @@ main_bt.addEventListener('click',function(){
     window.location.href = './product-index.html'; 
 })
 
-var second_bt = document.querySelector('.second_bt');
-second_bt.addEventListener('click',function(){
-    window.location.href = './Register.html'; 
+var second_ = document.querySelector('.second_bt');
+second_.addEventListener('click',function(){
+    console.log(second_);
+    $('.login_page').css('display','none')
+    $('.mask_register').css('display','block')
 })
 
 
@@ -182,9 +188,10 @@ $('.register_completed').click(function() {
     }
 });
 
-var second_bt = document.querySelector('.cancel_');
-second_bt.addEventListener('click',function(){
-    window.history.back(); 
+var cancel_1 = document.querySelector('.cancel_1');
+cancel_1.addEventListener('click',function(){
+    $('.register_page').css('display','none')
+    $('.mask_register').css('display','none')
 })
 
 $('.bi').click(function(){
