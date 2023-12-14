@@ -67,6 +67,7 @@
         margin: 0 auto;
         justify-content: center;
         align-content: center;
+        font-size: 16px;
       }
 
       .register_content1{
@@ -86,19 +87,19 @@
 
       .user-box input {
         width: 135px;
-        height: 49px;
+        height: 28px;
       }
 
       .text1 p{
         font-size: 14px;
-        left: 215px;
-        top: 474px;
+        left: 220px;
+        top: 477px;
       }
       
       .text2 p{
         font-size: 14px;
-        left: 215px;
-        top: 496px;
+        left: 220px;
+        top: 500px;
         line-height: 1.2;
       }
 
