@@ -25,13 +25,13 @@ div.product ul.product_list {
     font-size: 0;
 }
 
-div.product ul.product_list>li {
+div.product ul.product_list > li {
     display: inline-block;
     margin-right: 24px;
     margin-bottom: 48px;
 }
 
-div.product ul.product_list>li:last-child {
+div.product ul.product_list > li:last-child {
     margin-right: 0;
 }
 
@@ -45,27 +45,52 @@ div.product ul.product_list>li>a {
     padding: 10px;
 }
 
-/* div.product ul.product_list > li > a:hover{
+div.product ul.product_list > li > a:hover{
     border-bottom: 3px solid #613C11;
-} */
-
-/* 主內容 */
-
-/* main.main {} */
+}
 
 /* 限時特價 */
 
 main.main div.time_limit_sales {
-    /* display: flex; */
     width: 1200px;
     height: 672px;
     background-image: url(../img/Sales.png);
     background-repeat: no-repeat;
     margin: 100px auto;
-    /* justify-content: space-around; */
+    position: relative;
 }
 
-main.main div.time_limit_sales div.card_container{
+main.main div.time_limit_sales div.countdown{
+    background-color: rgba(255, 194, 103, .3);
+    display: flex;
+    width: 252px;
+    height: 72px;
+    position: absolute;
+    left: 208px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+main.main div.time_limit_sales div.countdown p{
+    font-size: 24px;
+    font-weight: 700;
+    width: 30px;
+    height: 44px;
+    line-height: 44px;
+    margin-right: 4px;
+    text-align: center;
+    background-color: #fff;
+    color: #613C11;
+    border-radius: 4px;
+}
+
+main.main div.time_limit_sales div.countdown :nth-child(3n){
+    background-color:transparent;
+    width: auto;
+}
+
+main.main div.time_limit_sales div.card_container {
     display: flex;
     justify-content: space-evenly;
 }
@@ -77,11 +102,7 @@ main.main div.time_limit_sales div.card {
     vertical-align: top;
     border: 0;
     margin-top: 100px;
-}
-
-main.main div.time_limit_sales div.card div.product_img {
     position: relative;
-
 }
 
 main.main div.time_limit_sales div.card div.product_img img {
@@ -89,7 +110,7 @@ main.main div.time_limit_sales div.card div.product_img img {
     display: block;
 }
 
-main.main div.time_limit_sales div.card div.product_img span {
+main.main div.time_limit_sales div.card span {
     position: absolute;
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
@@ -165,8 +186,6 @@ main.main div.time_limit_sales div.card div.card_bottom div.product_button a:foc
 
 /* 熱銷排行 */
 
-/* main.main div.top_sale {} */
-
 main.main div.top_sale div.top_sale_title {
     text-align: center;
 }
@@ -185,44 +204,41 @@ main.main div.top_sale div.top_sale_product {
     justify-content: space-between;
     margin: 0 auto;
     padding: 100px 0;
-}
-
-main.main div.top_sale div.top_sale_product div.card{
     position: relative;
 }
 
-main.main div.top_sale div.top_sale_product img.gold_medal{
+main.main div.top_sale div.top_sale_product img.gold_medal {
     height: 100px;
     position: absolute;
     top: -50px;
     left: -41px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
-main.main div.top_sale div.top_sale_product img.silver_medal{
+main.main div.top_sale div.top_sale_product img.silver_medal {
     height: 100px;
     position: absolute;
     top: -50px;
     left: -41px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
-main.main div.top_sale div.top_sale_product img.bronze_medal{
+main.main div.top_sale div.top_sale_product img.bronze_medal {
     height: 100px;
     position: absolute;
     top: -50px;
     left: -41px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 main.main div.top_sale div.top_sale_product div.card {
     width: 320px;
     border: 0;
+    position: relative;
 }
 
-main.main div.top_sale div.top_sale_product div.card div.product_img{
-    position: relative;
-    z-index: 0;
+main.main div.top_sale div.top_sale_product div.card div.product_img {
+    /* z-index: 0; */
 }
 
 main.main div.top_sale div.top_sale_product div.card div.product_img img {
@@ -230,7 +246,7 @@ main.main div.top_sale div.top_sale_product div.card div.product_img img {
     display: block;
 }
 
-main.main div.top_sale div.top_sale_product div.card div.product_img span {
+main.main div.top_sale div.top_sale_product div.card span {
     position: absolute;
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
@@ -297,20 +313,20 @@ main.main div.top_sale div.top_sale_product div.card div.card_bottom div.product
 
 /* 會員獨享 */
 
-main.main div.member_discount{
+main.main div.member_discount {
     padding-bottom: 100px;
 }
 
-main.main div.member_discount img.banner_picture {
+main.main div.member_discount picture {
     display: block;
-    margin: 0px auto;
+    width: 1200px;
+    margin: 0 auto;
     padding-bottom: 100px;
-    border-radius: 12px;
 }
 
 /* main.main div.member_discount div.member_discount_product{} */
 
-main.main div.member_discount div.member_discount_product div.first_row{
+main.main div.member_discount div.member_discount_product div.first_row {
     width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -318,18 +334,18 @@ main.main div.member_discount div.member_discount_product div.first_row{
     padding: 24px 0;
 }
 
-main.main div.member_discount div.member_discount_product div.first_row div.card{
+main.main div.member_discount div.member_discount_product div.first_row div.card {
     width: 320px;
     border: 0;
 }
 
 
-main.main div.member_discount div.member_discount_product div.first_row div.card div.product_img img{
+main.main div.member_discount div.member_discount_product div.first_row div.card div.product_img img {
     width: 320px;
     display: block;
 }
 
-main.main div.member_discount div.member_discount_product div.first_row div.card div.product_img span{
+main.main div.member_discount div.member_discount_product div.first_row div.card div.product_img span {
     position: absolute;
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
@@ -348,7 +364,7 @@ main.main div.member_discount div.member_discount_product div.first_row div.card
     right: 15px;
 }
 
-main.main div.member_discount div.member_discount_product div.first_row div.card h1{
+main.main div.member_discount div.member_discount_product div.first_row div.card h1 {
     font-size: 24px;
     font-weight: 700;
     color: #613C11;
@@ -358,20 +374,20 @@ main.main div.member_discount div.member_discount_product div.first_row div.card
     margin: 24px 0;
 }
 
-main.main div.member_discount div.member_discount_product div.first_row div.card div.card_bottom{
+main.main div.member_discount div.member_discount_product div.first_row div.card div.card_bottom {
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
 
-main.main div.member_discount div.member_discount_product div.first_row div.card div.card_bottom div.product_price h3{
+main.main div.member_discount div.member_discount_product div.first_row div.card div.card_bottom div.product_price h3 {
     font-size: 32px;
     font-weight: 700;
     color: #613C11;
     padding: 10px 0;
 }
 
-main.main div.member_discount div.member_discount_product div.first_row div.card div.card_bottom div.product_button a{
+main.main div.member_discount div.member_discount_product div.first_row div.card div.card_bottom div.product_button a {
     display: block;
     width: 140px;
     background-color: #CFAD84;
@@ -394,7 +410,7 @@ main.main div.member_discount div.member_discount_product div.first_row div.card
     box-shadow: 4px 4px 4px rgba(181, 129, 43, .16) inset;
 }
 
-main.main div.member_discount div.member_discount_product div.second_row{
+main.main div.member_discount div.member_discount_product div.second_row {
     width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -402,17 +418,17 @@ main.main div.member_discount div.member_discount_product div.second_row{
     padding: 24px 0px;
 }
 
-main.main div.member_discount div.member_discount_product div.second_row div.card{
+main.main div.member_discount div.member_discount_product div.second_row div.card {
     width: 320px;
     border: 0;
 }
 
-main.main div.member_discount div.member_discount_product div.second_row div.card div.product_img img{
+main.main div.member_discount div.member_discount_product div.second_row div.card div.product_img img {
     width: 320px;
     display: block;
 }
 
-main.main div.member_discount div.member_discount_product div.second_row div.card div.product_img span{
+main.main div.member_discount div.member_discount_product div.second_row div.card div.product_img span {
     position: absolute;
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
@@ -431,7 +447,7 @@ main.main div.member_discount div.member_discount_product div.second_row div.car
     right: 15px;
 }
 
-main.main div.member_discount div.member_discount_product div.second_row div.card h1{
+main.main div.member_discount div.member_discount_product div.second_row div.card h1 {
     font-size: 24px;
     font-weight: 700;
     color: #613C11;
@@ -441,20 +457,20 @@ main.main div.member_discount div.member_discount_product div.second_row div.car
     margin: 24px 0;
 }
 
-main.main div.member_discount div.member_discount_product div.second_row div.card div.card_bottom{
+main.main div.member_discount div.member_discount_product div.second_row div.card div.card_bottom {
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
 
-main.main div.member_discount div.member_discount_product div.second_row div.card div.card_bottom div.product_price h3{
+main.main div.member_discount div.member_discount_product div.second_row div.card div.card_bottom div.product_price h3 {
     font-size: 32px;
     font-weight: 700;
     color: #613C11;
     padding: 10px 0;
 }
 
-main.main div.member_discount div.member_discount_product div.second_row div.card div.card_bottom div.product_button a{
+main.main div.member_discount div.member_discount_product div.second_row div.card div.card_bottom div.product_button a {
     display: block;
     width: 140px;
     background-color: #CFAD84;
@@ -479,18 +495,18 @@ main.main div.member_discount div.member_discount_product div.second_row div.car
 
 /* FAQ */
 
-main.main div.faq{
+main.main div.faq {
     width: 1200px;
     margin: 0 auto;
     padding-bottom: 56px;
     position: relative;
 }
 
-main.main div.faq div.faq_title{
+main.main div.faq div.faq_title {
     text-align: center;
 }
 
-main.main div.faq div.faq_title h1{
+main.main div.faq div.faq_title h1 {
     font-size: 32px;
     font-weight: 700;
     line-height: 110%;
@@ -498,14 +514,14 @@ main.main div.faq div.faq_title h1{
     color: #613C11;
 }
 
-main.main div.faq div.faq_content{
+main.main div.faq div.faq_content {
     width: 1200px;
     margin: 56px auto;
     display: flex;
     justify-content: space-between;
 }
 
-main.main div.faq div.faq_content div.faq_picture{
+main.main div.faq div.faq_content div.faq_picture {
     display: block;
     width: 500px;
 }
@@ -523,33 +539,34 @@ main.main div.faq div.faq_content div.faq_question div.question {
     justify-content: space-between;
 }
 
-main.main div.faq div.faq_content div.faq_question div.faq_layout_index{
+main.main div.faq div.faq_content div.faq_question div.faq_layout_index {
     display: flex;
     align-items: center;
 }
 
-main.main div.faq div.faq_content div.faq_question div.question div.question_tag{
+main.main div.faq div.faq_content div.faq_question div.question div.question_tag {
     margin-right: 24px;
 }
 
-main.main div.faq div.faq_content div.faq_question div.question div.question_tag span.faq_list_style{
+main.main div.faq div.faq_content div.faq_question div.question div.question_tag span.faq_list_style {
     display: inline-block;
     border: 8px solid #613C11;
     transform: rotate(45deg);
 }
 
-main.main div.faq div.faq_content div.faq_question div.question div.question_content{
+main.main div.faq div.faq_content div.faq_question div.question div.question_content {
     font-size: 20px;
     color: #613C11;
     line-height: 28px;
     position: relative;
 }
 
-main.main div.faq div.faq_content div.faq_question div.question div.question_arrow span.material-symbols-outlined{
+main.main div.faq div.faq_content div.faq_question div.question div.question_arrow span.material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
     font-style: normal;
-    font-size: 40px; /* Preferred icon size */
+    font-size: 40px;
+    /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -560,7 +577,7 @@ main.main div.faq div.faq_content div.faq_question div.question div.question_arr
     color: #613C11;
 }
 
-main.main div.faq div.faq_content div.faq_question div.question div.question_content::after{
+main.main div.faq div.faq_content div.faq_question div.question div.question_content::after {
     position: absolute;
     width: 610px;
     height: 1px;
@@ -570,7 +587,7 @@ main.main div.faq div.faq_content div.faq_question div.question div.question_con
     background-color: #613C11;
 }
 
-main.main div.faq div.faq_button{
+main.main div.faq div.faq_button {
     display: block;
     width: 140px;
     position: absolute;
@@ -578,7 +595,7 @@ main.main div.faq div.faq_button{
     right: 0;
 }
 
-main.main div.faq div.faq_button a{
+main.main div.faq div.faq_button a {
     display: block;
     width: 140px;
     background-color: #CFAD84;
@@ -591,23 +608,208 @@ main.main div.faq div.faq_button a{
     text-decoration: none;
 }
 
-main.main div.faq div.faq_button a:hover{
+main.main div.faq div.faq_button a:hover {
     background-color: #EAC18E;
     box-shadow: 0px 4px 4px rgba(158, 117, 49, .16);
 }
 
-main.main div.faq div.faq_button a:focus{
+main.main div.faq div.faq_button a:focus {
     background-color: #CEA574;
     box-shadow: 4px 4px 4px rgba(181, 129, 43, .16) inset;
 }
 
 @media screen and (max-width: 1200px) {
 
-    main.main div.top_sale div.top_sale_product{
-        width: auto;
+    main.main div.time_limit_sales {
+        width: 800px;
+        background-image: url(../img/sales800.png);
+    }
+    
+    main.main div.time_limit_sales div.card_container {
         overflow-x: auto;
+        justify-content: normal;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    main.main div.time_limit_sales div.card {
+        width: 320px;
+        height: auto;
+        margin: 0 20px;
+        margin-top: 100px;
+        padding-bottom: 20px;
+        flex-shrink: 0;
     }
 
-    main.main div.top_sales div.top_sale_product div.card{
+    main.main div.top_sale div.top_sale_title{
+        margin-bottom: 32px;
     }
+
+    main.main div.top_sale div.top_sale_product {
+        width: auto;
+        overflow-x: auto;
+        margin: 0 20px;
+        padding: 50px 20px;
+        gap: 20px;
+    }
+
+    main.main div.top_sale div.top_sale_product div.card {
+        width: 320px;
+        margin: 0 20px;
+        flex-shrink: 0;
+    }
+
+    main.main div.member_discount{
+        padding-top: 40px;
+    }
+
+    main.main div.member_discount picture {
+        width: 800px;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+
+    main.main div.member_discount div.member_discount_product{
+        display: flex;
+        width: auto;
+        margin: 0 20px;
+    }
+
+    main.main div.member_discount div.member_discount_product div.card{
+        margin-bottom: 32px;
+    }
+
+    main.main div.member_discount div.member_discount_product div.first_row {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    main.main div.member_discount div.member_discount_product div.second_row {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    main.main div.faq {
+        width: auto;
+        margin: 0 20px;
+        padding-bottom: 32px;
+        position: relative;
+    }
+
+    main.main div.faq div.faq_title {
+        text-align: center;
+    }
+
+    main.main div.faq div.faq_content {
+        width: auto;
+        margin: 56px 20px;
+        display: block;
+    }
+
+    main.main div.faq div.faq_content div.faq_picture {
+        display: none;
+    }
+
+    main.main div.faq div.faq_content div.faq_question {
+        width: auto;
+        margin: 0 20px;
+    }
+
+    main.main div.faq div.faq_content div.faq_question div.question {
+        margin: 20px 0;
+    }
+
+    main.main div.faq div.faq_content div.faq_question div.question div.question_tag {
+        margin-right: 24px;
+    }
+
+    main.main div.faq div.faq_content div.faq_question div.question div.question_content {
+        font-size: 24px;
+        line-height: 110%;
+        letter-spacing: 12%;
+    }
+
+    main.main div.faq div.faq_content div.faq_question div.question div.question_content::after {
+        width: auto;
+    }
+
+    main.main div.faq div.faq_button {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    main.main div.time_limit_sales {
+        width: 630px;
+        background-image: url(../img/sales630.png);
+    }
+
+    div.product ul.product_list > li {
+        margin-right: 12px;
+    }
+
+    main.main div.member_discount picture{
+        width: 630px;
+        padding-bottom: 40px;
+    }
+
+    main.main div.member_discount div.member_discount_product{
+        flex-direction: column;
+        width: auto;
+        margin: 0 20px;
+    }
+
+    main.main div.member_discount div.member_discount_product div.card{
+        margin-bottom: 32px;
+    }
+
+    main.main div.member_discount div.member_discount_product div.first_row {
+        width: auto;
+    }
+
+    main.main div.member_discount div.member_discount_product div.second_row {
+        width: auto;
+    }
+
+    main.main div.faq div.faq_content div.faq_question div.question div.question_content {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 630px){
+
+    main.main div.time_limit_sales {
+        width: 400px;
+        background-image: url(../img/sales400.png);
+    }
+
+    main.main div.time_limit_sales div.countdown{
+        width: 182px;
+        height: 56px;
+        position: absolute;
+        left: 151px;
+    }
+    
+    main.main div.time_limit_sales div.countdown p{
+        width: 22px;
+        height: 36px;
+        line-height: 36px;
+    }
+
+    main.main div.faq div.faq_content {
+        width: auto;
+        margin: 48px 0;
+    }
+
+    main.main div.member_discount picture{
+        width: 414px;
+        padding-bottom: 40px;
+    }
+
 }

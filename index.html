@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -85,14 +85,25 @@
 
         <div class="time_limit_sales">
 
+            <div class="countdown">
+                <p id="hour1"></p>
+                <p id="hour2"></p>
+                <p>:</p>
+                <p id="minute1"></p>
+                <p id="minute2"></p>
+                <p>:</p>
+                <p id="second1"></p>
+                <p id="second2"></p>
+            </div>
+
             <div class="card_container">
 
                 <div class="card">
 
                     <div class="product_img">
                         <img src="../img/beef noodles.jpg" alt="">
-                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                     </div>
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a>
 
                     <h1>【即饗】 紅燒牛肉麵 (580g/包)</h1>
 
@@ -116,8 +127,9 @@
 
                     <div class="product_img">
                         <img src="../img/kimchi rice.jpg" alt="">
-                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                     </div>
+
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a>
 
                     <h1>【即饗】 豬肉泡菜炒飯 (300g/包)</h1>
 
@@ -140,8 +152,9 @@
 
                     <div class="product_img">
                         <img src="../img/beef black curry.jpg" alt="">
-                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                     </div>
+
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a>
 
                     <h1>【即饗】 牛肉黑咖哩醬包 (180g/包)</h1>
 
@@ -181,8 +194,9 @@
 
                     <div class="product_img">
                         <img src="../img/meat bun.jpg" alt="">
-                        <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                     </div>
+
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a>
 
                     <h1>【即饗】 極享鮮肉包(100g/顆) (10入/袋)</h1>
 
@@ -260,7 +274,12 @@
 
         <div class="member_discount">
 
-            <img src="../img/member discount.jpg" alt="" class="banner_picture">
+            <picture>
+                <source srcset="../img/400memberdiscount.jpg" media="(max-width:630px)">
+                <source srcset="../img/630memberdiscount.jpg" media="(max-width:800px)">
+                <source srcset="../img/800memberdiscount.jpg" media="(max-width:1200px)">
+                <img src="../img/member discount.jpg" class="banner_picture" alt="" style="width: auto;">
+            </picture>
 
             <div class="member_discount_product">
 
@@ -556,6 +575,7 @@
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="../js/header_footer.js"></script>
+    <script src="../js/index_countdown.js"></script>
 </body>
 
 </html>
