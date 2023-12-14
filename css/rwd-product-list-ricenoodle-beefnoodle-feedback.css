@@ -17,17 +17,28 @@
         right: 10%;}
     .product-list{width: 100%;}
     .productlist-ricenoodle-beefnoodle{position: unset;}
+    .feedback-1 {gap: 100px;}
+    .feedback-2 {gap: 100px;}
+    .feedback-3 {gap: 100px;}
+    .feedback-4 {gap: 100px;}
+    .feedback-5 {gap: 100px;}
 }
 
 @media screen and (max-width: 834px) {
     .productlist-ricenoodle-beefnoodle{position: relative;}
-    .product-list{height: 3600px;}
+    .product-list{height: 3480px;}
     .chips {
       width: 100%; 
       left: 0; 
       top: 100px; 
       height: 72px;
     }
+    .feedback-frame{top: 1520px;transform: scale(0.9);}
+    .feedback-1 {gap: 40px;}
+    .feedback-2 {gap: 40px;}
+    .feedback-3 {gap: 40px;}
+    .feedback-4 {gap: 40px;}
+    .feedback-5 {gap: 40px;}
     .breadcrumbs {
       left: 64px;
       top: 12px; 
@@ -56,15 +67,7 @@
     }
     .product-functionbuttons {
         top: 1440px;}
-    .payndeliever{gap: 56px;}
-    .div10{font-size: 32px;}
-    .payndeliever-frame{left: 10%;right: 10%;}
-    .payndeliever-d-line{width: 432px;}
-    .pay-icon-frame{width: 300px;height: 164px;}
-    .deliever-icon-frame{width: 300px;height: 185px;}
-    .deliever-icon-1{left: 126.34px;top: 28.29px;}
-    .line-pay-atm-visa-master-jcb-span{display: none;}
-    ._3-7-7-11-3-7-span{display: none;}
+
     .introproducts-wsubtitle{
         left: 34px;
     }
@@ -73,20 +76,7 @@
         padding: 0px 20px 20px 20px;
         width: 770px;
     }
-    .beefnoodle-product-intro{
-        position: relative;
-        top: 1560px;
-
-    }
-    .beefnoodle-pic-referbig{
-        width: 560px;
-        height: 300px;
-    }
- 
-    .people-dialogbox{
-        display: none;
-    }
-    .othersviewing{top: 79.4%;}
+    .othersviewing{top: 78.8%;}
     .chevron-left{display: none;}
     .chatbot-default{height: 56px;width: 56px;}
     #chat-window{
@@ -114,14 +104,12 @@
     #message-input{font-size: 18px;}
     #send-button{padding: 20px;}
     .btn-select{height: 40px;}
-    .payndeliever-frame{
-        top: 1544px;
-    }
 
   }
   
 
   @media screen and (max-width: 458px) {
+
     .popup{
         width: 340px;
         height: 296px;
@@ -132,7 +120,6 @@
         left: 10px;
         top: 10px;
     }
-
     .chips{height: 64px;top: 44px;}
     .breadcrumbs {
         padding-left: 40px;
@@ -167,7 +154,6 @@
         width: 90%;
         left: 5%;
     }
-
     .product-functionbuttons {
         top: 1064px;}
 
@@ -186,8 +172,8 @@
 
     .btn-product-favorite-big{width: 48px;height: 48px;}
     .btn_product_favorite_big-a{display: none;}
-    .product-list{height: 2900px;}
-    .othersviewing{height: 552px;top: 82.8%;}
+    .product-list{height: 3100px;}
+    .othersviewing{height: 552px;top: 84%;}
     .beefnoodle-pic-big-left-top-1{display: none;}
     .beefnoodle-pic-big-left-middle-1{display: none;}
     .beefnoodle-pic-big-left-bottom-1{display: none;}
@@ -213,51 +199,19 @@
     .beefnoodle-product-intro-refer-a{font-size: 18px;width: 320px;}
     .beefnoodle-pic-referbig{width: 320px;height: 200px;}
     .beefnoodle-product-intro{gap: 44px;}
+    .feedback-frame{top: 1060px;transform: scale(0.8);}
+    .showfeedback{width: auto;}
+    .feedback-1 {gap: 20px;flex-direction: column;}
+    .feedback-2 {gap: 20px;flex-direction: column;}
+    .feedback-3 {gap: 20px;flex-direction: column;}
+    .feedback-4 {gap: 20px;flex-direction: column;}
+    .feedback-5 {gap: 20px;flex-direction: column;}
+    .showfeedback-5-st{gap: 16px;}
+    .showfeedback-4-st{gap: 16px;}
+    .showfeedback-3-st{gap: 16px;}
+    .showfeedback-2-st{gap: 16px;}
+    .showfeedback-1-st{gap: 16px;}
 
-    .heatingmethod{gap: 16px; padding: 24px 0px;border-width: 8px;margin-top: 20px;}
-    .microwave2{ width: 200px;height: 132px;}
-    .microwave-icon{
-        height: 148px;
-        width: 272px;
-    }
-    .microwave-referline {width: 248px;height: 8px;}
-    .electricpot-referline {width: 248px;height: 8px;}
-    .heatingmethod-title2{font-size: 24px;}
-    .heatingmethod-a{font-size: 18px;}
-    .rice-cooker {width: 200px;}
-    .electricpot-icon{width: 320px;}
-
-    .beefnoodle-product-introword-title2{font-size: 24px;}
-    .heatingmethod-youtube{
-        margin-top: 20px;
-        gap: 32px;
-        height: 272px;
-        
-    }
-    .payndeliever-frame{top: 1180px;}
-    .div10{font-size: 24px;}
-    .line-pay-atm-visa-master-jcb-span2{font-size: 18px;}
-    ._3-7-7-11-3-7-span2{font-size: 18px;}
-    .payndeliever-p-line{width: 248px;height: 8px;}
-    .payndeliever-d-line{width: 248px;height: 8px;}
-    .pay-icon-frame {
-        width: 260px;
-        height: 130px;}
-    .pic-pay{width: 320px;}    
-    .pay-icon-4{border-width: 12px;}
-    .pic-deliver{width: 320px;}
-    .deliever-icon-frame {
-        width: 270px;
-        height: 168px;}
-    .deliever-icon-1 {
-        left: 101.34px;
-        top: 15.29px;}
-    .deliever-icon-6{left: -30%;}
-    .deliever-icon-4{left: 26.48%;}
-    ._3-7-7-11-3-7{width: 245px;}
-    .payndeliever{gap: 16px;}
-    .payndeliever-frame{padding: 24px;border-width: 8px;}
-    
     .introproducts-wsubtitle{gap: 24px;}
     .subtitle{font-size: 24px;    width: 280px;}
     .introproducts{padding: 0px 10px 20px 10px;}

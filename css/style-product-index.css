@@ -558,6 +558,28 @@ border-radius: 50%;
   display: flex;
   position: absolute;
 }
+    /* 網頁捲軸【寬度】 */
+    ::-webkit-scrollbar {
+
+      height: 6px;
+      width: 0;
+  }
+
+  /* 網頁捲軸【背景】顏色 */
+  ::-webkit-scrollbar-track {
+      background: rgba(207, 173, 132, 0.30);
+  }
+
+  /* 網頁捲軸【把手】顏色 */
+  ::-webkit-scrollbar-thumb {
+      background: #CFAD84;
+  }
+
+  /* 網頁捲軸【滑過時】把手的顏色 */
+  ::-webkit-scrollbar-thumb:hover {
+      background: #613C11;
+  }
+  
 .salestag-timeframe {
   background: rgba(255, 194, 103, 0.3);
   border-radius: 8px;
@@ -1285,6 +1307,63 @@ border-radius: 50%;
   font: var(--title-3-regular, 400 24px/110% "Roboto-Regular", sans-serif);
   position: relative;
 }
+/* notif */
+#notification-container-fav {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  text-align: center;
+}
+#notification-container-cartadd {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  text-align: center;
+}
+.notification-container {
+  background-color: white;
+  border: 1px solid var(--text-color, #CFAD84);
+  padding: 8px;
+  transition: 0.5s ease-in-out; /* 設定淡出效果，這裡是 0.5 秒，可以根據需要調整 */
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.notification-custom {
+  width: 670px;
+  height: 60px;
+  border: 1px dashed var(--text-color, #CFAD84);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 1; /* 設定初始透明度，如果你的動畫是淡出，這裡應該是 1 */
+}
+
+.check-icon {
+  background-color: #7DA528;
+  border-radius: 50%;
+  color: white;
+  padding: 5px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.check-icon::before {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 12%;
+  line-height: 110%;
+  margin: auto;
+}
+/*  */
 
 
 /* chatbot */

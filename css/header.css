@@ -771,17 +771,18 @@ img.pic{
     position: relative;  
 }
 
-.bi.bi-arrow-right-short{
+#arrow1{
   font-size: 32px;
   position: absolute;
   right: -6px;
-  top: 110px;
+  top: 100px;
   cursor: pointer;
   line-height: 1;
   color: #613C11;
+  z-index: 3;
 }
 
-.bi-arrow-right-short:hover{
+#arrow1:hover{
   color: #CFAD84;
 }
 
@@ -970,10 +971,10 @@ input::placeholder{
   margin: 0 auto;
 }
 
-.change_page i{
-font-size: 48px;
+/* .change_page i{
+font-size: 32px;
 position: absolute;
-right: 20px;
+right: 10px;
 top: 20px;
 cursor: pointer;
 line-height: 1;
@@ -982,7 +983,7 @@ color: #613C11;
 
 .change_page i:hover{
 color: #CFAD84;
-}
+} */
 
 
 .change_main{
@@ -1312,7 +1313,7 @@ form{
   margin: 0 auto;
 }
 
-.user-box {
+.user-box1 {
   position: relative;
   width: 100%;
   margin-top: 16px;
@@ -1323,7 +1324,7 @@ input[type="date"]::-webkit-datetime-edit {
   visibility: hidden;
 }
 
-.user-box input {
+.user-box1 input {
   width: 90%;
   padding: 10px 0;
   font-size: 16px;
@@ -1335,7 +1336,7 @@ input[type="date"]::-webkit-datetime-edit {
   background: transparent;
 }
 
-.user-box label {
+.user-box1 label {
   position: absolute;
   top:0;
   left: 0;
@@ -1346,8 +1347,8 @@ input[type="date"]::-webkit-datetime-edit {
   transition: .5s;
 }
 
-.user-box input:focus ~ label,
-.user-box input:valid ~ label {
+.user-box1 input:focus ~ label,
+.user-box1 input:valid ~ label {
   top: -20px;
   left: 0;
   color: #CFAD84;

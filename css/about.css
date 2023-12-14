@@ -7,15 +7,15 @@
 
 div.logo img {
     display: block;
+    width: 424px;
     margin: 0 auto;
-    padding: 26px 0;
-    margin-bottom: 40px;
+    padding: 78px 0;
 }
 
 div.banner {
     width: auto;
     height: 600px;
-    background-image: url(img/about banner.jpg);
+    background-image: url(img/aboutbanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

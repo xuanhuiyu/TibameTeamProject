@@ -13,7 +13,7 @@
         align-items: center;
     }
     .introproducts-wsubtitle{left: 168px;}
-    .line-55{width: 1200px;  left: calc(50% - 624px);}
+    /* .line-55{width: 1200px;  left: calc(50% - 624px);} */
 
     .product-list{width: 100%;}
     .productlist-ricenoodle-beefnoodle{position: unset;}
@@ -36,6 +36,7 @@
     .popup{
         width: 480px;
         height: 480px;
+                /* transform: scale(0.6);  */
     }
     .popup-product-pic{
         width: 400px;
@@ -51,21 +52,21 @@
   
     .line-55{
         top: 1420px;
-        width: 630px;
+        /* width: 630px;
         left: 10%;
-        right: 10%;
+        right: 10%; */
     }
     .product-functionbuttons {
         top: 1440px;}
 
-    .introproducts-wsubtitle{
-        left: 0px;
-    }
-    .introproducts{
-        gap: 40px;
-        padding: 0px 80px 0px 80px;
-        width: 620px;
-    }
+        .introproducts-wsubtitle{
+            left: 34px;
+        }
+        .introproducts{
+            gap: 40px;
+            padding: 0px 20px 20px 20px;
+            width: 770px;
+        }
     .beefnoodle-product-intro{
         position: relative;
         top: 840px;
@@ -151,25 +152,38 @@
 
   @media screen and (max-width: 458px) {
 
-    .chips{height: 64px;top: 0;}
+    .popup{
+        width: 340px;
+        height: 296px;
+        top: 32%;
+    }
+    .popup-product-pic{
+        width: 320px;
+        left: 10px;
+        top: 10px;
+    }
+    .chips{height: 64px;top: 44px;}
     .breadcrumbs {
-        padding-left: 32px;
+        padding-left: 40px;
         left: 0;
         top: 0px;
     }
     .breadcrumbs-index-a{font-size: 18px;}
     .breadcrumbs-index-focus-a{font-size: 18px;}
     .product-ricenoodle-beefnoodle-picwrefer{
-        top: 80px;
+        top: 112px;
         align-items: start;
         left: 40px;
     }
     .product-refer-bigtitle{font-size: 20px;width: 100%;}
     .product-refer{gap: 20px;width: 325px;}
     .product-refer-line{width: 325px;}
-    .line-55{top: 1032px;width: 360px;    left: calc(50% - 177px);}
+    .line-55{top: 1052px;
+        width: 90%;
+        left: 5%;
+    }
     .product-functionbuttons {
-        top: 1048px;}
+        top: 1064px;}
 
     .product-functionbuttons-a{font-size: 18px;}
     .btn-product-intro{
@@ -282,11 +296,16 @@
 
     .introproducts-wsubtitle{gap: 24px;}
     .subtitle{font-size: 24px;    width: 280px;}
-    .introproducts{padding: 0px 40px;}
+    .introproducts{padding: 0px 10px 20px 10px;}
 
     .card-list{gap: 0;}
     .introproducts{width: 360px;}
     .introproducts-wsubtitle{top: 0px;}
     .nutrition-label{width: 320px;height: 320px;}
+    .notification-custom {
+        width: 320px;
+        height: 60px;
+
+      }
 
   }
