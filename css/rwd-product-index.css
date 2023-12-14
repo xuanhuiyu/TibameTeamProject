@@ -524,6 +524,11 @@
         
     }
 
+    .notification-custom {
+        width: 320px;
+        height: 60px;
+
+      }
 
 }
 
