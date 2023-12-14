@@ -1,0 +1,123 @@
+@media screen and (max-width:430px){
+    .nt1{
+        width: 400px ;
+        height: 94px;
+        
+      }
+
+    .dash_nt1{
+        width: 365px ;
+          grid-template-columns:repeat(6,1fr);
+          grid-template-areas: 'icon text text text text text ';
+          
+      }
+
+      .bi.bi-check-circle-fill{
+        grid-area: icon;
+        margin-left: 20px;
+        line-height: 53.67px;
+      }
+      
+      .dash_nt1 p{
+      font-size: 12px;
+      grid-column: 2/7;
+      }
+
+      .nt2{
+        width: 400px ;
+        height: 94px;
+        
+      }
+
+    .dash_nt2{
+        width: 365px ;
+          grid-template-columns:repeat(6,1fr);
+          grid-template-areas: 'icon text text text text text ';
+          
+      }
+      
+      .dash_nt2 p{
+        font-size: 12px;
+        grid-column: 2/7;
+        }
+
+    
+    .register_page{
+        width: 400px ;
+        height: 800px;
+        background-color: #fff;
+        border: #CFAD84 3px solid ;
+        border-radius: 8px;
+        position: absolute;
+        /* position: relative; */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 50px;
+        box-sizing: border-box;
+        position: relative;
+        padding: 10px 50px;
+        position: fixed;
+      }
+
+      .register_main{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-content: center;
+      }
+
+      .register_content1{
+        width: 50%;
+        align-items: center;
+      }
+
+      .register_content2{
+        width: 50%;
+        align-items: center;
+      }
+
+      form{
+        width: 150px;
+        margin: 0 auto;
+      }
+
+      .user-box input {
+        width: 135px;
+        height: 49px;
+      }
+
+      .text1 p{
+        font-size: 14px;
+        left: 215px;
+        top: 474px;
+      }
+      
+      .text2 p{
+        font-size: 14px;
+        left: 215px;
+        top: 496px;
+        line-height: 1.2;
+      }
+
+      .dash_or1{
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        }
+
+      .dash_3{
+        /* background-color: #CFAD84; */
+        width: 100px;
+        
+        }
+        .dash_4{
+        /* background-color: #CFAD84; */
+        width: 100px;
+
+        }
+        
+}
