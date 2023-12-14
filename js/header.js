@@ -137,25 +137,25 @@ $('.change_page').click(function(e){
 })
 
 
-// $('.revised_').click(function() {
-//     var countdownElement = $(".second5");
-//     var seconds = 5;
-//     updateCountdown();
-//     var countdownInterval = setInterval(function() {
-//         seconds-=1;
-//         updateCountdown();
-//         if (seconds === 0) {
-//             clearInterval(countdownInterval); 
-//             $('.notice1').css('display','none');
-//             $('.mask_change').css('display','none'); 
-//             $('.mask_login').css('display','block'); 
-//         }
-//     }, 1000);
+$('.revised_').click(function() {
+    var countdownElement = $(".second5");
+    var seconds = 5;
+    updateCountdown();
+    var countdownInterval = setInterval(function() {
+        seconds-=1;
+        updateCountdown();
+        if (seconds === 0) {
+            clearInterval(countdownInterval); 
+            $('.notice1').css('display','none');
+            $('.mask_change').css('display','none'); 
+            $('.mask_login').css('display','block'); 
+        }
+    }, 1000);
     
-//     function updateCountdown() {
-//         countdownElement.text(seconds);
-//     }
-// });
+    function updateCountdown() {
+        countdownElement.text(seconds);
+    }
+});
 
 $('.register_completed').click(function(){
     $('.register_page').hide()
