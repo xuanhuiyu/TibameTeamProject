@@ -147,6 +147,9 @@ body{
   top: 224px;
   overflow: hidden;
 }
+.chips-arrow-right{
+  color: #828282;
+}
 .breadcrumbs {
   display: flex;
   flex-direction: row;

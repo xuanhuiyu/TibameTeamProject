@@ -245,6 +245,7 @@ border-radius: 50%;
   
 }
 .tagline-pic-1 {
+  padding: 0px 40px;
   width: 1200px;
   height: 400px;
   position: relative;
@@ -253,7 +254,6 @@ border-radius: 50%;
 }
 .group-24 {
   flex-shrink: 0;
-  width: 1200px;
   height: 400px;
   position: relative;
 }
@@ -561,7 +561,7 @@ border-radius: 50%;
 .salestag-timeframe {
   background: rgba(255, 194, 103, 0.3);
   border-radius: 8px;
-  padding: 12.5px 8px 12.5px 8px;
+  padding: 8px 8px 8px 8px;
   display: flex;
   flex-direction: row;
   gap: 5px;
@@ -640,7 +640,11 @@ border-radius: 50%;
     inset 4px 4px 4px 0px rgba(255, 230, 199, 0.25);
   position: flex;
 }
-.alarm {
+.alarm span{
+  font-size: 36px;
+  box-shadow: 4px 8px 4px 0px rgba(255, 194, 103, 0.25);
+  padding-left: 4px;
+  color: #fff;
   flex-shrink: 0;
   width: 40px;
   height: 40px;
@@ -1225,6 +1229,9 @@ border-radius: 50%;
   width: 100%;
   height: 96px;
   overflow: hidden;
+}
+.chips-arrow-right{
+  color: #828282;
 }
 .breadcrumbs {
   display: flex;

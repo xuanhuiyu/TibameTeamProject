@@ -66,7 +66,7 @@
         margin-bottom: 20px;
     }    
 
-    .tagline-pic-1{width: 1120px;}
+    .tagline-pic-1{width: 100%;}
 
 }
 @media screen and (max-width: 1024px) {
@@ -142,12 +142,11 @@
         top: 58px;
     }
     .tagline-pic-1 {
-        width: 780px;
-
+        width: 100%;
       }
-      .group-24 {
+    .group-24 {
         width: 780px;
-      }
+    }
     .tagline{height: 440px;}
     .tagline-title2{ gap: 20px;}
     .tagline-a { left: 80px;}
@@ -335,7 +334,7 @@
     .price-small-onsale{font-size: 28px;}
     .price-small-normalprice{font-size: 28px;}
     .btn-product-addcart{font-size: 18px;margin: 4px;}
-    .onsaletime-frame{top: 692px;}
+    .onsaletime-frame{top: 700px;}
     .salestag-timeframe{right: 0px;}
     .salestag{width: 112px;}
     .subtitle{font-size: 24px;}
@@ -352,9 +351,9 @@
     .productlist-index{padding-top: 48px;height: 480px;}
 
     .logo-top{
-        padding-top: 14px;
+        padding-top: 18px;
         height: 170px;
-        margin-bottom: 4px;
+        margin-bottom: 8px;
     }
     .logo-pic {
         transform: scale(0.6); /* 缩小到60% */
@@ -442,7 +441,7 @@
         box-shadow: 4px 6px 4px 0px rgba(255, 194, 103, 0.25), inset 4px 4px 4px 0px rgba(255, 230, 199, 0.25);
     }
     
-    .salestag-time-num {height: 32px;margin-top: 6px;}
+    .salestag-time-num {margin-top: 4px;}
     .salestag-timeframe{
         padding: 4.5px 4px;}
     .card-list {gap: 4px;}

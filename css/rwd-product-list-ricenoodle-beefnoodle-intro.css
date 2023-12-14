@@ -4,12 +4,15 @@
         width: auto;
     }
 }
-
+@media screen and (max-width: 1700px) {
+    .introproducts-wsubtitle{left: 232px;}
+}
 @media screen and (max-width: 1560px) {
     .product-ricenoodle-beefnoodle-picwrefer{
         left: 130px;
         align-items: center;
     }
+    .introproducts-wsubtitle{left: 168px;}
     .line-55{width: 1200px;  left: calc(50% - 624px);}
 
     .product-list{width: 100%;}
@@ -52,13 +55,9 @@
         left: 10%;
         right: 10%;
     }
-    .product-functionbuttons{
-        top: 1440px;
-        gap: 104px;
-        left: 10%;
-        right: 10%;
+    .product-functionbuttons {
+        top: 1440px;}
 
-    }
     .introproducts-wsubtitle{
         left: 0px;
     }
@@ -115,6 +114,10 @@
     .people-dialogbox{
         display: none;
     }
+    .social-icons{
+        right: -190px;
+        top: -20px;
+    }
     .othersviewing{top: 88.8%;}
     .chevron-left{display: none;}
     .chatbot-default{height: 56px;width: 56px;}
@@ -140,10 +143,14 @@
     #message-input{font-size: 18px;}
     #send-button{padding: 20px;}
     .btn-select{height: 40px;}
+    .othersviewing {
+        top: 87.15%;
+    }
   }
   
 
   @media screen and (max-width: 458px) {
+
     .chips{height: 64px;top: 0;}
     .breadcrumbs {
         padding-left: 32px;
@@ -162,9 +169,7 @@
     .product-refer-line{width: 325px;}
     .line-55{top: 1032px;width: 360px;    left: calc(50% - 177px);}
     .product-functionbuttons {
-        top: 1048px;
-        gap: 16px;
-        left: calc(50% - 182px);}
+        top: 1048px;}
 
     .product-functionbuttons-a{font-size: 18px;}
     .btn-product-intro{
@@ -219,13 +224,14 @@
     .heatingmethod-a{font-size: 18px;}
     .rice-cooker {width: 200px;}
     .electricpot-icon{width: 320px;}
-
+    .othersviewing {
+        top: 87.48%;
+    }
     .beefnoodle-product-introword-title2{font-size: 24px;}
     .heatingmethod-youtube{
         margin-top: 20px;
         gap: 32px;
         height: 272px;
-        
     }
     .heatingmethod-youtube iframe{
         width: 320px;
@@ -263,6 +269,16 @@
     ._580-g-5-g{top: 0.4%;    left: 26.1%;}
 
     .group-1{position:relative;height: auto;}
+    .btn-product-favorite-big:active::before{
+        left: 20px;
+        top: 12px;
+        width: 13px;
+        height: 21px;
+      }
+    .btn-product-favorite-big:active:after {
+        top: 12px;
+        left: 6px;
+    }
 
     .introproducts-wsubtitle{gap: 24px;}
     .subtitle{font-size: 24px;    width: 280px;}
