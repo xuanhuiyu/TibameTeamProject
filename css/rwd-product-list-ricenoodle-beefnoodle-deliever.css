@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 834px) {
     .productlist-ricenoodle-beefnoodle{position: relative;}
-    .product-list{height: 3280px;}
+    .product-list{height: 3600px;}
     .chips {
       width: 100%; 
       left: 0; 
@@ -66,12 +66,12 @@
     .line-pay-atm-visa-master-jcb-span{display: none;}
     ._3-7-7-11-3-7-span{display: none;}
     .introproducts-wsubtitle{
-        left: 0px;
+        left: 34px;
     }
     .introproducts{
         gap: 40px;
-        padding: 0px 80px 0px 80px;
-        width: 620px;
+        padding: 0px 20px 20px 20px;
+        width: 770px;
     }
     .beefnoodle-product-intro{
         position: relative;
@@ -86,7 +86,7 @@
     .people-dialogbox{
         display: none;
     }
-    .othersviewing{top: 88.8%;}
+    .othersviewing{top: 79.4%;}
     .chevron-left{display: none;}
     .chatbot-default{height: 56px;width: 56px;}
     #chat-window{
@@ -117,17 +117,15 @@
     .payndeliever-frame{
         top: 1544px;
     }
-    .othersviewing {
-        top: 87.15%;
-    }
+
   }
   
 
   @media screen and (max-width: 458px) {
 
-    .chips{height: 64px;top: 0;}
+    .chips{height: 64px;top: 44px;}
     .breadcrumbs {
-        padding-left: 32px;
+        padding-left: 40px;
         left: 0;
         top: 0px;
         height: 64px;
@@ -135,7 +133,7 @@
     .breadcrumbs-index-a{font-size: 18px;}
     .breadcrumbs-index-focus-a{font-size: 18px;}
     .product-ricenoodle-beefnoodle-picwrefer{
-        top: 80px;
+        top: 112px;
         align-items: start;
         left: 40px;
     }
@@ -155,9 +153,13 @@
     .product-refer-bigtitle{font-size: 20px;width: 100%;}
     .product-refer{gap: 20px;width: 325px;}
     .product-refer-line{width: 325px;}
-    .line-55{top: 1032px;width: 360px;    left: calc(50% - 177px);}
+    .line-55{top: 1052px;
+        width: 90%;
+        left: 5%;
+    }
+
     .product-functionbuttons {
-        top: 1048px;}
+        top: 1064px;}
 
 
     .product-functionbuttons-a{font-size: 18px;}
@@ -193,9 +195,7 @@
     .plus{left: 124px;}
     .stepper{gap: 17px;}
     .share-default{display: none;}
-    .othersviewing {
-        top: 87.48%;
-    }
+
     .evaluate-stars{gap: 16px;}
     .beefnoodle-product-intro{top: 640px;}
     .beefnoodle-product-introword{gap: 24px;}
@@ -224,7 +224,7 @@
         height: 272px;
         
     }
-    .payndeliever-frame{top: 1140px;}
+    .payndeliever-frame{top: 1180px;}
     .div10{font-size: 24px;}
     .line-pay-atm-visa-master-jcb-span2{font-size: 18px;}
     ._3-7-7-11-3-7-span2{font-size: 18px;}
@@ -250,7 +250,7 @@
     
     .introproducts-wsubtitle{gap: 24px;}
     .subtitle{font-size: 24px;    width: 280px;}
-    .introproducts{padding: 0px 40px;}
+    .introproducts{padding: 0px 10px 20px 10px;}
 
     .card-list{gap: 0;}
     .introproducts{width: 360px;}
