@@ -10,6 +10,7 @@ body {
     background-color: #FFF8F1;
     font-family: 'Roboto', sans-serif;
     color: #613C11;
+    line-height: 1.6;
 }
 
 .container {
@@ -110,7 +111,7 @@ main {
     border-radius: 16px;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 70px;
-    margin-bottom: 89px;
+    margin-bottom: 80px;
 }
 
 .top h1 {
@@ -150,53 +151,6 @@ main {
 }
 
 
-/* .bottom ul {
-    display: flex;
-    flex-direction: column;
-}
-
-.bottom li {
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 40px;
-    align-items: start;
-}
-
-.bottom ul li:first-child {
-    background-image: url(../img/gold_none.png);
-}
-
-.bottom ul li:nth-child(2) {
-    background-image: url(../img/silver_none.png);
-}
-
-.bottom ul li:last-child {
-    background-image: url(../img/cu_none.png);
-}
-
-.bottom .introduction {
-    width: 100%;
-}
-
-.bottom h3 {
-    color: #7DA528;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.6;
-    letter-spacing: 2px;
-    padding-left: 320px;
-    padding-top: 40px;
-}
-
-.bottom p {
-    color: #613C11;
-    font-size: 16px;
-    padding-left: 330px;
-    line-height: 1.4;
-} */
-
-
 .bottom img {
     width: 668px;
     height: 266px;
@@ -205,6 +159,7 @@ main {
 .bottom ul {
     display: flex;
     flex-direction: column;
+    margin-bottom: 120px;
 }
 
 .bottom ul li {
@@ -218,6 +173,39 @@ main {
 
 .bottom ul li img:nth-child(3) {
     display: none;
+}
+
+.terms {
+    /* background-color: #CFAD844D; */
+    background-color: rgba(207, 173, 132, 0.30);
+    border-radius: 16px;
+    /* padding: 16px; */
+    padding: 40px;
+    border: #CFAD84 solid 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .dottedline{
+    border: 2px dashed var(--Text-Color, #613C11);
+    border-radius: 12px;
+    padding: 24px 24px 24px 40px;
+} */
+
+.dottedline>p {
+    font-size: 16px;
+    padding-bottom: 12px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.dottedline h3 {
+    font-weight: bold;
+    padding: 4px 0;
+    line-height: 1.4;
+}
+
+.dottedline ul li p {
+    line-height: 1.2;
 }
 
 
