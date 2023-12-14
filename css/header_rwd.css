@@ -45,19 +45,8 @@
     .register_page{
         width: 400px ;
         height: 800px;
-        background-color: #fff;
-        border: #CFAD84 3px solid ;
-        border-radius: 8px;
-        position: absolute;
-        /* position: relative; */
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        padding: 10px 50px;
-        box-sizing: border-box;
-        position: relative;
-        padding: 10px 50px;
         position: fixed;
+        margin: 0 auto;
       }
 
       .register_main{
