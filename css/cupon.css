@@ -113,7 +113,7 @@ main {
     background-image: url(../img/cupon1.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 24px 8px;
+    margin: 24px 4px;
 }
 
 .saveright li:nth-child(2) {
