@@ -87,20 +87,25 @@
 
       .user-box input {
         width: 135px;
-        height: 28px;
+        height: 35px;
       }
 
       .text1 p{
         font-size: 14px;
         left: 220px;
-        top: 477px;
+        top: 432px;
       }
       
       .text2 p{
         font-size: 14px;
         left: 220px;
-        top: 500px;
+        top: 453px;
         line-height: 1.2;
+      }
+
+      .bt_r2{
+        width: 240px;
+        margin: 0 auto 16px auto;
       }
 
       .dash_or1{
@@ -120,5 +125,7 @@
         width: 100px;
 
         }
+
+
         
 }
