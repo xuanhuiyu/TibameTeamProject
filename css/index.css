@@ -10,8 +10,7 @@
 div.logo img {
     display: block;
     margin: 0 auto;
-    padding: 26px 0;
-    margin-bottom: 40px;
+    padding: 78px 0;
 }
 
 /* 產品分類列表 */
@@ -623,7 +622,7 @@ main.main div.faq div.faq_button a:focus {
 
     main.main div.time_limit_sales {
         width: 800px;
-        background-image: url(../img/sales800.png);
+        background-image: url(img/sales800.png);
     }
     
     main.main div.time_limit_sales div.card_container {
@@ -747,7 +746,7 @@ main.main div.faq div.faq_button a:focus {
 
     main.main div.time_limit_sales {
         width: 630px;
-        background-image: url(../img/sales630.png);
+        background-image: url(img/sales630.png);
     }
 
     div.product ul.product_list > li {
@@ -787,7 +786,7 @@ main.main div.faq div.faq_button a:focus {
 
     main.main div.time_limit_sales {
         width: 400px;
-        background-image: url(../img/sales400.png);
+        background-image: url(img/sales400.png);
     }
 
     main.main div.time_limit_sales div.countdown{
