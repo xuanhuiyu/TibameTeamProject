@@ -34,8 +34,32 @@ body{
   position: absolute;
   left: 174px;
   top: 224px;
-  font-size: 24px;
   font-weight: normal;
+  font-size: 24px;
+  list-style-type: none;
+  color: #613C11;
+  
+}
+
+.bread li{
+  display: inline-block;
+}
+
+.bread a{
+  text-decoration: none;
+  color: #613C11;
+}
+
+.iu{
+  color: #CFAD84 !important;
+}
+
+.main_pg:hover{
+  color: #CFAD84;
+}
+
+.member_pg:hover{
+  color: #CFAD84;
 }
 
 .selector{
