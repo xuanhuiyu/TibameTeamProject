@@ -402,15 +402,11 @@ header.header .material-symbols-outlined {
     transform: scaleX(1); 
   }
   
+  
 
 }
 
-@media screen and (max-width:430px){
-  .login_page{
-    width: 400px ;
-    height: 630px;
-}
-}
+
 
 /* 登入 */
 .mask_login{
@@ -1251,7 +1247,7 @@ grid-column: 2/5;
   border: #CFAD84 3px solid ;
   border-radius: 8px;
   position: absolute;
-  /* position: relative; */
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -1259,7 +1255,7 @@ grid-column: 2/5;
   box-sizing: border-box;
   position: relative;
   padding: 10px 50px;
-  position: fixed;
+  /* position: fixed; */
   /* z-index: 15; */
 }
 
@@ -1498,7 +1494,7 @@ input[id="accept_"] + label {
   border: 2px solid #CFAD84;
   border-radius: 4px;
   grid-area: checkbox2;
-  margin-top: -35px;
+  margin-top: -46px;
 }
 
 input[id="accept_"]:checked + label:after {

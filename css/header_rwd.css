@@ -1,6 +1,21 @@
-@media screen and (max-width:430px){
-    
+@media screen and (max-width:820px){
+  .login_page{
+    left: 50%;
+    top: 45%;
+  }
   
+  .register_page{
+    left: 50%;
+    top: 45%;
+  }
+}
+
+@media screen and (max-width:430px){
+
+    .login_page{
+      width: 400px ;
+      height: 630px;
+    }
       .nt1{
         width: 400px ;
         height: 94px;
@@ -74,6 +89,24 @@
       form1{
         width: 150px;
         margin: 0 auto;
+      }
+
+      .text2 p{
+        font-size: 15px;
+        grid-area: checkbox2;
+        margin-left:23px;
+        margin-top: 10px;
+        width: 160px;
+      }
+
+      input[id="accept_"] + label {
+        display: block;
+        width: 18px;
+        height: 18px;
+        border: 2px solid #CFAD84;
+        border-radius: 4px;
+        grid-area: checkbox2;
+        margin-top: -35px;
       }
 
       .user-box1 input {
