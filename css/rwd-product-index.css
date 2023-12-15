@@ -26,31 +26,31 @@
         width: 72px;
         height: 72px;
         left: 51px;
-        top: 82px;
+        top: 54px;
     }
     .icon-pickled{
         width: 72px;
         height: 72px;
         left: 51px;
-        top: 82px;
+        top: 54px;
     }
     .icon-dumpling{
         width: 72px;
         height: 72px;
         left: 51px;
-        top: 82px;
+        top: 54px;
     }
     .icon-bao{
         width: 80px;
         height: 80px;
         left: 48px;
-        top: 78px;
+        top: 50px;
     }
     .icon-sauce{
         width: 88px;
         height: 88px;
         left: 43px;
-        top: 73px;
+        top: 45px;
     }
     .ricenoodle{
         padding: 16px;}
@@ -115,31 +115,31 @@
         width: 64px;
         height: 64px;
         left: 35px;
-        top: 66px;
+        top: 36px;
     }
     .icon-pickled{
         width: 64px;
         height: 64px;
         left: 35px;
-        top: 66px;
+        top: 36px;
     }
     .icon-dumpling{
         width: 64px;
         height: 64px;
         left: 35px;
-        top: 66px;
+        top: 36px;
     }
     .icon-bao{
         width: 72px;
         height: 72px;
         left: 31px;
-        top: 61px;
+        top: 31px;
     }
     .icon-sauce{
         width: 80px;
         height: 80px;
         left: 27px;
-        top: 58px;
+        top: 28px;
     }
     .tagline-pic-1 {
         width: 100%;
@@ -193,10 +193,6 @@
         margin-top: 28px;
         margin-bottom: 20px;
     }
-    .icon-ricenoodle{
-        width: 56px;
-        height: 56px;
-    }
 
     .icon-big {
         margin-top: 12px;
@@ -214,31 +210,31 @@
         width: 60px;
         height: 60px;
         left: 36px;
-        top: 68px;
+        top: 40px;
     }
     .icon-pickled{
         width: 60px;
         height: 60px;
         left: 36px;
-        top: 68px;
+        top: 40px;
     }
     .icon-dumpling{
         width: 60px;
         height: 60px;
         left: 36px;
-        top: 68px;
+        top: 40px;
     }
     .icon-bao{
         width: 68px;
         height: 68px;
         left: 33px;
-        top: 64px;
+        top: 34px;
     }
     .icon-sauce{
         width: 76px;
         height: 76px;
         left: 29px;
-        top: 62px;
+        top: 32px;
     }
     .ricenoodle{
         padding: 10px;}
@@ -278,7 +274,7 @@
         bottom: 56px;
         }
         #chat-close{padding-left: 280px;}
-        #chat-header {padding: 24px 32px;}
+        #chat-header {padding: 24px 32px;height: 222px;}
         #chat-title{font-size: 32px;}
         #chat-subtitle{font-size: 20px;padding-top: 0px;margin-top: 20px;}
         #chat-title-2{font-size: 16px;}
@@ -381,31 +377,31 @@
         width: 48px;
         height: 48px;
         left: 20px;
-        top: 42px;
+        top: 23px;
     }
     .icon-pickled{
         width: 48px;
         height: 48px;
         left: 20px;
-        top: 42px;
+        top: 23px;
     }
     .icon-dumpling{
         width: 48px;
         height: 48px;
         left: 20px;
-        top: 42px;
+        top: 23px;
     }
     .icon-bao{
         width: 56px;
         height: 56px;
         left: 17px;
-        top: 37px;
+        top: 17px;
     }
     .icon-sauce{
         width: 64px;
         height: 64px;
         left: 13px;
-        top: 35px;
+        top: 14px;
     }
     .ricenoodle{
         padding: 12px;}

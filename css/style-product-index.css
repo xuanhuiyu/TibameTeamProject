@@ -245,7 +245,7 @@ border-radius: 50%;
   
 }
 .tagline-pic-1 {
-  padding: 0px 20px;
+  padding: 0px 0px;
   width: 1200px;
   height: 400px;
   position: relative;
@@ -1399,16 +1399,16 @@ border-radius: 50%;
 #chat-header {
   background-color: #CFAD84;
   color: white;
-  height: 224px;
-  padding: 20px 40px;
+  height: 256px;
+  padding: 20px 38px;
   /* display: flex; */
   justify-content: space-between;
   align-items: center;
 }
 #chat-leave {
   margin-top: -50px;
-  width: 388px;
-  height: 129px;
+  width: 454px;
+  height: 200px;
   background-color: #fff;
   color: #898989; 
   line-height: 1.6;
@@ -1453,7 +1453,7 @@ border-radius: 50%;
 #chat-footer {
   display: flex;
   padding: 10px;
-  width: 540px;
+  width: 558px;
   background-color: #f1f1f1;
   margin-left: -50px;
   margin-top: 64px;
@@ -1498,7 +1498,7 @@ border-radius: 50%;
 
 }
 #chat-subtitle {
-  padding-top: 8px;
+  padding-top:25px;
   font-size: 24px;
 
 }
