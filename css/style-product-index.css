@@ -683,17 +683,14 @@ border-radius: 50%;
   position: relative;
 }
 .onsale-products {
+  overflow-x: auto;
+  justify-content: normal;
+  margin-left: 58px;
+  margin-right: 20px;
+  padding-top: 56px;
   display: flex;
-  flex-direction: row;
   gap: 60px;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  right: 21.93%;
-  left: 21.93%;
-  width: 56.15%;
-  bottom: 59.47%;
-  top: 56%;
+  padding-top: 60px;
   /* z-index: 1; */
 
 }

@@ -8,9 +8,10 @@
 
     .hotsale-ranking-products{gap: 24px;}
     .salestag-timeframe{right: 568px;}
-    .onsale-products{
+    .onsale-products {
+        margin-left: 20px;
         gap: 24px;
-        display: flex;
+
     }
     .icon-logo-big{
         width: 172px;
@@ -442,7 +443,7 @@
     
     .salestag-time-num {margin-top: 4px;}
 
-    .card-list {gap: 4px;}
+    .card-list {gap: 0px;}
     .no-1{font-size: 20px;}
     .no-2{font-size: 20px;}
     .no-3{font-size: 20px;}
