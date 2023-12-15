@@ -627,7 +627,7 @@ main.main div.faq div.faq_button a:focus {
 
     main.main div.time_limit_sales {
         width: 800px;
-        background-image: url(img/sales800.png);
+        background-image: url(../img/sales800.png);
     }
     
     main.main div.time_limit_sales div.card_container {
@@ -751,7 +751,7 @@ main.main div.faq div.faq_button a:focus {
 
     main.main div.time_limit_sales {
         width: 630px;
-        background-image: url(img/sales630.png);
+        background-image: url(../img/sales630.png);
     }
 
     div.product ul.product_list > li {
@@ -791,7 +791,7 @@ main.main div.faq div.faq_button a:focus {
 
     main.main div.time_limit_sales {
         width: 400px;
-        background-image: url(img/sales400.png);
+        background-image: url(../img/sales400.png);
     }
 
     main.main div.time_limit_sales div.countdown{
