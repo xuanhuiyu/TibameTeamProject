@@ -1487,6 +1487,7 @@ input[id="subscribe_"] {
   grid-area: checkbox2;
   margin-left:23px;
   margin-top: 10px;
+  width: 160px;
 }
 
 
@@ -1497,7 +1498,7 @@ input[id="accept_"] + label {
   border: 2px solid #CFAD84;
   border-radius: 4px;
   grid-area: checkbox2;
-  margin-top: -32px;
+  margin-top: -35px;
 }
 
 input[id="accept_"]:checked + label:after {
