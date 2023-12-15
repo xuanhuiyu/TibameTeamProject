@@ -328,6 +328,7 @@
     .content{gap: 12px; width: 280px;}
 }
 @media (max-width: 458px) {
+    .card-product{        transform: scale(0.98);}
     .card-title{font-size: 20px;height: 56px;}
     .price-small-onsale-normal{font-size: 18px;}
     .price-small-onsale{font-size: 28px;}
