@@ -184,10 +184,6 @@ div.team div.team_content div.team_member_bottom div.team_member_name h3 {
 }
 
 @media screen and (max-width: 700px){
-
-    div.team{
-        padding-bottom: 0;
-    }
         
     div.team div.team_content{
         width: auto;
