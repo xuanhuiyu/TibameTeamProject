@@ -696,7 +696,7 @@ main.main div.faq div.faq_button a:focus {
 
     main.main div.faq {
         width: auto;
-        margin: 0 20px;
+        margin: 0 20px 100px;
         padding-bottom: 32px;
         position: relative;
     }
