@@ -7,15 +7,15 @@
 
 div.logo img {
     display: block;
+    width: 424px;
     margin: 0 auto;
-    padding: 26px 0;
-    margin-bottom: 40px;
+    padding: 78px 0;
 }
 
 div.banner {
     width: auto;
     height: 600px;
-    background-image: url(img/about banner.jpg);
+    background-image: url(../img/aboutbanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -142,7 +142,7 @@ div.team div.team_content div.team_member_bottom div.team_member_name h3 {
 
     div.banner {
         height: 375px;
-        background-image: url(img/1200aboutbanner.jpg);
+        background-image: url(../img/1200aboutbanner.jpg);
     }
 
     div.brand_spirit {
@@ -184,10 +184,6 @@ div.team div.team_content div.team_member_bottom div.team_member_name h3 {
 }
 
 @media screen and (max-width: 700px){
-
-    div.team{
-        padding-bottom: 0;
-    }
         
     div.team div.team_content{
         width: auto;
@@ -220,7 +216,7 @@ div.team div.team_content div.team_member_bottom div.team_member_name h3 {
     div.banner {
         width: auto;
         height: 300px;
-        background-image: url(img/600aboutbanner.jpg);
+        background-image: url(../img/600aboutbanner.jpg);
         margin-bottom: 32px;
     }
 

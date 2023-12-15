@@ -14,11 +14,11 @@ $(document).ready(function() {
     $(".footer_title").click(toggleDropdown);
 
     // 點擊其他地方時關閉已展開的下拉清單
-    $(document).click(function(e) {
-        if (!$(e.target).closest('.footer_nav').length) {
-            $(".footer_nav ul").slideUp();
-        }
-    });
+    // $(document).click(function(e) {
+    //     if (!$(e.target).closest('.footer_nav').length) {
+    //         $(".footer_nav ul").slideUp();
+    //     }
+    // });
 
     $(window).resize(function() {
         var windowWidth = $(window).width();

@@ -5,17 +5,20 @@ $(function() {
       $("#footer-frame").load("./footer.html");
     });
   });
-  document.addEventListener('DOMContentLoaded', function() {
-    const chatIcon = document.getElementById('chat-icon');
-    const chatWindow = document.getElementById('chat-window');
-    const chatClose = document.getElementById('chat-close');
-  
-    chatIcon.addEventListener('click', function() {
+  const chatIcon = document.getElementById('chat-icon');
+  const chatWindow = document.getElementById('chat-window');
+  const chatClose = document.getElementById('chat-close');
+
+  let chatWindowVisible = false;
+
+  chatIcon.addEventListener('click', function () {
+    if (!chatWindowVisible) {
       chatWindow.style.display = 'block';
-    });
-  
-    chatClose.addEventListener('click', function() {
+      chatWindowVisible = true;
+    } else {
       chatWindow.style.display = 'none';
-    });
+      chatWindowVisible = false;
+    }
+
   });
   

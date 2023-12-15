@@ -32,6 +32,8 @@ $(function(){
         // $('.menu_popup').removeClass('open');
     });
 
+
+
     // 返回按鈕
     $('.closemember').click(function(){
         // $('menu_popup').css('display', 'block');
@@ -59,6 +61,12 @@ $(function(){
     $('.login_bt').click(function(){
         $('.mask_login').css('display','block')
         $('.menu_mask').css('display','none')
+        $('.menu_popup').css('display','none')
+    })
+    $('.register_bt').click(function(){
+        $('.mask_register').css('display','block')
+        $('.menu_mask').css('display','none')
+        $('.menu_popup').css('display','none')
     })
 
         $('.bi.bi-x').click(function(){

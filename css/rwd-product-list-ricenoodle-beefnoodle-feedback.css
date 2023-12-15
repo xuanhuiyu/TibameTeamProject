@@ -13,30 +13,39 @@
         align-items: center;
     }
     .introproducts-wsubtitle{left: 168px;}
-    /* .line-55{width: 1200px;  left: calc(50% - 624px);} */
-
+    .line-55{width: 1200px;        left: 10%;
+        right: 10%;}
     .product-list{width: 100%;}
     .productlist-ricenoodle-beefnoodle{position: unset;}
-
+    .feedback-1 {gap: 100px;}
+    .feedback-2 {gap: 100px;}
+    .feedback-3 {gap: 100px;}
+    .feedback-4 {gap: 100px;}
+    .feedback-5 {gap: 100px;}
 }
 
 @media screen and (max-width: 834px) {
     .productlist-ricenoodle-beefnoodle{position: relative;}
-    .product-list{height: 5480px;}
+    .product-list{height: 3480px;}
     .chips {
-      width: 100%; /* 將 .chips 寬度調整為 100% */
-      left: 0; /* left 重新設定為 0 */
-      top: 100px; /* top 重新設定為 100px，或根據需求進行調整 */
+      width: 100%; 
+      left: 0; 
+      top: 100px; 
       height: 72px;
     }
+    .feedback-frame{top: 1520px;transform: scale(0.9);}
+    .feedback-1 {gap: 40px;}
+    .feedback-2 {gap: 40px;}
+    .feedback-3 {gap: 40px;}
+    .feedback-4 {gap: 40px;}
+    .feedback-5 {gap: 40px;}
     .breadcrumbs {
-      left: 64px; /* 將 .breadcrumbs 左邊距重新設定為 24px，或根據需求進行調整 */
-      top: 12px; /* 將 .breadcrumbs 上邊距重新設定為 15px，或根據需求進行調整 */
+      left: 64px;
+      top: 12px; 
     }
     .popup{
         width: 480px;
         height: 480px;
-                /* transform: scale(0.6);  */
     }
     .popup-product-pic{
         width: 400px;
@@ -49,77 +58,25 @@
         left: 20%;
         right: 20%;
     }
-  
+    .productlist-ricenoodle-beefnoodle{
+        position: relative;
+    }
     .line-55{
         top: 1420px;
-        /* width: 630px;
-        left: 10%;
-        right: 10%; */
+        width: 630px;
     }
     .product-functionbuttons {
         top: 1440px;}
 
-        .introproducts-wsubtitle{
-            left: 34px;
-        }
-        .introproducts{
-            gap: 40px;
-            padding: 0px 20px 20px 20px;
-            width: 770px;
-        }
-    .beefnoodle-product-intro{
-        position: relative;
-        top: 840px;
-
+    .introproducts-wsubtitle{
+        left: 34px;
     }
-    .beefnoodle-pic-referbig{
-        width: 560px;
-        height: 300px;
-    }
-    .heatingmethod-iconwa{
-        flex-wrap: wrap;
-        gap: 120px;
-    }
-    .heatingmethod{
-        gap: 56px;
-        padding: 32px 72px 32px 72px;
-    }
-    .heatingmethod-iconwa{
-        display: contents;
-    }
-    .heatingmethod-youtube{
+    .introproducts{
         gap: 40px;
-        height: 448px;
-        margin-bottom: 20px;
-        
+        padding: 0px 20px 20px 20px;
+        width: 770px;
     }
-    .beefnoodle-product-intro-refer-a{
-        width: 560px;
-    }
-    .beefnoodle-product-intro{
-        left: 0px;
-        gap: 96px;
-    }
-    .heatingmethod-youtube iframe{
-        width: 560px;
-        height: 360px;
-    }
-    .microwave2{
-        width: 280px;
-        height: 180px;
-    }
-    .rice-cooker{
-        width: 264px;
-        height: 224px;
-    }
-    .people-dialogbox{
-        display: none;
-    }
-    .social-icons{
-        right: -190px;
-        top: -20px;
-    }
-    .othersviewing{top: 88.8%;}
+    .othersviewing{top: 78.8%;}
     .chevron-left{display: none;}
     .chatbot-default{height: 56px;width: 56px;}
     #chat-window {
@@ -139,17 +96,16 @@
     #chat-leave{margin-top: -40px;width: 320px;margin-left: 26px;padding: 16px; height: 163px;}
     #chat-social{margin-top: 20px;width: 320px;margin-left: 26px;height: 64px;padding: 0px;}
     .social-link{padding: 8px 24px;}
-
+    .social-icons{
+        right: -190px;
+        top: -20px;
+    }
     #chat-footer{margin-top: 20px;width: 368px;margin-left: -26px;}
     #send-button{padding:24px;font-size: 16px;}
     #message-input{font-size: 18px;}
     #send-button{padding: 20px;}
     .btn-select{height: 40px;}
-    .othersviewing {
-        top: 87.15%;
-    }
-    #chat-window {
-        right: 13px;}
+
   }
   
 
@@ -170,6 +126,7 @@
         padding-left: 40px;
         left: 0;
         top: 0px;
+        height: 64px;
     }
     .breadcrumbs-index-a{font-size: 18px;}
     .breadcrumbs-index-focus-a{font-size: 18px;}
@@ -178,6 +135,19 @@
         align-items: start;
         left: 40px;
     }
+    .btn-product-favorite-big:active::before{
+        left: 20px;
+        top: 12px;
+        width: 13px;
+        height: 21px;
+      }
+      .btn-product-favorite-big:active:after {
+        top: 12px;
+        left: 6px;
+    }
+    .btn-product-favorite-big:hover  {
+        background: none;
+      }
     .product-refer-bigtitle{font-size: 20px;width: 100%;}
     .product-refer{gap: 20px;width: 325px;}
     .product-refer-line{width: 325px;}
@@ -187,6 +157,7 @@
     }
     .product-functionbuttons {
         top: 1064px;}
+
 
     .product-functionbuttons-a{font-size: 18px;}
     .btn-product-intro{
@@ -202,7 +173,8 @@
 
     .btn-product-favorite-big{width: 48px;height: 48px;}
     .btn_product_favorite_big-a{display: none;}
-    .product-list{height: 3900px;}
+    .product-list{height: 2970px;}
+    .othersviewing{top: 84.3%;height: 520px;}
     .beefnoodle-pic-big-left-top-1{display: none;}
     .beefnoodle-pic-big-left-middle-1{display: none;}
     .beefnoodle-pic-big-left-bottom-1{display: none;}
@@ -228,78 +200,24 @@
     .beefnoodle-product-intro-refer-a{font-size: 18px;width: 320px;}
     .beefnoodle-pic-referbig{width: 320px;height: 200px;}
     .beefnoodle-product-intro{gap: 44px;}
-
-    .heatingmethod{gap: 16px; padding: 24px 0px;border-width: 8px;margin-top: 20px;}
-    .microwave2{ width: 200px;height: 132px;}
-    .microwave-icon{
-        height: 148px;
-        width: 272px;
-    }
-    .microwave-referline {width: 248px;height: 8px;}
-    .electricpot-referline {width: 248px;height: 8px;}
-    .heatingmethod-title2{font-size: 24px;}
-    .heatingmethod-a{font-size: 18px;}
-    .rice-cooker {width: 200px;}
-    .electricpot-icon{width: 320px;}
-    .othersviewing{top: 88.2%;height: 520px;}
-    .beefnoodle-product-introword-title2{font-size: 24px;}
-    .heatingmethod-youtube{
-        margin-top: 20px;
-        gap: 32px;
-        height: 272px;
-    }
-    .heatingmethod-youtube iframe{
-        width: 320px;
-        height: 200px;
-    }
-    .nutrition-labelwdialogbox{
-        width: 320px;
-        height: 320px;
-    }
-    .nutrition-title{font-size: 18px;
-        left: 0%;
-        top: 0.73%;
-        width: 35.86%;}
-    ._580-g-5-g{font-size: 18px;width: 50%;}
-    ._580-g-5-g{margin-left: 72px;}
-    .nutrition-title-middle{font-size: 18px;}
-    .nutrition-title-right{font-size: 18px;}
-    .frame-443{gap: 11px;right: 73.14%;
-        left: 4%;
-        width: 28.19%;
-        bottom: 0%;
-        height: 72.17%;
-        top: 20%;}
-    .nutrition-list-left-a1{font-size: 18px;}
-    .nutrition-list-left-a2{font-size: 18px;}
-    .frame-440{gap: 6px;padding-top: 8px;}
-    .nutrition-list-left-a3{font-size: 18px;}
-    .nutrition-title-middle-a{font-size: 18px;}
-    .frame-441{gap: 6px;padding-top: 8px;}
-    .nutrition-title-right-a{font-size: 18px;}
-    .frame-442{    
-        top: 7%;
-        left: 34.33%;
-        gap: 22px;}
-    ._580-g-5-g{top: 0.4%;    left: 26.1%;}
-
-    .group-1{position:relative;height: auto;}
-    .btn-product-favorite-big:active::before{
-        left: 20px;
-        top: 12px;
-        width: 13px;
-        height: 21px;
-      }
-    .btn-product-favorite-big:active:after {
-        top: 12px;
-        left: 6px;
-    }
+    .feedback-frame{top: 1060px;transform: scale(0.8);}
+    .showfeedback{width: auto;}
+    .feedback-1 {gap: 20px;flex-direction: column;}
+    .feedback-2 {gap: 20px;flex-direction: column;}
+    .feedback-3 {gap: 20px;flex-direction: column;}
+    .feedback-4 {gap: 20px;flex-direction: column;}
+    .feedback-5 {gap: 20px;flex-direction: column;}
+    .showfeedback-5-st{gap: 16px;}
+    .showfeedback-4-st{gap: 16px;}
+    .showfeedback-3-st{gap: 16px;}
+    .showfeedback-2-st{gap: 16px;}
+    .showfeedback-1-st{gap: 16px;}
 
     .introproducts-wsubtitle{gap: 24px;}
     .subtitle{font-size: 24px;  height: 0px;  width: 190px;}
-    .introproducts{padding: 0px 10px 20px 10px;width: 360px;transform: scale(0.8);}
 
     .card-list{gap: 0;}
+    .introproducts{padding: 0px 10px 20px 10px;width: 360px;transform: scale(0.8);}
     .introproducts-wsubtitle{top: 0px;gap: 8px;}
     .nutrition-label{width: 320px;height: 320px;}
     .notification-custom {
@@ -307,15 +225,14 @@
         height: 60px;
 
       }
+      #chat-window {
+        right: 13px;}
     .subtitle {
-    font-size: 22px;
-    width: 230px;
+        font-size: 22px;
+        width: 230px;
     }
-    .btn-product-favorite-big:hover{background-color: #fff;}
-
+    .btn-product-favorite-big:hover{background-color: none;}
   }
   @media (max-width: 390px) {
     .introproducts-wsubtitle{left: 20px;}
-
-
-}
+    }

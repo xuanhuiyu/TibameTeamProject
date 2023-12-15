@@ -10,9 +10,9 @@ div.banner_container{
 
 div.banner_container div.logo img{
     display: block;
+    width: 424px;
     margin: 0 auto;
-    padding: 26px 0;
-    margin-bottom: 40px;
+    padding: 78px 0;
 }
 
 div.banner_container div.search{
@@ -104,6 +104,10 @@ div.faq_category div.faq_list div.title h3 {
     text-align: center;
     color: #613C11;
     font-weight: 700;
+}
+
+div.account_question{
+    margin-bottom: 100px;
 }
 
 div.account_question div.account_question_list{

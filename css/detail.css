@@ -306,7 +306,7 @@ main {
 .schedule .timeline {
     background-color: #613C11;
     height: 8px;
-    width: 78%;
+    width: 79%;
     margin: 0 auto;
     position: relative;
     bottom: 37px;
@@ -617,10 +617,16 @@ main {
     }
 }
 
+@media screen and (max-width:389px) {
+    .schedule .timeline {
+        width: 83%;
+        margin: 0 0 0 30px;
+    }
+}
+
 @media screen and (max-width:375px) {
     .other .service ul li {
         width: 100%;
     }
-
 
 }

@@ -30,7 +30,7 @@
     .card-title{
         line-height: 1.6;
     }
-    .productlist-wproducts{padding:0px 20px;}
+
     
 }
     @media (max-width: 1340px) {
@@ -117,12 +117,12 @@
             top: 12px;
         }
         .product-status{padding: 0;}
-        .chatbot-default{height: 56px;width: 56px;}
-            /* chat */
     .chatbot-default{height: 56px;width: 56px;}
-    #chat-window{
-        right: 8px;
-        bottom: 100px;
+        /* chat */
+    .chatbot-default{height: 56px;width: 56px;}
+    #chat-window {
+        right: 60px;
+        bottom: 94px;
         height: 560px;
         width: 370px;
     }
@@ -130,14 +130,18 @@
     bottom: 20px;
     }
     #chat-close{padding-left: 280px;}
-    #chat-header {padding: 0px 28px;width: 370px;}
+    #chat-header {padding: 24px 32px;width: 370px;}
     #chat-title{font-size: 32px;}
-    #chat-subtitle{font-size: 20px;padding-top: 0px;}
-    #chat-leave{margin-top: -40px;width: 320px;margin-left: 26px;padding: 16px; height: 163px;}
+    #chat-title-2{font-size: 16px;}
+    #chat-h1{font-size: 16px;}
+    #chat-subtitle-2{font-size: 16px;}
+    #chat-subtitle{font-size: 20px;padding-top: 0px;margin-top: 20px;}
+    #chat-leave{margin-top: -66px;width: 320px;margin-left: 26px;padding: 16px; height: 162px;}
+
     #chat-social{margin-top: 20px;width: 320px;margin-left: 26px;height: 64px;padding: 0px;}
     .social-link{padding: 8px 24px;}
 
-    #chat-footer{margin-top: 20px;width: 368px;margin-left: -26px;}
+    #chat-footer{margin-top: 48px;width: 368px;margin-left: -26px;}
     #send-button{padding:24px;font-size: 16px;}
     #message-input{font-size: 18px;}
     #send-button{padding: 20px;}
@@ -156,7 +160,8 @@
         height: 64px;}
         .frame-356{width: 390px;}    
         .select{margin-top: 20px;}
-        .frame-262{width: 390px;height: 2800px;}
+        .frame-262{width: 390px;height: 2540px;padding: 12px 0px 24px 0px;}
+
         .breadcrumbs {
             padding-left: 0px;
             height: 64px;
@@ -168,18 +173,32 @@
         .priceandbuybtn{padding: 0px 4px;}
         .breadcrumbs-index-a{font-size: 18px;}
         .breadcrumbs-index-focus{font-size: 18px;}
-
-        .select{width: 420px;}
-        .productlist-wproducts{left: 0;}
-        .chips{top: 0;}
-        .productlist-wproducts{top: 80px;}
-        .product-list{height: 3200px;}
+        
+        .productlist-wproducts{left: 0;padding: 0px;top: 112px;gap: 0;}
+        .chips{top: 44px;}
+        .line{border-width: 12px 0 0    ;}
+        .productlist-titlewline-bigtitle{font-size: 28px;}
+        .productlist-titlewline2{width: 160px;}
+        .card-product {
+            transform: scale(0.8);
+            height: 400px;}
+        .select {
+            padding: 0px 432px 0px 00px;
+        }
+        #btn-select{height: 44px;    padding: 0px 16px;font-size: 20px;}
+        .productlist-titlewline{width: 160px;}
+        .product-list{height: 2988px;}
         .product-status{width: 428px;}
         .notification-custom {
             width: 320px;
             height: 60px;
-    
           }
-
+        #chat-window {
+        right: 13px;
+        bottom: 96px;
+        height: 536px;
+        width: 370px;}
+        #chat-footer {
+            margin-top: 23px;}
 
     }
