@@ -988,6 +988,7 @@ body{
 
 .select {
   padding: 0px 60px 0px 60px;
+  height: 56px;
   display: flex;
   flex-direction: row;
   gap: 60px;
@@ -1047,73 +1048,35 @@ body{
 
 /*  */
 
+.select {
+  padding: 0px 60px 0px 60px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 1200px;
+  position: relative;
 
-.btn-select {
+}
+
+#btn-select {
+  color: #613c11;
   width: 232px;
   height: 56px;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  column-gap: var(--gap);
-  cursor: pointer;
-  border-radius: var(--radius);
-  border: none;
-  box-shadow: var(--shadow);
-  position: relative;
   background: rgba(207, 173, 132, 0.08);
   border-radius: 8px;
   border-style: solid;
-  border-color: var(--text-color, #613c11);
+  border-color: #613c11;
   border-width: 2px;
-  position: absolute;
+  border-radius: 8px;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-size: 24px;
 
 }
-
-.btn-select span{
-  font-size: 40px;
-  color: var(--text-color, #613c11);
-  padding-left: 48px;
-}
-.bx {
-  font-size: 40px;
-  color: var(--text-color, #613c11);
-  padding-left: 40px;
-}
-
-.select h1{
-  color: var(--text-color, #613c11);
-  font: var(--title-3-regular, 400 24px/110% "Roboto-Regular", sans-serif);
-  padding-left: 24px;
-}
-.dropdown {
-  position: absolute;
-  width: 250px;
-  box-shadow: var(--shadow);
-  border-radius: var(--radius);
-  margin-top: 0.3rem;
-  background: white;
-
-  visibility: hidden;
-  opacity: 0;
-  transform: translateY(0.5rem);
-  transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
-}
-
-.dropdown a {
-  display: flex;
-  align-items: center;
-  column-gap: var(--gap);
-  padding: 0.8rem 1rem;
-  text-decoration: none;
-  color: black;
-}
-
-.dropdown a:hover {
-  background-color: var(--color);
-  color: white;
-}
-
 .show {
   visibility: visible;
   opacity: 1;

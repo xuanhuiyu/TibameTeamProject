@@ -122,9 +122,9 @@
     .othersviewing{top: 88.8%;}
     .chevron-left{display: none;}
     .chatbot-default{height: 56px;width: 56px;}
-    #chat-window{
-        right: 8px;
-        bottom: 100px;
+    #chat-window {
+        right: 56px;
+        bottom: 90px;
         height: 560px;
         width: 370px;
     }
@@ -132,9 +132,10 @@
     bottom: 20px;
     }
     #chat-close{padding-left: 280px;}
-    #chat-header {padding: 0px 28px;width: 370px;}
+    #chat-header {padding: 24px 32px;width: 370px;}
     #chat-title{font-size: 32px;}
-    #chat-subtitle{font-size: 20px;padding-top: 0px;}
+    #chat-subtitle{font-size: 20px;padding-top: 20px;}
+    #chat-title-2{font-size: 16px;}
     #chat-leave{margin-top: -40px;width: 320px;margin-left: 26px;padding: 16px; height: 163px;}
     #chat-social{margin-top: 20px;width: 320px;margin-left: 26px;height: 64px;padding: 0px;}
     .social-link{padding: 8px 24px;}
@@ -147,6 +148,8 @@
     .othersviewing {
         top: 87.15%;
     }
+    #chat-window {
+        right: 13px;}
   }
   
 
@@ -199,7 +202,7 @@
 
     .btn-product-favorite-big{width: 48px;height: 48px;}
     .btn_product_favorite_big-a{display: none;}
-    .product-list{height: 4000px    ;}
+    .product-list{height: 3900px;}
     .beefnoodle-pic-big-left-top-1{display: none;}
     .beefnoodle-pic-big-left-middle-1{display: none;}
     .beefnoodle-pic-big-left-bottom-1{display: none;}
@@ -238,9 +241,7 @@
     .heatingmethod-a{font-size: 18px;}
     .rice-cooker {width: 200px;}
     .electricpot-icon{width: 320px;}
-    .othersviewing {
-        top: 87.48%;
-    }
+    .othersviewing{top: 88.2%;height: 520px;}
     .beefnoodle-product-introword-title2{font-size: 24px;}
     .heatingmethod-youtube{
         margin-top: 20px;
@@ -295,17 +296,26 @@
     }
 
     .introproducts-wsubtitle{gap: 24px;}
-    .subtitle{font-size: 24px;    width: 280px;}
-    .introproducts{padding: 0px 10px 20px 10px;}
+    .subtitle{font-size: 24px;  height: 0px;  width: 190px;}
+    .introproducts{padding: 0px 10px 20px 10px;width: 360px;transform: scale(0.8);}
 
     .card-list{gap: 0;}
-    .introproducts{width: 360px;}
-    .introproducts-wsubtitle{top: 0px;}
+    .introproducts-wsubtitle{top: 0px;gap: 8px;}
     .nutrition-label{width: 320px;height: 320px;}
     .notification-custom {
         width: 320px;
         height: 60px;
 
       }
+    .subtitle {
+    font-size: 22px;
+    width: 230px;
+    }
+    .btn-product-favorite-big:hover{background-color: #fff;}
 
   }
+  @media (max-width: 390px) {
+    .introproducts-wsubtitle{left: 20px;}
+
+
+}
