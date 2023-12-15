@@ -617,6 +617,13 @@ main {
     }
 }
 
+@media screen and (max-width:389px) {
+    .schedule .timeline {
+        width: 83%;
+        margin: 0 0 0 30px;
+    }
+}
+
 @media screen and (max-width:375px) {
     .other .service ul li {
         width: 100%;
