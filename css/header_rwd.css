@@ -7,6 +7,7 @@
   .register_page{
     left: 50%;
     top: 50%;
+    margin: 50px auto;
   }
 }
 
