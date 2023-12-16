@@ -283,7 +283,17 @@ main {
     flex-grow: 1;
 }
 
+.function span{
+    text-align: right;
+}
 
+.function span .material-symbols-outlined{
+    color: #613c11;
+}
+
+.material-symbols-outlined:hover{
+    color: #EAC18E;
+}
 
 
 @media screen and (max-width:1243px) {
@@ -374,6 +384,11 @@ main {
         text-align: center;
         margin-left: 8px;
         line-height: 1.6;
+    }
+
+    .function span{
+        font-size: 32px;
+        padding-top: 40px;
     }
 }
 

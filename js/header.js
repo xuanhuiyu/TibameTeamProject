@@ -133,10 +133,7 @@ $('.forgot_page').click(function(e){
     e.stopPropagation()
 })
 
-$('.revised_').click(function(){
-    $('.change_page').hide()
-    $('.notice1').show()
-})
+
 
 $('.bi').click(function(){
     $('.mask_change').css('display','none')
@@ -148,6 +145,11 @@ $('.mask_change').click(function(){
 
 $('.change_page').click(function(e){
     e.stopPropagation()
+})
+
+$('.revised_').click(function(){
+    $('.change_page').hide()
+    $('.notice1').show()
 })
 
 
@@ -162,7 +164,7 @@ $('.revised_').click(function() {
             clearInterval(countdownInterval); 
             $('.notice1').css('display','none');
             $('.mask_change').css('display','none'); 
-            $('.mask_login').css('display','block'); 
+            $('.login_page').css('display','block'); 
         }
     }, 1000);
     
@@ -176,6 +178,10 @@ $('.register_completed').click(function(){
     $('.notice2').show()
 })
 
+// function openLoginPopup() {
+//     $('.login_page').css('display', 'block');
+// }
+
 $('.register_completed').click(function() {
     var countdownElement = $(".second_5");
     var seconds = 5;
@@ -187,7 +193,7 @@ $('.register_completed').click(function() {
             clearInterval(countdownInterval); 
             $('.notice2').css('display','none');
             $('.mask_register').css('display','none'); 
-            $('.mask_login').css('display','block'); 
+            $('.login_page').css('display','block');
         }
     }, 1000);
     
@@ -198,8 +204,8 @@ $('.register_completed').click(function() {
 
 var cancel_1 = document.querySelector('.cancel_1');
 cancel_1.addEventListener('click',function(){
-    $('.register_page').css('display','none')
     $('.mask_register').css('display','none')
+    $('.register_page').css('display','none')
 })
 
 $('.bi').click(function(){

@@ -52,7 +52,7 @@ body{
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  left: 360px;
+  left: 300px;
   top: 360px;
 }
 .productlist-titlewline {
@@ -343,7 +343,7 @@ body{
   width: 304px;
   height: 1280px;
   position: absolute;
-  left: 1592px;
+  left: 1500px;
   top: 552px;
   overflow: hidden;
 }
