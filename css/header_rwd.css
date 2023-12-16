@@ -7,7 +7,7 @@
   .register_page{
     left: 50%;
     top: 50%;
-    margin: 50px auto;
+    /* margin: 50px auto; */
   }
 }
 
@@ -17,6 +17,13 @@
       width: 400px ;
       height: 630px;
     }
+
+    .register_page{
+      left: 50%;
+      top: 50%;
+      margin: 50px auto;
+    }
+    
       .nt1{
         width: 400px ;
         height: 94px;
