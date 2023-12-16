@@ -121,6 +121,9 @@
         width: 135px;
         height: 35px;
       }
+      .user-box1 label {
+        margin: auto;
+      }
 
       .text1 p{
         font-size: 14px;
@@ -157,7 +160,5 @@
         width: 100px;
 
         }
-
-
-        
+  
 }
