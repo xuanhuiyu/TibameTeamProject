@@ -14,6 +14,6 @@ $('.bt3').click(function(){
 })
 
 $('.bt2').click(function(){
-    window.location.href = './detail.html'; 
+    window.location.href = './history.html'; 
 })
 

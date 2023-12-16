@@ -108,7 +108,7 @@ header.header div.header_list div.header_nav_list ul.header_nav_list_right > li:
     vertical-align: top;
 } */
 body{
-  /* font-family:Roboto, sans-serif; */
+  font-family:'Roboto', sans-serif;
   font-size: 18px;
   color: #613C11;
 }
@@ -402,15 +402,11 @@ header.header .material-symbols-outlined {
     transform: scaleX(1); 
   }
   
+  
 
 }
 
-@media screen and (max-width:430px){
-  .login_page{
-    width: 400px ;
-    height: 630px;
-}
-}
+
 
 /* 登入 */
 .mask_login{
@@ -438,7 +434,7 @@ header.header .material-symbols-outlined {
     box-sizing: border-box;
     margin: 0 auto;
     color: #613C11;
-    z-index: 11;
+    z-index: 15;
 }
 
 .bi.bi-x{
@@ -578,7 +574,7 @@ input.forgot_p{
   font-weight: bold;
   flex-grow: 1;
   text-align: right;
-  margin-left: 40px;
+  margin-left: 50px;
   /* height:20px; */
 }
 
@@ -624,7 +620,7 @@ input[id="remember_"] + label {
     border-radius: 8px;
     height:20px;
     line-height: 20px; 
-
+    /* width: auto; */
   }
 
   .bt_2 ul{
@@ -1214,9 +1210,14 @@ width: 670px ;
   font-size: xx-large;
   grid-area: icon;
   margin-left: 120px;
-
 }
 
+.bi.bi-check-circle-fill{
+  line-height: 32px;
+  height: 32px;
+  text-align: center;
+  margin:auto;
+}
 .dash_nt1 p{
 grid-area: text;
 font-size: 16px;
@@ -1246,7 +1247,7 @@ grid-column: 2/5;
   border: #CFAD84 3px solid ;
   border-radius: 8px;
   position: absolute;
-  /* position: relative; */
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -1255,7 +1256,7 @@ grid-column: 2/5;
   position: relative;
   padding: 10px 50px;
   position: fixed;
-  /* z-index: 15; */
+  z-index: 15;
 }
 
 .bi.bi-x{
@@ -1433,37 +1434,30 @@ input[type="radio"]{
 .checkbox2{
   width: 240px;
   margin: 36px auto 0 auto;
-
+  display: grid;
+  grid-template-areas: 'checkbox1 '
+                       'checkbox2 ';
+  /* align-content: start; */
 }
 
 .subscribe_area{
-  position: relative;
+
 }
 
 .text1 p{
   font-size: 15px;
-  position: absolute;
-  left: 422px;
-  top: 449px;
-}
-
-.text2 p{
-  font-size: 15px;
-  position: absolute;
-  width:165px;
-  left: 422px;
-  top: 472px;
-  line-height: 1.2;
+  margin-left:23px;
+  grid-area: checkbox1;
 }
 
 input[id="subscribe_"] + label {
-  margin: 8px 0;
   display: block;
   width: 18px;
   height: 18px;
   border: 2px solid #CFAD84;
   border-radius: 4px;
-  /* cursor: pointer; */
+  margin-top: -18px;
+  grid-area: checkbox1;
 }
 
 input[id="subscribe_"]:checked + label:after {
@@ -1478,14 +1472,29 @@ input[id="subscribe_"] {
   display: none;
 }
 
+
+.acception{
+
+}
+
+
+.text2 p{
+  font-size: 15px;
+  grid-area: checkbox2;
+  margin-left:23px;
+  margin-top: 10px;
+  width: 160px;
+}
+
+
 input[id="accept_"] + label {
-  margin: 8px 0;
   display: block;
   width: 18px;
   height: 18px;
   border: 2px solid #CFAD84;
   border-radius: 4px;
-  /* cursor: pointer; */
+  grid-area: checkbox2;
+  margin-top: -46px;
 }
 
 input[id="accept_"]:checked + label:after {

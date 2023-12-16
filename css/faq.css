@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 div.banner_container{
@@ -58,6 +58,7 @@ div.faq_category div.faq_list{
     width: 588px;
     display: flex;
     justify-content: space-between;
+    z-index: -5;
 }
 
 div.faq_category div.faq_list div.icon:hover{
@@ -114,6 +115,7 @@ div.account_question div.account_question_list{
     width: 62.5%;
     margin: 0 auto;
     position: relative;
+    z-index: -5;
 }
 
 div.account_question div.account_question_list div.question{
