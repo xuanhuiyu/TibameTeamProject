@@ -133,10 +133,7 @@ $('.forgot_page').click(function(e){
     e.stopPropagation()
 })
 
-$('.revised_').click(function(){
-    $('.change_page').hide()
-    $('.notice1').show()
-})
+
 
 $('.bi').click(function(){
     $('.mask_change').css('display','none')
@@ -148,6 +145,11 @@ $('.mask_change').click(function(){
 
 $('.change_page').click(function(e){
     e.stopPropagation()
+})
+
+$('.revised_').click(function(){
+    $('.change_page').hide()
+    $('.notice1').show()
 })
 
 
