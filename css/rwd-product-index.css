@@ -1,8 +1,8 @@
-@media screen and (max-width: 1640px) {
+/* @media screen and (max-width: 1640px) {
     .product-ricenoodle-beefnoodle-picwrefer{
         left: 13%;
     }
-}
+} */
 
 
 @media screen and (max-width: 1240px) {
@@ -11,9 +11,9 @@
         width: 1040px;
         overflow-x: auto;
     }
-    .product-ricenoodle-beefnoodle-picwrefer{
+    /* .product-ricenoodle-beefnoodle-picwrefer{
         left: 20%;
-    }
+    } */
     .hotsale-ranking-products{gap: 24px;}
     .salestag-timeframe{right: 568px;}
     .onsale-products {
