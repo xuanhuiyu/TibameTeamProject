@@ -162,7 +162,7 @@ $('.revised_').click(function() {
             clearInterval(countdownInterval); 
             $('.notice1').css('display','none');
             $('.mask_change').css('display','none'); 
-            $('.mask_login').css('display','block'); 
+            $('.login_page').css('display','block'); 
         }
     }, 1000);
     
@@ -187,7 +187,7 @@ $('.register_completed').click(function() {
             clearInterval(countdownInterval); 
             $('.notice2').css('display','none');
             $('.mask_register').css('display','none'); 
-            $('.mask_login').css('display','block'); 
+            $('.login_page').css('display','block'); 
         }
     }, 1000);
     
