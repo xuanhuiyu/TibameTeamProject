@@ -62,7 +62,6 @@ main.main div.time_limit_sales {
     background-repeat: no-repeat;
     margin: 100px auto;
     position: relative;
-    z-index: -5;
 }
 
 main.main div.time_limit_sales div.countdown{
@@ -210,7 +209,6 @@ main.main div.top_sale div.top_sale_product {
     margin: 0 auto;
     padding: 100px 0;
     position: relative;
-    z-index: -5;
 }
 
 main.main div.top_sale div.top_sale_product img.gold_medal {
@@ -343,7 +341,6 @@ main.main div.member_discount div.member_discount_product div.first_row {
 main.main div.member_discount div.member_discount_product div.first_row div.card {
     width: 320px;
     border: 0;
-    z-index: -5;
 }
 
 
@@ -428,7 +425,6 @@ main.main div.member_discount div.member_discount_product div.second_row {
 main.main div.member_discount div.member_discount_product div.second_row div.card {
     width: 320px;
     border: 0;
-    z-index: -5;
 }
 
 main.main div.member_discount div.member_discount_product div.second_row div.card div.product_img img {
@@ -509,7 +505,6 @@ main.main div.faq {
     padding-bottom: 56px;
     position: relative;
     margin-bottom: 100px;
-    z-index: -5;
 }
 
 main.main div.faq div.faq_title {

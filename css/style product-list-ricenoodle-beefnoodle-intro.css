@@ -524,7 +524,6 @@ body{
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  margin: 0 auto;
   height: 40px;
   position: relative;
 }
@@ -1057,7 +1056,7 @@ body{
   gap: 59px;
   align-items: flex-start;
   /* justify-content: flex-start; */
-  position: absolute;
+  position: relative;
   left: 20%;
   right: 20%;
   top: 361px;
