@@ -110,7 +110,7 @@ body{
 
 
 .middleContainer{
-  width: 1920px;
+  /* width: 100%; */
   height: 1002px;
   position: relative;
   z-index: -2;
