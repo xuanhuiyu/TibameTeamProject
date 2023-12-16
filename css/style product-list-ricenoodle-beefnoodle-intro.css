@@ -1093,7 +1093,7 @@ body{
   border-style: solid;
   border-color: var(--text-color, #613c11);
   border-width: 2px 0 0 0;
-  width: 1200px;
+  width: 80%;
   left: 10%;
 
   /* left: calc(50% - 800px); */
