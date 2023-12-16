@@ -1056,7 +1056,7 @@ body{
   gap: 59px;
   align-items: flex-start;
   /* justify-content: flex-start; */
-  position: absolute;
+  position: relative;
   left: 20%;
   right: 20%;
   top: 361px;
