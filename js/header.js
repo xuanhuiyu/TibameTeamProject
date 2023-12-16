@@ -178,6 +178,10 @@ $('.register_completed').click(function(){
     $('.notice2').show()
 })
 
+// function openLoginPopup() {
+//     $('.login_page').css('display', 'block');
+// }
+
 $('.register_completed').click(function() {
     var countdownElement = $(".second_5");
     var seconds = 5;
@@ -189,7 +193,7 @@ $('.register_completed').click(function() {
             clearInterval(countdownInterval); 
             $('.notice2').css('display','none');
             $('.mask_register').css('display','none'); 
-            $('.login_page').css('display','block'); 
+            $('.login_page').css('display','block');
         }
     }, 1000);
     
@@ -200,8 +204,8 @@ $('.register_completed').click(function() {
 
 var cancel_1 = document.querySelector('.cancel_1');
 cancel_1.addEventListener('click',function(){
-    $('.register_page').css('display','none')
     $('.mask_register').css('display','none')
+    $('.register_page').css('display','none')
 })
 
 $('.bi').click(function(){
