@@ -105,7 +105,7 @@ body{
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  left: 360px;
+  left: 333px;
   top: 56px;
 }
     /* 網頁捲軸【寬度】 */
@@ -487,7 +487,7 @@ body{
   height: 48px;
   position: absolute;
   right: 16.25%;
-  left: 84.25%;
+  left: 82.25%;
   width: 2.5%;
   top: calc(50% - 24px);
   overflow: visible;
@@ -1093,7 +1093,7 @@ body{
   border-style: solid;
   border-color: var(--text-color, #613c11);
   border-width: 2px 0 0 0;
-  width: 80%;
+  width: 1200px;
   left: 10%;
 
   /* left: calc(50% - 800px); */
