@@ -108,7 +108,7 @@ header.header div.header_list div.header_nav_list ul.header_nav_list_right > li:
     vertical-align: top;
 } */
 body{
-  /* font-family:Roboto, sans-serif; */
+  font-family:'Roboto', sans-serif;
   font-size: 18px;
   color: #613C11;
 }
@@ -1255,8 +1255,8 @@ grid-column: 2/5;
   box-sizing: border-box;
   position: relative;
   padding: 10px 50px;
-  /* position: fixed; */
-  /* z-index: 15; */
+  position: fixed;
+  z-index: 15;
 }
 
 .bi.bi-x{

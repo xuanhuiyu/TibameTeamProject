@@ -1,10 +1,14 @@
+
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
 }
+
 
 footer.footer {
     width: 100%;
     background-color: #CFAD84;
+    font-family:'Roboto', sans-serif;
     /* margin-top: 100px; */
 }
 
@@ -29,7 +33,7 @@ footer.footer div.footer_top div.footer_nav div.footer_title{
 }
 
 footer.footer div.footer_top div.footer_nav div.footer_title span.material-symbols-outlined {
-    font-family: 'Material Symbols Outlined';
+    /* font-family: 'Material Symbols Outlined'; */
     font-weight: normal;
     font-style: normal;
     font-size: 40px;
