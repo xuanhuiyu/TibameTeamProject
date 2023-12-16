@@ -44,7 +44,7 @@ body{
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  left: 360px;
+  left: 300px;
   top: 360px;
 }
 /* .productlist-titlewselect {
@@ -654,25 +654,6 @@ body{
   top: 8px;
 }
 
-.ad {
-  background: rgba(187, 177, 164, 0.3);
-  width: 304px;
-  height: 1280px;
-  position: absolute;
-  left: 1592px;
-  top: 552px;
-  overflow: hidden;
-}
-.ad2 {
-  background: rgba(187, 177, 164, 0.3);
-  width: 304px;
-  height: 1280px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-
 .mask-group2 {
   flex-shrink: 0;
   width: 304px;
@@ -691,7 +672,7 @@ body{
   width: 304px;
   height: 1280px;
   position: absolute;
-  left: 1592px;
+  left: 1500px;
   top: 552px;
   overflow: hidden;
 }
