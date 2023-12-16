@@ -1255,8 +1255,8 @@ grid-column: 2/5;
   box-sizing: border-box;
   position: relative;
   padding: 10px 50px;
-  /* position: fixed; */
-  /* z-index: 15; */
+  position: fixed;
+  z-index: 15;
 }
 
 .bi.bi-x{
