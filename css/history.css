@@ -133,6 +133,11 @@ thead tr {
     padding: 4px 12px;
 }
 
+.record a:hover {
+    background: #EAC18E;
+    box-shadow: 0px 4px 4px 0px rgba(181, 129, 43, 0.16);
+}
+
 .record tr {
     border: #613C11 solid 1px;
 }
