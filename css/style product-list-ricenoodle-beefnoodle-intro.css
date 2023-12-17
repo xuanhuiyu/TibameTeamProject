@@ -105,7 +105,7 @@ body{
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  left: 360px;
+  left: 333px;
   top: 56px;
 }
     /* 網頁捲軸【寬度】 */
@@ -487,7 +487,7 @@ body{
   height: 48px;
   position: absolute;
   right: 16.25%;
-  left: 81.25%;
+  left: 82.25%;
   width: 2.5%;
   top: calc(50% - 24px);
   overflow: visible;
@@ -1056,7 +1056,7 @@ body{
   gap: 59px;
   align-items: flex-start;
   /* justify-content: flex-start; */
-  position: relative;
+  position: absolute;
   left: 20%;
   right: 20%;
   top: 361px;
