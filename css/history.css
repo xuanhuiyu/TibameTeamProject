@@ -128,9 +128,9 @@ thead tr {
     color: #FFF;
     font-size: 14px;
     background-color: #CFAD84;
-    border-radius: 12px;
+    border-radius: 8px;
     letter-spacing: 0.5px;
-    padding: 4px 12px;
+    padding: 8px 16px;
 }
 
 .record a:hover {
