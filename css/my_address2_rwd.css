@@ -89,12 +89,9 @@
   }
 
   .add_address{
-
     position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+    left: 200px;
+    top: 750px;
   }
 }
 @media screen and (max-width:932px){
@@ -157,12 +154,9 @@
       }
 
       .add_address{
-
         position: absolute;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        margin: auto;
+        left: 200px;
+        top: 760px;
       }
 }
 
@@ -261,7 +255,7 @@
       }
 }
 
-@media screen and (max-width:430px){
+@media screen and (max-width:485px){
   .section2{
     width: 90%;
     height: 700px;
@@ -288,7 +282,7 @@
     }
 
     .add_address{
-      margin-bottom: 80px;
+      margin-bottom: 150px;
       
     }
 }
