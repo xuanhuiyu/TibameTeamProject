@@ -56,17 +56,17 @@ main {
     text-decoration: none;
 }
 
-.breadcrumb li a:hover {
+/* .breadcrumb li a:hover {
     color: #333;
-}
+} */
 
 .breadcrumb li:last-child a {
     color: #CFAD84;
 }
 
-.breadcrumb li:last-child a:hover {
+/* .breadcrumb li:last-child a:hover {
     color: #9c6e35;
-}
+} */
 
 .guide nav {
     font-size: 20px;

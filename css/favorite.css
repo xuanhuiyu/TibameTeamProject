@@ -57,17 +57,17 @@ main {
     text-decoration: none;
 }
 
-.breadcrumb li a:hover {
+/* .breadcrumb li a:hover {
     color: #333;
-}
+} */
 
 .breadcrumb li:last-child a {
     color: #CFAD84;
 }
 
-.breadcrumb li:last-child a:hover {
+/* .breadcrumb li:last-child a:hover {
     color: #9c6e35;
-}
+} */
 
 .guide nav {
     font-size: 20px;
@@ -283,7 +283,17 @@ main {
     flex-grow: 1;
 }
 
+.function span{
+    text-align: right;
+}
 
+.function span .material-symbols-outlined{
+    color: #613c11;
+}
+
+.material-symbols-outlined:hover{
+    color: #EAC18E;
+}
 
 
 @media screen and (max-width:1243px) {
@@ -374,6 +384,11 @@ main {
         text-align: center;
         margin-left: 8px;
         line-height: 1.6;
+    }
+
+    .function span{
+        font-size: 32px;
+        padding-top: 40px;
     }
 }
 

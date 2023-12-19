@@ -37,8 +37,32 @@ body{
   top: 224px;
   font-weight: normal;
   font-size: 24px;
+  list-style-type: none;
+  color: #613C11;
+  
 }
 
+.bread li{
+  display: inline-block;
+}
+
+.bread a{
+  text-decoration: none;
+  color: #613C11;
+}
+
+.iu{
+  color: #CFAD84 !important;
+}
+
+
+.main_pg:hover{
+  color: #CFAD84;
+}
+
+.member_pg:hover{
+  color: #CFAD84;
+}
 
 .selector{
   width: 184px;
@@ -87,7 +111,7 @@ body{
 
 
 .middleContainer{
-  width: 1920px;
+  width: 100%;
   height: 1002px;
   position: relative;
   z-index: -2; 
@@ -156,10 +180,11 @@ body{
   margin: 60px auto 0px auto;
 }
 
-.user-box1 {
+.user-box2 {
   position: relative;
-  width: 100%;
-  margin-top: 16px;
+  width: auto;
+  margin: 16px auto;
+  
 }
 
 
@@ -167,9 +192,9 @@ input[type="date"]::-webkit-datetime-edit {
   visibility: hidden;
 }
 
-.user-box1 input {
+.user-box2 input {
   width: 100%;
-  padding: 10px 0;
+  padding: 15px 0;
   font-size: 16px;
   color: #CFAD84;
   border: none;
@@ -180,11 +205,11 @@ input[type="date"]::-webkit-datetime-edit {
   background: transparent;
 }
 
-.user-box1 label {
+.user-box2 label {
   position: absolute;
   top:0;
   left: 0;
-  padding: 10px 0;
+  padding: 15px 0;
   font-size: 16px;
   color: #613C11;
   pointer-events: none;
@@ -192,8 +217,8 @@ input[type="date"]::-webkit-datetime-edit {
   
 }
 
-.user-box1 input:focus ~ label,
-.user-box1 input:valid ~ label {
+.user-box2 input:focus ~ label,
+.user-box2 input:valid ~ label {
   top: -20px;
   left: 0;
   color: #CFAD84;
@@ -230,7 +255,7 @@ input[type="date"]::-webkit-datetime-edit {
   font-size: 16px;
   position: absolute;
   left: 270px;
-  top: 696px;
+  top: 750px;
   font-family: 'Roboto', sans-serif;
   color: #613C11;
   font-weight: bold;

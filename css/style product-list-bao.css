@@ -1,18 +1,6 @@
 @import url(reset.css);
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  --shadow: rgba(0, 0, 0, 0.05) 0px 6px 10px 0px,
-    rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
-  --color: #166e67;
-  --gap: 0.5rem;
-  --radius: 5px;
-}
-
 body {
   background-color: #b3e6f4;
   font-size: 0.9rem;
@@ -63,7 +51,7 @@ body{
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  left: 360px;
+  left: 300px;
   top: 360px;
 }
 /* .productlist-titlewselect {
@@ -675,25 +663,6 @@ body{
   top: 8px;
 }
 
-.ad {
-  background: rgba(187, 177, 164, 0.3);
-  width: 304px;
-  height: 1280px;
-  position: absolute;
-  left: 1592px;
-  top: 552px;
-  overflow: hidden;
-}
-.ad2 {
-  background: rgba(187, 177, 164, 0.3);
-  width: 304px;
-  height: 1280px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-
 .mask-group2 {
   flex-shrink: 0;
   width: 304px;
@@ -712,7 +681,7 @@ body{
   width: 304px;
   height: 1280px;
   position: absolute;
-  left: 1592px;
+  left: 1500px;
   top: 552px;
   overflow: hidden;
 }
